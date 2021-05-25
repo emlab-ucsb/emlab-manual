@@ -1,0 +1,15 @@
+---
+title: "emLab Manual"
+author: "Sean Kross"
+date: "2016-12-02"
+site: bookdown::bookdown_site
+documentclass: book
+github-repo: emlab-ucsb/emlab-manual
+url: "https://github.com/emlab-ucsb/emlab-manual"
+description: "Everything you need to know about emLab."
+#cover-image: "" If there's a png we want to use, it can go here
+---
+
+# Preface {-}
+
+This is the very first part of the book.
