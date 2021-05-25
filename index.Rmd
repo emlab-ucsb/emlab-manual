@@ -1,6 +1,6 @@
 ---
 title: "emLab Manual"
-author: "Sean Kross"
+author: "Erin"
 date: "2016-12-02"
 site: bookdown::bookdown_site
 documentclass: book
