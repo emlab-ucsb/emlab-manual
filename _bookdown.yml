@@ -1,0 +1,5 @@
+book_filename: "emlab-manual"
+chapter_name: "Section "
+repo: https://github.com/emlab-ucsb/emlab-manual
+output_dir: docs
+clean: [packages.bib, bookdown.bbl]
