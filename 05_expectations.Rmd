@@ -1,0 +1,58 @@
+---
+title: "Expectations"
+output: html_document
+---
+
+# Work Environment
+
+# Time management
+It is important for every individual to understand and manage their workloads and responsibilities, and to ask for help when it is needed. Team members should prioritize the tasks that are most important and urgent. If you are having challenges prioritizing tasks, speak with your supervisor to discuss priorities.
+
+emLab project staff are allocated to one or more projects, which is likely to shift over time as projects come to completion and new projects are launched. Staff should be aware of their general percentage time allocation across projects, which are tracked in the project tracking sheet in Drive. Due to the adaptive nature of our work, these percentages are likely to vary weekly or monthly, and should be used as guidelines rather than strict allocations. If staff are feeling either underutilized or overstretched, they should speak with their supervisor.
+
+# Principal Investigators
+Coming soon
+
+# Research staff
+Coming soon
+
+# Project managers
+Coming soon
+
+# Postdoctoral researchers
+Coming soon
+
+# Graduate students
+Coming soon
+
+# Undergraduate students
+Coming soon
+
+
+# Meetings and events
+emLab hosts a variety of events to foster a deep sense of community across roles and programs, and provide opportunities for our team to be as collaborative, functional, and fully integrated as possible. 
+
+We know things can come up that sometimes make it impossible to join everything, but we want to clarify that we do expect everyone to do their best to participate in team events, particularly the Monday Morning Meetings. Beyond that, if you find yourself with a lot on your plate, please use your discretion to decide when your participation will yield high returns, and do not feel obligated to participate in events that you don’t think will be a valuable use of your time. Each of us has unique interests, areas of expertise, and professional goals, and we trust that those will inform the decisions you make for yourself!
+
+Here’s an overview of emLab events and the objectives of each:
+- Monday Morning Meeting: learn about current work at emLab, celebrate successes, share team-wide announcements 
+  - Who: emLab team
+  - Structure: 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the     first Monday of the month), or mingling
+  - Detailed guidelines live here and the schedule lives here
+- emLab Lunch: share emLab research and new ideas to facilitate cross-team collaboration and foster a culture of learning and feedback 
+  - Who: emLab team
+  - These lunches are a forum to present ideas and projects and receive feedback and workshop solutions and resources as a team.
+  - Detailed guidelines live here and the schedule lives here
+- Research roundtable
+  - Who: emLab PIs, affiliates, postdocs, faculty collaborators
+  - This biweekly roundtable is to present, discuss, debate, and refine ideas and research questions.
+  - Detailed guidelines and the schedule lives [here](https://docs.google.com/document/d/1Y8ibvOyXaarqhs7Y2OKXyUQQyPYH82CIf99RYK7l6pU/edit)
+- Postdoc coffee hour: foster a supportive postdoc community
+  - Who: postdocs
+  - Postdocs can use the time to get to know each other, discuss research ideas and objectives, troubleshoot project-related issues, work on projects together and, more            broadly, find out more about each other’s research interests and goals; structure the time as they would like
+- Quarterly fundraising update: review funding pipeline and upcoming projects
+  - Who: Executive Director and project and operations staff
+- Monthly project management: provide updates on the status of current projects, discuss challenges, and brainstorm solutions 
+  - Who: Executive Director and project managers
+- Out of work festivities: welcome new team members, celebrate big accomplishments, or entertain distinguished visitors
+
