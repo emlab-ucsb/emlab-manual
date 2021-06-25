@@ -1,0 +1,28 @@
+---
+title: "emLab culture and values"
+output: html_document
+---
+
+# emLab values and culture
+
+## emLab values
+
+We aim to foster a vibrant and diverse intellectual community that generates novel insights and inspires collaborative development and testing of new ideas within and beyond UC Santa Barbara. The following values are foundational to our work and support a healthy, positive work culture:
+
+- Attitude of ambitious possibility
+- Adaptability and creative problem solving
+- Entrepreneurial spirit
+- Excellence and rigor
+- An open, generous, and collaborative approach
+- Learning and growth
+- Diverse backgrounds and perspectives
+- Trust, empathy, and mutual respect
+- Celebrating successes
+
+## emLab culture
+
+We foster an inclusive, collaborative work environment to bring interdisciplinary expertise to solve critical environmental problems. We take initiative – to ask questions, find resources, seek diverse perspectives, collaborate, and adapt when challenges are faced. In turn, we all commit to make time for each other, to listen, explore problems together, and help connect each other to resources. We support each other and celebrate individual and shared successes.
+
+We have a flexible, project-centric workplace, but expect innovation and accountability from our whole team. Some tasks will be assigned, some engagements are opportunistic; in either case, you choose how you complete the work to a standard of excellence. Taking responsibility for our own work is part of how we show respect to our teammates. 
+
+We support a culture of research excellence and professional growth. We are a team of intellectual go-getters: eager to tackle new challenges and think creatively to support a healthy and productive environment that can sustain generations to come. We provide honest and open feedback to support excellence and help each other to continue to learn and grow.
