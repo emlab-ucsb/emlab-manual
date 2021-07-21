@@ -14,15 +14,15 @@ Coming soon
 
 Our team relies heavily on Google Calendar to check team member’s availability and schedule meetings. Please keep your calendar up to date!
 
-### Setting out of office notifications
+**Setting out of office notifications**
 
 The best way to let people know if you are on vacation or out of the office is by setting up your calendar event as “Out of Office” instead of a regular event. You can customize this to automatically decline meetings on that day.
 
-### Adding other calendars
+**Adding other calendars**
 
 To view team member’s calendars, click on the plus symbol next to “Other calendars” on the left hand side of your calendar and select “Subscribe to calendar.” There is a full list of team emails in the [emLab Team Roster](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit#gid=0) document. 
 
-### Scheduling rooms
+**Scheduling rooms**
 
 See this [Room Scheduling](https://docs.google.com/document/d/18Caz3DMFJAN25Yo3vGXtRraMCA8Qt-qLaEGMv89WHUw/edit) document for full details on how to reserve rooms in both Bren and MSI. As a reminder, please add bren-sfg@ucsb.edu to the calendar invite for any meeting held in MSI 1304. 
 
