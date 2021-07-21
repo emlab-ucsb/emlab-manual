@@ -1,0 +1,18 @@
+---
+title: "Communications and outreach"
+output: html_document
+---
+
+# Communications and outreach
+
+
+As a team committed to conducting research for real-world impact, science communication plays a large role in the dissemination of our work. To showcase emLab’s impact, we employ a variety of platforms and tactics. 
+
+emLab’s main communication channels include:
+- [Our website](https://emlab.msi.ucsb.edu/): houses information about programs, projects, data and tools, publications, media coverage, our blog, and about our team
+
+- Monthly newsletter: highlights team announcements, new work, and spotlights of new and completed projects
+
+- Social media – [Twitter](https://twitter.com/emLabUCSB), [Instagram](https://www.instagram.com/emlab.ucsb/), [LinkedIn](https://www.linkedin.com/company/emlab-ucsb) – shares information about project success stories, new publications, team profiles, and more
+
+Our communications team works in coordination with project managers and University staff to produce outreach strategies and materials. If you have any communications questions or requests, reach out to Erin (eoreilly@ucsb.edu).
