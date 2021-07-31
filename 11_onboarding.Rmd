@@ -1,0 +1,107 @@
+---
+title: "Onboarding"
+output: html_document
+---
+
+# Onboarding
+
+Welcome! We are excited to have you join the emLab team. We hope that these onboarding resources, guidelines, and tips will make your transition to emLab seamless and enjoyable. 
+
+To give you the lay of the land, emLab is part of UC Santa Barbara (UCSB) and is housed within two main departments: the Marine Science Institute (MSI) and Bren School for Environmental Science & Management. Our offices span MSI and Bren, and the majority of our grants and purchases are run through MSI. 
+
+This section provides onboarding information at both the University and emLab level.
+
+## Relocating to Santa Barbara
+
+Santa Barbara is a vibrant historical city, teeming with arts and cultural experiences, culinary adventures, stunning landscapes, beautiful parks, and outdoor activities. Check out this [Unofficial Guide to Housing](https://drive.google.com/file/d/1uGxRz1PCd8a2ceYFo5i74CQ1rk9faY4U/view?usp=sharing) to learn more about the neighborhoods in Santa Barbara.
+
+As a note, Santa Barbara does have high housing costs and demand in comparison to most of the United States, and can be a challenging destination to relocate to. You may find the following resources helpful, but we also encourage you to reach out to our Operations Manager  (eoreilly@ucsb.edu) if you need additional insight on short- or long-term housing.  
+
+- Sign up to receive housing alerts from the [Bren Random listserv](https://groups.google.com/a/bren.ucsb.edu/g/brenrandom)
+- [UCSB Off-Campus Housing Office](http://www.housing.ucsb.edu/cho)
+- Santa Barbara [Craigslist](https://santabarbara.craigslist.org/search/apa)
+- Many local [real estate search engines](http://www.bhhscalifornia.com/real-estate-office/santa-barbara/150) also include professionally managed rentals in their results
+
+Note that you may be more competitive as a rental applicant if you are prepared to provide a detailed, current credit report; letters of rental reference; evidence of income (emLab can provide an employment offer letter); and a completed standard rental application form when viewing a property or contacting potential landlords.
+
+## Employment paperwork
+
+Once you have accepted an offer of employment with emLab, you will be contacted by Lyndi Swanson in the Personnel Unit of the Marine Science Institute to schedule a New Hire appointment. If possible, please schedule your appointment with Lyndi prior to your first day of work, as this will ensure that other services provided through the University will be ready when you arrive. 
+
+Lyndi will walk you through all of the University-required employee paperwork during your appointment. She will send you an email with information and further details on the paperwork you need to fill out. The employee paperwork you will need to fill out includes:
+
+- Employment data form
+- I-9 verification
+- State Oath of Allegiance
+- Patent Acknowledgement
+- W-4
+- Direct deposit form (if desired)
+
+After your appointment, look for an email from Lyndi with your Employee ID number. **This Employee ID number is necessary for setting up all other University accounts.**
+
+## Employee accounts
+
+Once you have your employee ID number, you will be able to [set up your UCSBnetID](https://secure.identity.ucsb.edu/manager/), which will give you access to computing services and other campus resources for staff and researchers. Creating your UCSBnetID will generate your UCSB email (netid@ucsb.edu) and will give you log-in access to all UCSB platforms.
+
+Here’s a brief overview of the different UCSB accounts and websites:
+
+- Employee ID Number: payroll number assigned to you; used to create UCSBnetID and email
+- UCSBnetID: used to log into all UCSB accounts (UCPath, Kronos, etc.)
+- Bren Account: used to connect to Bren wifi and log into Bren windows computers
+- [UCPath](https://www.ucpath.ucsb.edu/): site that contains information on paychecks and benefits
+- [Kronos](https://www.timekeeping.ucsb.edu/): timekeeping system to input sick/vacation hours
+
+There are a couple of optional services you can set-up with your UCSBnetID:
+
+- Join the [Transportation Alternatives Program (TAP)](http://tap.tps.ucsb.edu/), offering discounted bus passes ($31/month), a limited number of free on-campus parking hours, and other benefits for choosing low carbon transit.
+- Visit Parking Services on campus to sign up for campus staff parking if you do not wish to join TAP (for a monthly payroll deduction of $37.50). 
+- Receive discounted membership at the [UCSB Recreation Center](http://recreation.sa.ucsb.edu/facilities/rec-cen/rec-cen-memberships).
+- Obtain a campus ID card for verification of employment and access to the library, buildings after hours, and gym. This is not required to get into any of our offices during normal work hours. There is a one-time $30 fee per card that employees must pay themselves.
+
+## University benefits
+
+UCSB hosts a [New Employee Orientation](https://www.hr.ucsb.edu/hr-units/talent-acquisition/new-employee-orientation) for all new employees campus-wide. They provide an overview of the University and review the different benefit options available to you. If you are unable to attend the New Employee Orientation, you can also explore your benefits on your own through the New Employee Orientation [slideshow](https://www.hr.ucsb.edu/sites/default/files/docs/Final%20NEO%20ZOOM%20Master%20Morning%20Presentation%2008.2020%20(1).pdf) and [checklist](https://www.hr.ucsb.edu/sites/default/files/docs/NEO%20Virtual%20New%20Employee%20Checklist%202020.pdf). 
+
+You have 31 days from your start date to select your health benefits (i.e. medical, dental, and vision plans) and 90 days from your start date to choose your retirement benefits. [This roadmap](https://ucnet.universityofcalifornia.edu/compensation-and-benefits/roadmaps/new-employee.html) can help guide you through the benefits selection process. Here are some additional resources to help support the selection of your benefits:
+
+- Review the [Your Benefits at a Glance](https://ucnet.universityofcalifornia.edu/forms/pdf/your-benefits-at-a-glance.pdf) overview document
+- For healthcare, explore the [Complete Guide to UC Health and Welfare Benefits](https://ucnet.universityofcalifornia.edu/forms/pdf/complete-health-benefits-guide-for-employees.pdf)
+- For retirement, delve into the [Retirement Benefits Decision Guide](https://ucnet.universityofcalifornia.edu/forms/pdf/retirement-benefits-decision-guide.pdf)
+
+## Relevant listservs and resources
+
+This section outlines points of contact and resources for more general support. 
+For Bren Hall building and shower keys, and to make copies/scan/fax, contact Corina Aguiar (corina@bren.ucsb.edu, 2400 Bren Hall). 
+
+For IT support: reach out to the IT department for the building you are housed in – Bren (compute@bren.ucsb.edu) or MSI (help@msi.ucsb.edu). 
+
+For operations support, read the team guidelines and talk to operations team about:
+
+- Facilities issues (like hanging a whiteboard, getting a bookcase, fixing a heater)
+- Travel planning, allowable expenses, visa applications, and reimbursements
+- Reserving a meeting room and/or planning an event involving food
+- Ordering office supplies, computer equipment, or field gear
+
+For information on Bren and MSI news and events, sign up to receive updates from the following listservs:
+
+- [Bren-Alerts](https://bren.ucsb.edu/bren-alerts)
+- Bren Researchers - email Corina Aguiar to be added (corina@bren.ucsb.edu)
+- [Bren Random](https://lists.connect.ucsb.edu/bren/info/random)
+- [MSI News](https://groups.google.com/u/2/a/msi.ucsb.edu/g/msi-news)
+
+## Your first week at emLab
+
+Your first week at emLab will mainly focus on setting up your UCSB accounts, introducing you to emLab and how we work, and getting you settled in your new role. Starting with the basics, we will give you a tour of your office and the building it is situated in, and get you set up with an office key and wifi. Depending on availability, we will either provide a computer to you or order a new one with the necessary specs. 
+
+If starting on a Monday, you will also be able to meet the team at our Monday Morning Meeting. Here’s a [list of the emLab team](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit?usp=sharing). 
+
+There are four key meetings that will occur during your first week:
+
+- Meeting with Michaela, emLab’s Executive Director: an introduction to emLab and our work culture and values
+- Meeting with Erin, emLab’s Projects and Operations Manager: an overview of emLab’s platforms, resources, and workflow
+- Meeting with your supervisor: a deeper dive into your job duties and the project team you will be working with. You will also review the cadence of check-in meetings. 
+- And last but not least, a welcome lunch or happy hour!
+
+Once you have your UCSB email, Erin will add you to all of the relevant emLab platforms (e.g., slack, shared drive, etc.). 
+
+If you have any questions as you start getting up to speed, please don’t hesitate to reach out to Erin or your supervisor!
