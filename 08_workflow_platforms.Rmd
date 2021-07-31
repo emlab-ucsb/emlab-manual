@@ -4,7 +4,9 @@ output: html_document
 ---
 
 # emLab workflow and platforms
+
 To support both organization and collaboration, a standardized, transparent, and version controlled workflow is central to our team. We rely on the Google Suite (e.g., Gmail, Google Drive, Google Calendar), Slack, and Zoom to centralize and facilitate internal and external communication, and GitHub, Zotero, and Shared Drive to support our data science and other project-related work. The sections below detail how we use each of these platforms and how to set them up. We have separate documentation for our [data and code standard operating procedures](https://emlab-ucsb.github.io/SOP/index.html). 
+
 ![Download Drive File Stream](images/platforms_overview.png)
 
 ## Email
@@ -31,6 +33,7 @@ See this [Room Scheduling](https://docs.google.com/document/d/18Caz3DMFJAN25Yo3v
 Our team uses Slack on a daily basis to keep communication channels open within teams and across our different offices. We have an emLab workspace that houses all of our channels. When you are first added to Slack, you will be added to the general, random, communications, report and publications, and code channels. Feel free to browse and join other channels in our workspace. You will be added to project specific channels on an as needed basis. You can view Slack either through a broswer window or by [downloading the desktop app](https://slack.com/help/categories/360000049043-getting-started).
 
 ### Slack basics
+
 Slack is organized into channels and direct messages. Channels are a way to organize conversations and other than a couple general emLab channels, are often project specific. Whatever you share in a channel is viewable by all members of that channel. You can also send direct messages to an individual or a group of up to 9 people. 
 
 The status feature is helpful for letting others know if you are in a meeting or on vacation, and therefore may not be responding in a timely manner. 
@@ -40,6 +43,7 @@ One great thing about Slack is that it’s searchable. You can search either by 
 People have differing notification preferences, which you can set under Preferences → Notifications. If someone sends you a direct message or tags you, a number will show up on your slack app. If they add something to a channel you are on but don’t tag you, a red dot will show up. To ensure someone gets a numbered notification, either tag them (i.e. @Erin) or tag the channel (i.e. @channel). Tagging the channel will send a notification to every member of that channel.
 
 ### Creating a channel
+
 When a new project starts, create a slack channel for it and add the relevant team members to it. To create a channel, simply click on the plus symbol next to channels and fill out the channel information (Name, Purpose, and Send invites to). If you need to add any guests to a channel, slack Erin with the guest's email and the channel they need to be added to.
 
 ## Google Shared Drive
@@ -54,13 +58,9 @@ We have all experienced the moment where we can’t remember where a Google Doc 
 The emLab Shared Drive is organized into five main folders:
 
 - `central-emlab-resources`: includes meeting and event information, onboarding materials, information about travel reimbursements, and the team roster
-
 - `communications`: includes the blog schedule, Adobe design projects, presentation templates, photo repository, emLab logos, and publication and media tracking
-
 - `data`: includes the emLab data directory and all datasets we work with (see [emLab’s data and code standard operating procedure for more on this](https://emlab-ucsb.github.io/SOP/index.html))
-
 - `projects`: includes information on past and current projects, and project management guidelines
-
 - `strategy`: includes information about emLab’s strategic plan
 
 A full table of contents can be seen [here](https://docs.google.com/document/d/1a26a6N4akF2dSXWfp0fWxGegd0wvrPVUeaA09en2EPE/edit).
@@ -88,11 +88,8 @@ There are important distinctions between Backup and Sync and Drive for Desktop (
 **Step 3:** once the installation is complete, you'll need to sign in to your account. To do so:
 
 - Click on the Drive File Stream icon (![](images/shared_drive_icon.png))
-    
     - On Windows machines, it should be on the bottom right corner of your screen
-        
     - On MacOS, it should be at the top right of your screen
-
 - Sign in with your UCSB account, click through the application overview slides, and finally click on the button to open your Google Drive folder. 
 
 Once that finder / explorer opens, you should be able to see two folders: 1) My Drive and 2) Shared drives. The first folder will contain files owned by you (that is, your normal Google Drive Files stored on your UCSB account). The second folder will contain all shared drives you are part of. By navigating to that folder, you should see the emLab shared drive, containing all the folders mentioned earlier. 
@@ -124,27 +121,16 @@ To make scheduling with Zoom easier, install [Zoom for GSuite](https://gsuite.go
 Here are a couple of tips for getting the most out of virtual meetings:
 
 - **Everyone on video:** it’s nice to see everyone’s face instead of talking to black boxes. If your internet isn’t acting up, turn your video on to have a more engaging conversation. 
-
 - **Sharing screens:** to keep everyone on the same page, have the presenter share their screen so all of the participants are looking at the same information to avoid any possible confusion. This is a good way to troubleshoot code, walk through documents, etc.
-
     - The new Zoom default is to only allow the host to screen share. To allow all participants to share their screens, go to your settings and under “who can share?” select “all participants.” 
-
     - Note: If you aren’t comfortable changing this setting, instead turn on the ability to have co-hosts and in the meeting select the screen-sharers to be co-hosts.
-
 - **Whiteboard:** Zoom has a whiteboard feature that allows you to draw on your screen for everyone to see. To use this feature, share your screen and select “whiteboard” instead of a browser window. 
-
 - **Nonverbal communication:** use the reactions feature in the bottom bar of your zoom meeting to react during a meeting. You can also raise your hand in the meeting to signal that you have a question. To raise your hand, open the participant panel by clicking on participants in the lower bar and then click “raise hand” in the lower right hand corner (note: the host can’t raise their hand). 
-
 - **Making the most of virtual meetings:**	
-
     - Circulate as much as possible (agenda, slides, google docs, etc.) before the meeting so people have time to read/review them 
-  
     - If needed, schedule longer meetings to avoid feeling rushed and allow time to repeat things or deal with technical difficulties 
-  
     - Notify people ASAP if they are cutting out
-  
     - Dial-in and use phone for audio if your internet connection is poor 
-  
     - Turn off videos if connection is poor
 
 ## Git and GitHub
@@ -174,11 +160,8 @@ If you're interested in learning more about all of the functionality GitHub has 
 Git and GitHub use some weird terms that might be unfamiliar. Before installing and setting up Git and GitHub, here are a few key terms you may come across: 
 
 - repository ("repo"): a collection of files pertaining to the same project, document, goal, etc. Generally there's a single repository for each project at emLab containing all of the code associated with that project. This repository can be organized with multiple folders and subfolders.  
-
 - commit: a set of changes made by a user to one or more files in a repository that the user wants to prepare to send to GitHub.
-
 - push: the action of sending a commit from your local machine to the remote GitHub directory. 
-
 - pull: the action of retrieving any commits that have been made to the repository and are stored in the remote GitHub directory but are NOT on your local machine.
 
 ### How to install Git and GitHub
@@ -188,7 +171,6 @@ Most of tutorials listed above include detailed instructions on how to install G
 **Step 1: Create a free [GitHub](https://github.com/) account**
 
 - Notes:
-
     - use your @ucsb.edu email
     - make sure you remember your **username** and **password**, you'll need this later
 
