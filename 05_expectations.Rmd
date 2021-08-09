@@ -2,38 +2,39 @@
 title: "Expectations"
 output: html_document
 ---
+# Expectations
 
-# Work environment
+## Work environment
 
 We are currently testing out a hybrid working model for the emLab team this fall from September 13 - December 31, 2021. At the end of the year, we will gauge how the hybrid model affects productivity, efficiency, work-life balance, creativity, lost or gained opportunities for collaboration and our overall mission of conducting innovative, solutions-oriented research examining the power, limitations, and design of market-based approaches to drive environmental and social good. We will send out a survey to the staff and leadership team in January to evaluate how the fall quarter went using the hybrid model and then the leadership team will re-assess and adapt our working model as needed in the new year. 
 
 The health and safety of our team remains the most important priority and, as such, these guidelines are entirely subject to change based on emerging conditions (e.g., the Delta variant) and [University](https://www.ucsb.edu/COVID-19-information/return-to-campus-requirements) and county guidelines, which could change before or during the course of this pilot.
 
-## Overview of the pilot:
+### Overview of the pilot:
 
 - All Santa Barbara-based emLab staff will have [assigned office space](https://docs.google.com/document/d/1_VZPN_Ecz0ylSm6DJhV-pNkTGzA-G3FKOh-bqx2lm-8/edit) and be eligible for a hybrid work schedule with some time in the office and some time working from home.
 - All Santa Barbara-based staff will be expected to work in the office 3 days a week, and can opt to either work remotely or from the office for the remaining 2 days a week. 
   Tuesdays and Wednesdays will be required days in the office. The third day will be a “floating” office day at your discretion based on project and team needs.
 - The pilot will run from September 13 - December 31, 2021.
 
-## Logistics:
+### Logistics:
 
 - Meetings 
- - There is no need to stack all meetings on Tuesdays and Wednesdays. Meetings that are better held in person will likely be scheduled on Tuesdays and Wednesdays (e.g.,           brainstorming meetings, internal full project team meetings), but meetings that can happen remotely or through a hybrid model (e.g., meetings with external partners, 1:1       check-ins) can be scheduled any day of the week as needed.  
- - See [hybrid meeting guidance](https://docs.google.com/document/d/1ZFwvSoYVPUwM1V56-60S-ff5Qowt7ALgrI48QIIjsAw/edit?usp=sharing) for details on hybrid meetings.
+  - There is no need to stack all meetings on Tuesdays and Wednesdays. Meetings that are better held in person will likely be scheduled on Tuesdays and Wednesdays (e.g.,     brainstorming meetings, internal full project team meetings), but meetings that can happen remotely or through a hybrid model (e.g., meetings with external partners, 1:1       check-ins) can be scheduled any day of the week as needed.  
+  - See [hybrid meeting guidance](https://docs.google.com/document/d/1ZFwvSoYVPUwM1V56-60S-ff5Qowt7ALgrI48QIIjsAw/edit?usp=sharing) for details on hybrid meetings.
 - Hours and remote work 
- - All staff are responsible for setting their own hours within the work week.
+  - All staff are responsible for setting their own hours within the work week.
   - Individual work hours, as well as sick and vacation leave, should be communicated with their supervisor, as well as coordinated with other team members as needed.
- - Staff will be expected to work from the office if there are internet issues or deficiencies that impact their work.
+  - Staff will be expected to work from the office if there are internet issues or deficiencies that impact their work.
 - Equipment and commuting
- - emLab will provide equipment for one workstation that will include: a laptop or desktop computer, a bluetooth keyboard and mouse, and up to two computer monitors. emLab will    also provide a desk and chair in your university office, and miscellaneous office supplies (notebooks, pens, etc.) as needed. 
- - The University provides these resources [(link)](https://www.tps.ucsb.edu/commuter-options) for commuting to and from campus. 
+  - emLab will provide equipment for one workstation that will include: a laptop or desktop computer, a bluetooth keyboard and mouse, and up to two computer monitors. emLab will    also provide a desk and chair in your university office, and miscellaneous office supplies (notebooks, pens, etc.) as needed. 
+  - The University provides these resources [(link)](https://www.tps.ucsb.edu/commuter-options) for commuting to and from campus. 
 - Guests and visitors in the office and in meetings	
- - Guests and visitors must complete the [on-demand screening survey](https://ucsb-641309.workflowcloud.com/forms/5f252a35-800a-4015-8256-ecd9b5c68a96) to determine if they      are cleared to be on campus and if and when they are required to wear a mask or quarantine.
- - Based on the screening survey as of July 2021, it appears that fully vaccinated visitors are allowed on campus without restrictions. Individuals who are not vaccinated or      decline to disclose that information may be required to be quarantined for 7-10 days if they are traveling from out-of-state. This guidance is not publicly listed by the U      University, so it's best to have guests complete the survey in advance of scheduling trips or meetings to see if any quarantining is necessary and they can plan accordingly.
- - Please send any guests or campus visitors this survey in advance to determine if they will be able to access campus meetings spaces and offices. 
+  - Guests and visitors must complete the [on-demand screening survey](https://ucsb-641309.workflowcloud.com/forms/5f252a35-800a-4015-8256-ecd9b5c68a96) to determine if they      are cleared to be on campus and if and when they are required to wear a mask or quarantine.
+  - Based on the screening survey as of July 2021, it appears that fully vaccinated visitors are allowed on campus without restrictions. Individuals who are not vaccinated or      decline to disclose that information may be required to be quarantined for 7-10 days if they are traveling from out-of-state. This guidance is not publicly listed by the University, so it's best to have guests complete the survey in advance of scheduling trips or meetings to see if any quarantining is necessary and they can plan accordingly.
+  - Please send any guests or campus visitors this survey in advance to determine if they will be able to access campus meetings spaces and offices. 
 
-## Protocols for working from the office:
+### Protocols for working from the office:
 
 - Enroll in and complete the daily symptom survey to obtain a “cleared to work” digital badge to work on campus. Enrollment information can be found [here.](https://t.e2ma.net/click/zgo54e/3j5nqn/nr0wix)
 - This is implied in the daily screening, but please do not come into the office if you are exhibiting any symptoms at all or are not feeling 100%. 
@@ -45,36 +46,38 @@ The health and safety of our team remains the most important priority and, as su
 
 As stated above, the health and safety of our team is the most important thing above all else. As we learned this past year, things can rapidly change, and we will continue to adapt as needed. If you do not feel safe coming into the office or if there are additional measures that you would like to see in place, please talk to Michaela or your supervisor. Exceptions to these guidelines are permitted after they have been discussed and approved by your supervisor. 
 
-# Time management
+## Time management
+
 It is important for every individual to understand and manage their workloads and responsibilities, and to ask for help when it is needed. Team members should prioritize the tasks that are most important and urgent. If you are having challenges prioritizing tasks, speak with your supervisor to discuss priorities.
 
 emLab project staff are allocated to one or more projects, which is likely to shift over time as projects come to completion and new projects are launched. Staff should be aware of their general percentage time allocation across projects, which are tracked in the project tracking sheet in Drive. Due to the adaptive nature of our work, these percentages are likely to vary daily, weekly or monthly, and should be used as guidelines rather than strict allocations. If staff are feeling either underutilized or overstretched, they should speak with their supervisor.
 
-# Principal Investigators
+## Principal Investigators
 Coming soon
 
-# Research staff
+## Research Staff
 Coming soon
 
-# Project managers
+## Project Managers
 Coming soon
 
-# Postdoctoral researchers
+## Postdoctoral Researchers
 Coming soon
 
-# Graduate students
+## Graduate Students
 Coming soon
 
-# Undergraduate students
+## Undergraduate Students
 Coming soon
 
 
-# Meetings and events
+## Meetings and events
 emLab hosts a variety of events to foster a deep sense of community across roles and programs, and provide opportunities for our team to be as collaborative, functional, and fully integrated as possible. 
 
 We know things can come up that sometimes make it impossible to join everything, but we want to clarify that we do expect everyone to do their best to participate in team events, particularly the Monday Morning Meetings. Beyond that, if you find yourself with a lot on your plate, please use your discretion to decide when your participation will yield high returns, and do not feel obligated to participate in events that you don’t think will be a valuable use of your time. Each of us has unique interests, areas of expertise, and professional goals, and we trust that those will inform the decisions you make for yourself!
 
 Here’s an overview of emLab events and the objectives of each:
+
 - Monday Morning Meeting: learn about current work at emLab, celebrate successes, share team-wide announcements 
   - Who: emLab team
   - Structure: 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the     first Monday of the month), or mingling
@@ -89,10 +92,9 @@ Here’s an overview of emLab events and the objectives of each:
   - Detailed guidelines and the schedule lives [here](https://docs.google.com/document/d/1Y8ibvOyXaarqhs7Y2OKXyUQQyPYH82CIf99RYK7l6pU/edit)
 - Postdoc coffee hour: foster a supportive postdoc community
   - Who: postdocs
-  - Postdocs can use the time to get to know each other, discuss research ideas and objectives, troubleshoot project-related issues, work on projects together and, more            broadly, find out more about each other’s research interests and goals; structure the time as they would like
+  - Postdocs can use the time to get to know each other, discuss research ideas and objectives, troubleshoot project-related issues, work on projects together and, more broadly, find out more about each other’s research interests and goals; structure the time as they would like
 - Quarterly fundraising update: review funding pipeline and upcoming projects
   - Who: Executive Director and project and operations staff
-- Monthly project management: provide updates on the status of current projects, discuss challenges, and brainstorm solutions 
+- Monthly project management: provide updates on the status of current projects, discuss challenges, and brainstorm solutions
   - Who: Executive Director and project managers
 - Outside of work festivities: welcome new team members, celebrate big accomplishments, or entertain distinguished visitors
-
