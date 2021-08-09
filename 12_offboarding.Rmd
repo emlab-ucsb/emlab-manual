@@ -1,0 +1,64 @@
+---
+title: "Offboarding"
+output: html_document
+---
+
+# Offboarding
+
+
+In your last week, please be sure to return your computing equipment, keys, etc. to Erin and clean your desk. To ensure transparency and reproducibility, please make sure all project files and data have been uploaded to the emLab Shared Drive and all repos have been transferred to the emLab GitHub organization. See more below on wiping your computer once these steps have been completed.
+
+Lastly, schedule an exit interview with Michaela and your supervisor to discuss your overall experience with emLab, any feedback you have for the team, and opportunities for future collaboration. 
+
+## Cleaning your computer
+
+Note: this is written with an Apple computer lens, but the same general steps apply to other brands/operating systems.
+
+**Step 1:** Make sure all emLab project files are uploaded to their appropriate folders on Google Drive. Transfer any personal files you want to keep to another location. 
+
+Notes: 
+- If using Drive for Desktop (or any other app) to sync files to Google Drive prior to clearing your computer, make sure everything has successfully synced. For Drive for Desktop, it should say that “Everything is up to date”. You can double check by logging onto Google Drive from a web browser and checking to see if the files you just added are there.
+- Check local storage locations such as “Desktop”, “Documents”, and “Pictures” for personal and/or misplaced files. 
+- Check code repositories to make sure that all local changes have been committed and pushed. 
+- *Optional:* delete all files in the “Downloads” folder and empty the trash. 
+
+**Step 2 (optional):** Install any pending system updates. 
+
+**Step 3 (optional):** Log out of any apps that require a personal login (e.g., Drive for Desktop, Adobe CC, Slack, Zoom, etc.).
+
+- This isn’t totally necessary, but a lot of these apps will let you know if you have unsynced local files. 
+
+**Step 4:** Sign out of iCloud
+
+- Choose Apple menu > System Preferences then click Apple ID. Select Overview in the sidebar, then click Sign Out. 
+
+**Step 5:** Sign out of iMessage/Facetime/iTunes
+
+- Open the Messages app, then choose Messages > Preferences from the menu bar. click iMessage, then click Sign Out. Repeat for any similar apps. 
+
+- Delete conversation logs and/or call history. 
+
+**Step 6:** Reset NVRAM
+
+- Shut down your Mac, then turn it on and immediately press and hold these four keys together: Option, Command, P, and R. Release the keys after about 10 seconds. This clears user settings from memory and restores certain security features that might have been altered. 
+
+**Step 7:** Unpair any Bluetooth devices that aren’t staying with the computer. 
+- It’s fine to keep the keyboard/mouse/trackpad that came with the computer connected, but if any other devices are connected, it’s best to to remove them so you don’t run into interference problems later if you’re using them close to your old computer.
+
+**Step 8:** Erase hard drive and reinstall macOS (full instructions below): 
+- **THIS ERASES ALL FILES SO MAKE SURE YOU’VE DONE THE PREVIOUS STEPS BEFORE CONTINUING.** 
+
+- Shut down your Mac, then turn it on and immediately press and hold these two keys together until you see an Apple logo or other image: Command and R. 
+- If asked, select your user id, and then enter the administrator password. 
+- From the utilities window, select Disk Utility and click Continue. 
+- Select Macintosh HD in the sidebar of Disk Utility. 
+- Click the Erase button in the toolbar, then enter the requested details: Name: Macintosh HD, Format: APFS
+- Click Erase Volume Group (or just Erase if that’s not an option). 
+- If asked, enter your Apple ID. 
+- After the erase is done, select any other internal volumes in the sidebar, then click the delete volume (-) button in the toolbar. *Disregard any internal volume named “Macintosh HD” or “Macintosh HD - Data”, as well as any volumes in the External and Disk Images sections of the sidebar. 
+- Quit Disk Utility to return to the utilities window. 
+- Select Reinstall MacOS in the utilities window, then click Continue and follow the onscreen instructions to reinstall macOS. 
+
+**Step 9:** Wipe down computer and return to Erin.
+
+- Please make sure that all cables and accessories (mouse, keyboard, box, etc.) are included. 

@@ -1,0 +1,31 @@
+---
+title: "Mission and research identity"
+output: html_document
+---
+
+# Mission and research identity
+
+emLab is an interdisciplinary team of scientists based at UC Santa Barbara organized around a shared mission of conducting innovative, solutions-oriented research examining the power, limitations, and design of market-based approaches to drive environmental and social good.
+
+In collaboration with implementing partners, we aim to better align environmental objectives and economic incentives in support of sustainable livelihoods and a resilient planet. Leveraging our diverse expertise, we generate timely insights into effective and equitable solutions for Climate & Energy, Land & Freshwater, Ocean & Fisheries, and People & Poverty.
+
+Our “think-and-do” approach is founded on four core principles that are at the heart of every emLab research project:
+
+- **Innovative insights:** pioneering new research approaches and generating original and academically rigorous scientific findings
+
+- **Market-based approaches:** informing solutions that embrace the full range of incentives that shape human behavior to produce enduring and equitable environmental and social outcomes 
+
+- **Real-world impact:** developing timely and implementable solutions through partnership with local stakeholders, governments, NGOs, inter-governmental organizations, and foundations
+
+- **Collaborative research:** achieving broader impact by employing expertise across multiple disciplines and integrating valuable insights from partners and stakeholders
+
+<p>&nbsp;</p>
+**How we work**
+
+emLab fosters a collaborative work environment to unite interdisciplinary expertise with the collective goal of solving critical environmental problems. We bring academic rigor and subject matter expertise to our work, along with skill sets in project management, data science, and communications. The emLab approach includes:
+
+- *Responsiveness and flexibility:* emLab’s world class research team is supported by a nimble and responsive project management, communications, and operations team, resulting in a unique adaptive capacity that allows us to tackle tough research questions while empowering us to dynamically address the needs of our implementation partners.
+
+- *Data science and transparency:* our highly skilled data scientists leverage large data repositories from public and, when possible, private sources to draw conclusions about the relationship between human behavior and the natural world. We believe that the scientific process should be transparent and open to examination, and we uphold that value by striving to make our [code](https://github.com/emlab-ucsb), data, and tools publicly accessible.
+
+- *Technical expertise:* we make the most out of our resources by identifying the right tool for each job and selecting the analytical approach that best fits the question we want to answer. Our team has expertise in impact evaluation, spatial planning, econometrics, bioeconomic modeling, management strategy evaluation, population dynamics modeling, environmental market design, and policy scenario analysis - to name a few skill sets.
