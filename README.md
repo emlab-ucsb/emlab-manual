@@ -1,6 +1,6 @@
 # emlab-manual
 
-A manual for all things emLab: <https://emlab-ucsb.github.io/emlab-manual/)>
+A manual for all things emLab: <https://emlab-ucsb.github.io/emlab-manual/>
 
 ## Table of Contents
 
