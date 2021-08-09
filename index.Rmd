@@ -9,3 +9,9 @@ url: "https://github.com/emlab-ucsb/emlab-manual"
 description: "Everything you need to know about emLab."
 #cover-image: "" If there's a png we want to use, it can go here
 ---
+
+# emLab Manual
+
+Hello and welcome to our team manual! 
+
+This is the lab manual for the Environmental Markets Lab (emLab) at the University of California Santa Barbara.
