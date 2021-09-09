@@ -6,13 +6,50 @@ output: html_document
 # Feedback and growth
 
 ## Overview of our feedback mentality
-Coming soon
+
+Fostering an environment that provides targeted and constructive feedback is an important part of promoting learning and growth, one of emLab’s [core values](https://emlab-ucsb.github.io/emlab-manual/emlab-values-and-culture.html#emlab-values). We endeavor to build a [radically candid](https://www.radicalcandor.com/our-approach/) culture of feedback where we can challenge directly while also caring personally for one another. As we state in our code of conduct, good feedback is kind, respectful, clear, constructive, and focused on goals and values rather than personal preferences. We expect everyone on our team to give and receive feedback with gratitude and a growth mindset. 
+
+We have created a number of internal emLab processes and structures to provide opportunities for individual and organizational feedback so that each of us, as well as emLab, can continue to learn and grow:
+
+- **Supervisor check-ins** are held at a regular cadence (e.g., weekly, monthly) to provide mentorship, guidance, and feedback on day-to-day responsibilities and challenges as well as discuss longer term goals and professional development opportunities.
+- **Annual reviews** are conducted each year with our project researchers, project managers, and operations team members to discuss and celebrate key accomplishments, provide targeted feedback, and discuss future goals.
+- **Team member exit interviews** are conducted when team members leave to discuss their overall experience with emLab, and offer positive and constructive feedback for emLab.
+- **Monthly project management meetings** are held with all emLab project managers to anticipate and workshop project changes and challenges and collectively and collaboratively improve emLab project management.
+- [**Project exit interviews**](https://emlab-ucsb.github.io/emlab-manual/project-management.html#wrapping-up-a-project) are held after the completion of every project to capture lessons learned, evaluate successes and challenges, and identify potential next steps. 
 
 ## Annual review process
-Coming soon
+
+The [emLab annual review process](https://docs.google.com/presentation/d/1rB5Dnh2YC85HZov47wqNtdfAZOVCY14N-f5F0I5bf8c/edit#slide=id.p1) is part of a broader strategy to foster a culture of growth and learning at emLab. emLab’s internal reviews include an emLab [“Behaviorally Anchored Rating Scale (BARS)”](https://docs.google.com/spreadsheets/d/1D4y_JSnv7th5ayyNecqG8XdJhDw4JoRIRjlx8pew0Xk/edit#gid=1854751817) assessment to help provide targeted and constructive feedback. The assessment focuses on four categories: 1) quality of work and time management, 2) creative problem-solving, adaptability, and innovation, 3) collaboration and teamwork, and 4) effective communication. These categories and the criteria they comprise are not necessarily comprehensive of all skills across the different roles on our team, but they represent core competencies that are critical to both individual and emLab productivity and performance. 
+
+**Process overview**
+
+Annual reviews generally take place in the summer and are retrospective of the previous 12 months. Prior to their scheduled review, each team member will make a copy and fill out emLab’s [annual review template](https://drive.google.com/a/ucsb.edu/open?id=1D4y_JSnv7th5ayyNecqG8XdJhDw4JoRIRjlx8pew0Xk) in their own Drive and share a link with their supervisor. This template comprises a list of your accomplishments and the BARS assessment. A couple of notes on the assessment categories - these are designed for the purpose of learning and development, so everyone is likely to have areas of growth identified. We all have strengths and weaknesses, and the value of a process like this is offering constructive feedback so we can all continue to learn and grow. Conversely, assessments of ‘outstanding’ will likely be rare and given in cases of extraordinary contributions and performance.
+ 
+Your supervisor will also fill out the BARS assessment portion of the form simultaneously and will send it to you the day before your scheduled review. Your review will be led by your supervisor. In some cases, additional team members will join if you have worked closely with them over the past year.
+
+**Annual review structure**
+
+Reviews are generally about an hour long and are structured as follows:
+
+- Accomplishments and outputs, strengths, and growth areas (~20 min). *Walk through your accomplishments and BARS assessment, discussing (a) the following questions and (b) any instances where your self-assessment and supervisor assessment differed.*
+  - What are the accomplishments you are most proud of over the past year?
+  - What aspects of your job do you most enjoy or feel you excel at?
+  - Where are your areas of growth and how can we work together to develop those? (Can include categories within or outside of the BARS categories)
+- Work portfolio, expectations, and responsibilities (~20 min)
+  - Review your current project portfolio and discuss future projects (if applicable)
+  - Do you feel like you are being underutilized or overstretched across projects?
+  - Do you have any questions on what is expected of you in your role? 
+- Goals (~20 min). *Discuss 1-3 goals in each of the following categories, steps or actions you can take towards these goals, and how we may be able to support you in achieving them.*
+  - Short-term (6 months) 
+  - Medium-term (1 - 2 years) 
+  - Long-term (5 - 10 years) 
+
 
 ## Supervisor responsibilities and check-ins 
 Coming soon
 
 ## University merit review process
-Coming soon
+
+UCSB policies and procedures for all academic titles (e.g., faculty, Specialists, Academic Coordinators), including information about appointments and advancements are contained within academic personnel’s “[Red Binder](https://ap.ucsb.edu/policies.and.procedures/red.binder/table.of.contents/)”.
+
+Please see this [presentation](https://docs.google.com/presentation/d/1ICXIWE3d4BB2Uh_alx1GjqsTD3DFSskoa6U9IamSMOY/edit?usp=sharing) for a distilled overview of UCSB’s merit review process for Specialist and Academic Coordinator series titles. Reach out to your supervisor in advance to discuss if you will be pursuing a merit increase and for resources as you draft your materials.
