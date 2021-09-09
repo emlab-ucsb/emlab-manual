@@ -10,14 +10,14 @@ We are currently testing out a hybrid working model for the emLab team this fall
 
 The health and safety of our team remains the most important priority and, as such, these guidelines are entirely subject to change based on emerging conditions (e.g., the Delta variant) and [University](https://www.ucsb.edu/COVID-19-information/return-to-campus-requirements) and county guidelines, which could change before or during the course of this pilot.
 
-### Overview of the pilot:
+### Hybrid working model pilot overview
 
 - All Santa Barbara-based emLab staff will have [assigned office space](https://docs.google.com/document/d/1_VZPN_Ecz0ylSm6DJhV-pNkTGzA-G3FKOh-bqx2lm-8/edit) and be eligible for a hybrid work schedule with some time in the office and some time working from home.
 - All Santa Barbara-based staff will be expected to work in the office 3 days a week, and can opt to either work remotely or from the office for the remaining 2 days a week. 
   Tuesdays and Wednesdays will be required days in the office. The third day will be a “floating” office day at your discretion based on project and team needs.
 - The pilot will run from September 13 - December 31, 2021.
 
-### Logistics:
+**Logistics**
 
 - Meetings 
   - There is no need to stack all meetings on Tuesdays and Wednesdays. Meetings that are better held in person will likely be scheduled on Tuesdays and Wednesdays (e.g.,     brainstorming meetings, internal full project team meetings), but meetings that can happen remotely or through a hybrid model (e.g., meetings with external partners, 1:1       check-ins) can be scheduled any day of the week as needed.  
@@ -34,7 +34,7 @@ The health and safety of our team remains the most important priority and, as su
   - Based on the screening survey as of July 2021, it appears that fully vaccinated visitors are allowed on campus without restrictions. Individuals who are not vaccinated or      decline to disclose that information may be required to be quarantined for 7-10 days if they are traveling from out-of-state. This guidance is not publicly listed by the University, so it's best to have guests complete the survey in advance of scheduling trips or meetings to see if any quarantining is necessary and they can plan accordingly.
   - Please send any guests or campus visitors this survey in advance to determine if they will be able to access campus meetings spaces and offices. 
 
-### Protocols for working from the office:
+**Protocols for working from the office**
 
 - Enroll in and complete the daily symptom survey to obtain a “cleared to work” digital badge to work on campus. Enrollment information can be found [here.](https://t.e2ma.net/click/zgo54e/3j5nqn/nr0wix)
 - This is implied in the daily screening, but please do not come into the office if you are exhibiting any symptoms at all or are not feeling 100%. 
@@ -52,22 +52,24 @@ It is important for every individual to understand and manage their workloads an
 
 emLab project staff are allocated to one or more projects, which is likely to shift over time as projects come to completion and new projects are launched. Staff should be aware of their general percentage time allocation across projects, which are tracked in the project tracking sheet in Drive. Due to the adaptive nature of our work, these percentages are likely to vary daily, weekly or monthly, and should be used as guidelines rather than strict allocations. If staff are feeling either underutilized or overstretched, they should speak with their supervisor.
 
-## Principal Investigators
+## Project roles
+
+**Principal Investigators**
 Coming soon
 
-## Research Staff
+**Research Staff**
 Coming soon
 
-## Project Managers
+**Project Managers**
 Coming soon
 
-## Postdoctoral Researchers
+**Postdoctoral Researchers**
 Coming soon
 
-## Graduate Students
+**Graduate Students**
 Coming soon
 
-## Undergraduate Students
+**Undergraduate Students**
 Coming soon
 
 
