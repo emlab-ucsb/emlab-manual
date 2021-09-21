@@ -220,11 +220,11 @@ It is the responsibility of the project manager to work with the project team (a
 
 To support these project highlights, the project manager should work with the communications team on the following:
 
-1. Drafting content for the project’s page on the website within the first month of kicking off a project
+- Drafting content for the project’s page on the website within the first month of kicking off a project
   - *Note: please ping Erin if a new member joins the team so she can update the project page*
-2. Keeping the communications team informed of publications, seminars/webinars, or press coverage and working with them to highlight successes. Advanced notice is much appreciated.
+- Keeping the communications team informed of publications, seminars/webinars, or press coverage and working with them to highlight successes. Advanced notice is much appreciated.
   - When reaching out to the comms team, please send a short summary (bullets work) of what you want to highlight, any partners we should work with/tag, and overarching relevance of this work. The comms team will draft visuals and text for the project manager to review for clarity and framing.
-3. When a project ends, sending the communications team a summary of key findings and outcomes to add to the project page
+- When a project ends, sending the communications team a summary of key findings and outcomes to add to the project page
 
 ## Wrapping up a project
 When a project is completed, make sure that all project files are in Shared Drive, add data to the `data-directory` as appropriate, and move the project folder to `emlab/projects/archived-projects`. 
