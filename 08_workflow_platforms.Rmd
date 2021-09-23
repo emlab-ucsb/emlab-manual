@@ -26,7 +26,7 @@ To view team member’s calendars, click on the plus symbol next to “Other cal
 
 **Scheduling rooms**
 
-See this [Room Scheduling](https://docs.google.com/document/d/18Caz3DMFJAN25Yo3vGXtRraMCA8Qt-qLaEGMv89WHUw/edit) document for full details on how to reserve rooms in both Bren and MSI. As a reminder, please add bren-sfg@ucsb.edu to the calendar invite for any meeting held in MSI 1304. 
+See [Chapter 13.1](https://emlab-ucsb.github.io/emlab-manual/housekeeping.html#conference-rooms) for information on reserving conference rooms.
 
 ## Slack
 
