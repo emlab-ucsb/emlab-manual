@@ -5,6 +5,59 @@ output: html_document
 
 # Housekeeping
 
+## Meeting scheduling and logistics 
+
+### Conference rooms
+
+**Booking at MSI**
+
+emLab MSI Suite (1304): add bren-sfg@ucsb.edu to any calendar invite to reserve the room. Add this same email address to your calendar to view availability. 
+
+MSI conference room: email the MSI (roomrequest@msi.ucsb.edu) to reserve any of the MSI conference rooms. There are conference rooms available on the 2nd, 3rd, and 4th floor. We do not have calendar access to see room availability. 
+
+**Booking at Bren**
+
+Most bookings are centralized through [booking.bren.ucsb.edu](http://booking.bren.ucsb.edu/). We can self-book the Visitors Center (BH 1410), Bonsai (BH 4327), Manzanita (BH 4329), Oak (BH 1520), Sycamore (BH 1510), Maple (BH 3016), and Pine (BH 3526). Comprehensive details about amenities and seating are available on the Bren website.
+
+*Note: you are limited to booking up to 14 days ahead, no recurring meetings, and a max meeting length of two hours. Any requests that don't meet these limitations can still be booked through scheduling@bren.ucsb.edu. Also contact scheduling@bren.ucsb.edu if you would like to reserve the Dean’s Conference Room (BH 2436).*
+
+Instructions for how to self-book rooms:
+
+1. Visit [booking.bren.ucsb.edu](http://booking.bren.ucsb.edu/).
+2. Click on “Schedule” in the upper left of the screen.
+3. Select the date you want to meet (up to 14 days in advance).
+4. Based upon which rooms are available, select the room and time you want by clicking in the corresponding area of the chart.
+5. A box will open for you to enter the meeting details.
+6. Type a title for your meeting (be sure to include your last name).
+7. Select the end time (two hours maximum).
+8. If you choose to invite guests, select them by typing their names or email addresses in the “Invite Guests” field.
+9. Click “Book Now”.
+10. Your meeting will appear on the chart. You can edit or cancel the meeting by clicking on the booking event and then clicking the three dots in the upper right corner.
+11. If you want to see all the rooms you have reserved, click on “Upcoming”. You can edit and cancel reservations from here. 
+
+### Hybrid meeting guidance
+
+*Last updated July 2021*
+
+As we transition back to the office, emLab will be testing out approaches to hybrid meetings to maintain inclusivity and maximize productivity as we will have folks who are both on and off campus. We hope to learn during this period when these meetings work well, when they don’t, and what could be improved to facilitate hybrid meetings. The following guidance should be considered for meetings during this transition period:
+
+- All meetings should include a virtual conferencing option (zoom link ideally)
+- All meeting materials, decisions, and follow up should be shared via email or slack. 
+- Meeting hosts should verify and communicate who will be attending in-person and who will be attending remotely.
+- For meetings that include both in-person and remote participants (aka, hybrid meetings):
+  - If there are a couple of meeting attendees on campus and they want to zoom in together from an individual office, this is fine and can be coordinated individually.
+  - For larger meetings or when no individual offices are available:
+    - MSI 1304 has been set up with a stationary mac computer with a camera to log into Zoom. The room also has a microphone and a large screen. We think this is probably the best current set-up for larger team hybrid meetings in Bren and MSI.
+      - To reserve the room, add bren-sfg@ucsb.edu to your meeting invitation 
+    - In-person set-up in 1304:
+      - Meeting hosts should designate themself or someone else to set up the equipment and monitor the zoom video and chat.
+      - Designated person will log into the computer using the username and password on the sticker (sfg-totoaba and totoaba, respectively) and log into the Zoom meeting using their UCSB credentials.
+      - At the end of the meeting, please log out of Zoom, but do not turn the computer off. 
+    - In-person attendees:
+      - Complete the daily screening to be cleared to be on campus. 
+      - Optional, depending on room set-up, TBD by meeting host: Bring a laptop if they have one and join virtually from their own laptops without joining audio (note: this is different from muting yourself) to allow remote participants to be able to see people during the conversation.
+  - When possible, meetings should leverage virtual technology for collaboration (jamboards, slides, Zoom whiteboard, etc)
+
 ## Timekeeping
 
 Every month, full-time Academic employees (Specialists, Academic Coordinators, Postdocs) accrue **8 hours of sick time and 16 hours of vacation.** You are responsible for making informed decisions about how to use your accruals (which you can find online at UCPath), but please notify your supervisor whenever you are out sick via slack or email, and let them and your teams know of any vacation time you plan to take well in advance so your projects and teams will run smoothly in your absence. More about requesting vacation in the next section
