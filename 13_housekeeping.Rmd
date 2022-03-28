@@ -75,6 +75,7 @@ As we transition back to the office, emLab will be testing out approaches to hyb
 ### Catering options
 
 There are two options for catering meals on campus:
+
 1. Campus catering
 2. Approved off-campus caterer 
 
@@ -155,13 +156,13 @@ Many of our projects require us to travel domestically and internationally. The 
 
 There are two ways the University can pay for your travel expenses prior to your trip:
 
-1. **Travel Advances:** if you prefer to make your own reservations, might have to cancel/change your tickets, or plan to stay in non-traditional accommodations (e.g., AirBnb) you may have to pay for some of your travel expenses out of pocket before you go. Though you can’t submit a complete travel reimbursement form until after you return from your trip, you can get a partial reimbursement for expenses you cover prior to traveling by applying for a travel advance. 
+- **Travel Advances:** if you prefer to make your own reservations, might have to cancel/change your tickets, or plan to stay in non-traditional accommodations (e.g., AirBnb) you may have to pay for some of your travel expenses out of pocket before you go. Though you can’t submit a complete travel reimbursement form until after you return from your trip, you can get a partial reimbursement for expenses you cover prior to traveling by applying for a travel advance. 
   - Travel advances are processed through [Concur](http://www.concursolutions.com/). Once logged in, click on “Requests” and then the “Create a New Request” tile.
   - Fill out all of the information for your trip (name, dates, project code to charge, etc.). Once the general information has been submitted, you will be taken to a screen that allows you to insert line items for expenses you are requesting a travel advance for (e.g. conference registration, hotel). Once you insert the information, click on the line item(s) and then under “Request Details” click “Add Cash Advance.” View this [video](https://ucsb.service-now.com/kb?sys_kb_id=0d41a7dd1b3f745047e8ed34604bcb57&id=kb_article_view&sysparm_rank=2&sysparm_tsqueryId=5a6646a81bbdc51078889683b24bcb79) for visual instructions. 
   - Once a full draft of your request is ready, email Donna at MSI (donna.dobis@ucsb.edu) so she can review the request for compliance and completion. You submit the request after you get an ok from her. 
   - When you return, you will claim the amount you were given in your cash advance on your travel reimbursement expense form so that you don’t double count any expenditures. Watch [this video](https://ucsb.service-now.com/kb?sys_kb_id=7bc82fb41bc40150e9250f22604bcb87&id=kb_article_view&sysparm_rank=3&sysparm_tsqueryId=28d6022c1bbdc51078889683b24bcb74) for instructions on how to apply a cash advance in an expense report.
   
-2. **Concur Travel** - What was previously Connexxus is now housed within Concur and can be used to book flights, rental cars, or hotels. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
+- **Concur Travel** - What was previously Connexxus is now housed within Concur and can be used to book flights, rental cars, or hotels. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
   - Submit a request in Concur for your trip that includes the flight/hotel information and the project to charge. Ping Donna Winckler that you have a request ready for review.
   - Once Donna has approved your request, book your flight/hotel through the "Travel" tab in Concur. You charge this to the University credit card, not your own.
 
@@ -209,6 +210,7 @@ There are some instances where we pay for visitor travel (e.g. emLab seminar spe
 All employees and affiliates of the University are eligible for comprehensive trip insurance at no cost. This policy offers much more than just lost luggage replacement.
 
 For example:
+
 - If you are injured or become ill while travelling on University business, it covers all medical treatment/hospitalization costs, as well as any expenses for changed itineraries or modes of transport.  
 - If you have to be extracted from your destination due to political violence or a weather-related emergency, all costs are covered.
 
