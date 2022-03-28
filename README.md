@@ -9,7 +9,7 @@ A manual for all things emLab: <https://emlab-ucsb.github.io/emlab-manual/>
 3. emLab culture and values
 4. Code of conduct
 5. Expectations
-6. Feedback and growth
+6. Feedback and learning
 7. Project scoping and selection
 8. emLab workflow and platforms
 9. Project management
