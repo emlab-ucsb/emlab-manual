@@ -19,13 +19,13 @@ We have created a number of internal emLab processes and structures to provide o
 
 ## Career growth and professional development
 
-Recruiting top talent
+### Recruiting top talent
 
 - emLab aims to recruit and retain a diverse and cohesive team who thrive in an entrepreneurial setting, are adaptable, flexible problem solvers and embrace an open, generous, and collaborative approach.
 - Our full recruiting process is outlined [here](https://docs.google.com/document/d/1sId9cjyuz_7Z7VoQqG0J-n1cbS4WOVK5g6htw72tTFU/edit). It includes information about who is involved in the recruiting process and how to decrease implicit bias at every stage of the process.
 - Maintain a consistent [onboarding process](https://emlab-ucsb.github.io/emlab-manual/onboarding.html) that is thoughtful and sets guidelines and expectations
 
-Supervisor check-ins
+### Supervisor check-ins
 
 - Supervisors provide mentorship, feedback, discuss professional development opportunities, etc.
   - For any new staff, Executive Director proposes a supervisor and one or more Program Directors approves final decision 
@@ -35,7 +35,7 @@ Supervisor check-ins
   - The purpose of these meetings is to first and foremost foster a relationship between the employee and supervisor. Potential items to discuss include: workload, task prioritization, problem solving advice, feedback on performance, professional development, and advancement opportunities. 
   - Supervisors and supervisees can utilize this [individual mentoring plan template](https://docs.google.com/document/d/1ZilxwUco4GP7v5xDwEYhl0yS4IVENwfk7eGrdvOfhkA/edit) to guide conversations on feedback, goals and milestones. If using, individual mentoring plans should be revisited on quarterly basis. 
 
-## Annual review process
+### Annual review process
 
 emLab holds annual reviews to provide a reciprocal forum for staff to receive feedback, answer any questions on their role, projects, and responsibilities, and discuss short- and long-term goals. This is a good opportunity for each employee to share their professional development goals and career aspirations with their supervisor, and identify ways that emLab can help each team member succeed with targeted support, training, or mentorship. 
 
@@ -64,19 +64,19 @@ Reviews are generally about an hour long and are structured as follows:
   - Medium-term (1 - 2 years) 
   - Long-term (5 - 10 years) 
 
-## University merit review process
+### University merit review process
 
 UCSB policies and procedures for all academic titles (e.g., faculty, Specialists, Academic Coordinators), including information about appointments and advancements are contained within academic personnel’s “[Red Binder](https://ap.ucsb.edu/policies.and.procedures/red.binder/table.of.contents/)”.
 
 Please see this [presentation](https://docs.google.com/presentation/d/1ICXIWE3d4BB2Uh_alx1GjqsTD3DFSskoa6U9IamSMOY/edit?usp=sharing) for a distilled overview of UCSB’s merit review process for Specialist and Academic Coordinator series titles. Reach out to your supervisor in advance to discuss if you will be pursuing a merit increase and for resources as you draft your materials.
 
-## Speakers, classes, workshops, and mentorship opportunities
+### Speakers, classes, workshops, and mentorship opportunities
 
 There are lots of opportunities at Bren, MSI, and UCSB for continued growth and learning from visiting speakers to auditing courses to advising students and group projects. We are very supportive of these types of activities for personal and professional growth as long as you’re getting your work done. 
 
 For opportunities with a bigger time commitment, like auditing a class or advising a Bren GP, please talk to your supervisor ahead of time to discuss a plan for balancing your project portfolio. 
 
-## University and community resources
+### University and community resources
 
 **EcoDataScience study group**
 
