@@ -1,9 +1,9 @@
 ---
-title: "Feedback and growth"
+title: "Feedback and learning"
 output: html_document
 ---
 
-# Feedback and growth
+# Feedback and learning
 
 ## Overview of our feedback mentality
 
@@ -17,7 +17,27 @@ We have created a number of internal emLab processes and structures to provide o
 - **Monthly project management meetings** are held with all emLab project managers to anticipate and workshop project changes and challenges and collectively and collaboratively improve emLab project management.
 - [**Project exit interviews**](https://emlab-ucsb.github.io/emlab-manual/project-management.html#wrapping-up-a-project) are held after the completion of every project to capture lessons learned, evaluate successes and challenges, and identify potential next steps. 
 
+## Career growth and professional development
+
+Recruiting top talent
+
+- emLab aims to recruit and retain a diverse and cohesive team who thrive in an entrepreneurial setting, are adaptable, flexible problem solvers and embrace an open, generous, and collaborative approach.
+- Our full recruiting process is outlined [here](https://docs.google.com/document/d/1sId9cjyuz_7Z7VoQqG0J-n1cbS4WOVK5g6htw72tTFU/edit). It includes information about who is involved in the recruiting process and how to decrease implicit bias at every stage of the process.
+- Maintain a consistent [onboarding process](https://emlab-ucsb.github.io/emlab-manual/onboarding.html) that is thoughtful and sets guidelines and expectations
+
+Supervisor check-ins
+
+- Supervisors provide mentorship, feedback, discuss professional development opportunities, etc.
+  - For any new staff, Executive Director proposes a supervisor and one or more Program Directors approves final decision 
+  - Postdocs and researchers are supervised by emLab Principal Investigators or other researchers
+  - Project managers and operations staff are supervised by ED or other project management/operations staff
+- The supervisor and employee should have regular check-ins at least monthly
+  - The purpose of these meetings is to first and foremost foster a relationship between the employee and supervisor. Potential items to discuss include: workload, task prioritization, problem solving advice, feedback on performance, professional development, and advancement opportunities. 
+  - Supervisors and supervisees can utilize this [individual mentoring plan template](https://docs.google.com/document/d/1ZilxwUco4GP7v5xDwEYhl0yS4IVENwfk7eGrdvOfhkA/edit) to guide conversations on feedback, goals and milestones. If using, individual mentoring plans should be revisited on quarterly basis. 
+
 ## Annual review process
+
+emLab holds annual reviews to provide a reciprocal forum for staff to receive feedback, answer any questions on their role, projects, and responsibilities, and discuss short- and long-term goals. This is a good opportunity for each employee to share their professional development goals and career aspirations with their supervisor, and identify ways that emLab can help each team member succeed with targeted support, training, or mentorship. 
 
 The [emLab annual review process](https://docs.google.com/presentation/d/1rB5Dnh2YC85HZov47wqNtdfAZOVCY14N-f5F0I5bf8c/edit#slide=id.p1) is part of a broader strategy to foster a culture of growth and learning at emLab. emLab’s internal reviews include an emLab [“Behaviorally Anchored Rating Scale (BARS)”](https://docs.google.com/spreadsheets/d/1D4y_JSnv7th5ayyNecqG8XdJhDw4JoRIRjlx8pew0Xk/edit#gid=1854751817) assessment to help provide targeted and constructive feedback. The assessment focuses on four categories: 1) quality of work and time management, 2) creative problem-solving, adaptability, and innovation, 3) collaboration and teamwork, and 4) effective communication. These categories and the criteria they comprise are not necessarily comprehensive of all skills across the different roles on our team, but they represent core competencies that are critical to both individual and emLab productivity and performance. 
 
@@ -44,12 +64,32 @@ Reviews are generally about an hour long and are structured as follows:
   - Medium-term (1 - 2 years) 
   - Long-term (5 - 10 years) 
 
-
-## Supervisor responsibilities and check-ins 
-Coming soon
-
 ## University merit review process
 
 UCSB policies and procedures for all academic titles (e.g., faculty, Specialists, Academic Coordinators), including information about appointments and advancements are contained within academic personnel’s “[Red Binder](https://ap.ucsb.edu/policies.and.procedures/red.binder/table.of.contents/)”.
 
 Please see this [presentation](https://docs.google.com/presentation/d/1ICXIWE3d4BB2Uh_alx1GjqsTD3DFSskoa6U9IamSMOY/edit?usp=sharing) for a distilled overview of UCSB’s merit review process for Specialist and Academic Coordinator series titles. Reach out to your supervisor in advance to discuss if you will be pursuing a merit increase and for resources as you draft your materials.
+
+## Speakers, classes, workshops, and mentorship opportunities
+
+There are lots of opportunities at Bren, MSI, and UCSB for continued growth and learning from visiting speakers to auditing courses to advising students and group projects. We are very supportive of these types of activities for personal and professional growth as long as you’re getting your work done. 
+
+For opportunities with a bigger time commitment, like auditing a class or advising a Bren GP, please talk to your supervisor ahead of time to discuss a plan for balancing your project portfolio. 
+
+## University and community resources
+
+**EcoDataScience study group**
+
+[EcoDataScience](https://eco-data-science.github.io/) is an environmental data science study group based at UCSB that offers opportunities for skill sharing, co-working, and community building. The group hosts sessions that teach coding and data analysis skills, often utilizing live-coding/interactive components. Previous sessions are available on GitHub (see the “Previous Sessions” section on the website for a full list). To join the group and receive updates regarding upcoming sessions, [join the Google Group](https://groups.google.com/g/eco-data-science). The [EcoDataScience Slack workspace](https://ecodatascience.slack.com/join/shared_invite/enQtNTE1MjAxMTU2NjQwLTZmYjQ5OGIyNjM0YTM4ZDhiMTA2Njc1Mjg2YjFlYWEwZDhlNjJmMTE3MzI2ZmM4ZTJhYTczNmZhYjk3YTI5NjU#/shared-invite/email) is a great place to seek and share coding advice in real time. 
+
+**R-Ladies Santa Barbara**
+
+R-Ladies Santa Barbara is a meet-up group for R-users of all proficiency levels who are interested in mentoring, networking, and expert upskilling. This community is designed to develop R skills and knowledge through social, collaborative learning, and sharing. To receive updates regarding upcoming events, [join the group](https://www.meetup.com/rladies-santa-barbara/?_cookie-check=jx47bmy9WQ1GyzUD).
+
+**UCSB Software Carpentry data science workshops**
+
+The UCSB Library hosts a series of [Software and Data Carpentry workshops](https://ucsbcarpentry.github.io) that take place throughout the year. These guided and hands-on workshops focus on data science topics ranging from introductory Python courses to using R for spatial data analysis. Each workshop is designed for individuals with no previous knowledge on the topic. The workshops are also a great opportunity to engage with the broader UCSB data science community, as well as with the international [Carpentries](https://carpentries.org) community that teaches foundational data science skills to researchers worldwide. These workshops are usually free for all UCSB undergraduate, staff, graduate students, and faculty researchers (in person workshops may charge a small fee to cover snacks). We encourage emLab staff to take advantage of these great workshops.
+
+In case you’re not able to join a workshop or are interested in past topics, all [past UCSB workshop materials](https://ucsbcarpentry.github.io/past-workshops/) are available online. Content from additional workshops are available through the international Carpentries community for [Data Carpentries](https://datacarpentry.org/lessons/), [Software Carpentries](https://software-carpentry.org/lessons/), and [Library Carpentries](https://librarycarpentry.org/lessons/. The workshops that are hosted by the UCSB Library are chosen based on public demand. If there is a workshop that you are interested in that is not currently being taught, please reach out to library-collaboratory@ucsb.edu.
+
+Finally, if you are interested in getting involved and helping teach any of these courses, they are always looking for [volunteers](https://ucsbcarpentry.github.io/community/instructors) as helpers and instructors. To serve as a helper or instructor in a workshop, you will need to have experience in the workshop’s topic, but you do not need additional certifications. Feel free to reach out to Echelle Burns (mailto:echelle_burns@ucsb.edu) to learn more.
