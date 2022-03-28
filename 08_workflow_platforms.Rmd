@@ -14,7 +14,7 @@ Coming soon
 
 ## Calendar
 
-Our team relies heavily on Google Calendar to check team member’s availability and schedule meetings. Please keep your calendar up to date!
+Our team relies heavily on Google Calendar to check team members' availability and schedule meetings. Please keep your calendar up to date!
 
 **Setting out of office notifications**
 
@@ -38,7 +38,7 @@ Slack is organized into channels and direct messages. Channels are a way to orga
 
 The status feature is helpful for letting others know if you are in a meeting or on vacation, and therefore may not be responding in a timely manner. 
 
-One great thing about Slack is that it’s searchable. You can search either by person or keywords to find old messages. Additionally, if someone sends you something you will need to reference multiple times, you can save messages and view them by selecting “saved items” in the left menu bar on Slack.
+One great thing about Slack is that it’s searchable. You can search either by person or keywords to find old messages. Additionally, if someone sends you something you will need to reference multiple times, you can save messages by clicking on the bookmark icon on the top right hand corner of the slack and view them by selecting “saved items” in the left menu bar on Slack. You can also mark messages as unread or be reminded about them later by clicking on the 3 vertical dots on a message and selecting “mark unread” or “remind me about this.”
 
 People have differing notification preferences, which you can set under Preferences → Notifications. If someone sends you a direct message or tags you, a number will show up on your slack app. If they add something to a channel you are on but don’t tag you, a red dot will show up. To ensure someone gets a numbered notification, either tag them (i.e. @Erin) or tag the channel (i.e. @channel). Tagging the channel will send a notification to every member of that channel.
 
@@ -70,6 +70,10 @@ A full table of contents can be seen [here](https://docs.google.com/document/d/1
 There are multiple levels of access people can have to the Shared Drive: member level (i.e. has access to everything within the Shared Drive), folder level, and file level. Members of the Shared Drive can see all folders and files within the Drive. *If you want to send a quick link to someone who is part of the Shared Drive, simply copy the URL from your browser.* There is no need to create a shared link if you are sending it to someone with access to the emLab Shared Drive. 
 
 Sharing files and folders with external people works the same as a regular Google Drive folder or file. Simply select “Share” and either add people’s emails or create a shared link.
+
+### Shared Drive permissions
+
+All full time staff (PIs, postdocs, project researchers, ops) will be added as members of the Shared Drive. Students and collaborators will be added at the folder level for those projects they are engaged in. They can either be directly added to the folder or given a shareable link for access. *Note: some institutions are Outlook based and there may be restrictions in adding their university emails to Shared Drive.* 
 
 ### Linking the Shared Drive and your Computer
 
