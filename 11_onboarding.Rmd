@@ -71,7 +71,7 @@ You have 31 days from your start date to select your health benefits (i.e. medic
 ## Relevant listservs and resources
 
 This section outlines points of contact and resources for more general support. 
-For Bren Hall building and shower keys, and to make copies/scan/fax, contact Corina Aguiar (corina@bren.ucsb.edu, 2400 Bren Hall). 
+For Bren Hall building and shower keys, and to make copies/scan/fax, contact Sara Mata (sarajoymata@ucsb.edu, 2400 Bren Hall). 
 
 For IT support: reach out to the IT department for the building you are housed in – Bren (compute@bren.ucsb.edu) or MSI (help@msi.ucsb.edu). 
 
@@ -93,15 +93,107 @@ For information on Bren and MSI news and events, sign up to receive updates from
 
 Your first week at emLab will mainly focus on setting up your UCSB accounts, introducing you to emLab and how we work, and getting you settled in your new role. Starting with the basics, we will give you a tour of your office and the building it is situated in, and get you set up with an office key and wifi. Depending on availability, we will either provide a computer to you or order a new one with the necessary specs. 
 
+Key acquisition methods depend on which building your office is located in. Erin will initiate the first email with the correct contact and, for reference, Kim Taylor (kim.taylor@ucsb.edu) handles keys for MSI and Sara Mata (sarajoymata@ucsb.edu) handles keys for Bren. 
+
 If starting on a Monday, you will also be able to meet the team at our Monday Morning Meeting. Here’s a [list of the emLab team](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit?usp=sharing). 
 
 There are four key meetings that will occur during your first week:
 
 - Meeting with Michaela, emLab’s Executive Director: an introduction to emLab and our work culture and values
 - Meeting with Erin, emLab’s Projects and Operations Manager: an overview of emLab’s platforms, resources, and workflow
-- Meeting with your supervisor: a deeper dive into your job duties and the project team you will be working with. You will also review the cadence of check-in meetings. 
+- Meeting with your supervisor: a deeper dive into your job duties and the project team you will be working with. You will also review the cadence of check-in meetings.
 - And last but not least, a welcome lunch or happy hour!
 
 Once you have your UCSB email, Erin will add you to all of the relevant emLab platforms (e.g., slack, shared drive, etc.). 
 
 If you have any questions as you start getting up to speed, please don’t hesitate to reach out to Erin or your supervisor!
+
+## Santa Barbara recommendations
+
+If you are new to the area (or just looking for new recommendations), here’s a list of good food, drinks, and activities in Santa Barbara. Let Erin know if there are other recs you want to add to this list!
+
+**Drinks**
+
+- Beer
+  - M Special
+  - Captain Fattys 
+  - Institution Ale 
+  - Third Window (they also have amazing smash burgers on the weekend)
+  - Lama Dog/Topa Topa 
+  - Figueroa Mountain
+  - Biergarten
+- Wine
+  - Deep Sea (best view ever!)
+  - The Valley Project
+  - Municipal Winemakers
+  - Pali
+  - Margerum
+- Cocktails
+  - Good Lion
+  - Imperial
+  - Shaker Mill
+- Coffee
+  - Dune
+  - Handlebar
+  - Caje (the Arlington one is awesome)
+  - Dart
+  
+**Food**
+
+- Breakfast
+  - Dawn Patrol
+  - Scarlett Begonia
+  - Hook and Press (donuts)
+  - Daily Grind (smoothies, scones, muffins, breakfast burritos)
+  - The Shop
+- Lunch/dinner
+  - Mony’s (mexican)
+  - Lily’s Tacos (mexican)
+  - Altamarinos (mexican)
+  - Los Agaves (mexican)
+  - Apna (indian)
+  - Empty Bowl (thai)
+  - Sama Sama (southeast asian)
+  - The Lark (farm to table)
+  - Loquita (tapas, gin and tonics)
+  - Bettina (pizza)
+  - Secret Bao (asian with some fun fusion dishes like udon carbonara)
+  - South Coast Deli (sandwiches and salads)
+  - Blue Owl
+  - Yellow Belly
+- Other
+  - Rory’s (ice cream)
+  - McConnells (ice cream)
+  - Oat Bakery (bread)
+  
+**Hikes**
+
+- Inspiration point
+- Cathedral peak
+- 3 pools 7 falls
+- Gaviota peak
+- Romero
+- Rattlesnake
+
+**Dives**
+
+- Shore: Refugio
+- Boat: any of the Channel Islands
+
+**Places and activities**
+
+- Cold Springs Tavern (beer, tri-tip and music on the weekend)
+- Red Rock (swimming and jumping off rocks in the river)
+- Knapps Castle
+- More Mesa Beach
+- Wine tasting in the Santa Ynez valley
+- Ellwood Bluffs
+- Beer/wine tasting in the funk zone
+- East Beach and Leadbetter are the easiest to post up at for a beach day
+
+**Other things**
+
+- Farmer’s market
+  - Downtown: Tuesday afternoon and Saturday mornings
+  - Goleta: Sunday
+- CSA boxes (e.g. farmcart organics)
