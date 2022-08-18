@@ -159,7 +159,7 @@ There are two ways the University can pay for your travel expenses prior to your
   - Once a full draft of your request is ready, email Donna at MSI (donna.dobis@ucsb.edu) so she can review the request for compliance and completion. You submit the request after you get an ok from her. 
   - When you return, you will claim the amount you were given in your cash advance on your travel reimbursement expense form so that you don’t double count any expenditures. Watch [this video](https://ucsb.service-now.com/kb?sys_kb_id=7bc82fb41bc40150e9250f22604bcb87&id=kb_article_view&sysparm_rank=3&sysparm_tsqueryId=28d6022c1bbdc51078889683b24bcb74) for instructions on how to apply a cash advance in an expense report.
   
-- **Concur Travel** - What was previously Connexxus is now housed within Concur and can be used to book flights, rental cars, or hotels. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
+- **Concur Travel**: What was previously Connexxus is now housed within Concur and can be used to book flights, rental cars, or hotels. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
   - Submit a request in Concur for your trip that includes the flight/hotel information and the project to charge. Ping Donna Winckler that you have a request ready for review.
   - Once Donna has approved your request, book your flight/hotel through the "Travel" tab in Concur. You charge this to the University credit card, not your own.
 
@@ -217,7 +217,7 @@ Once you have logged into Concur, follow these steps to prepare your expense rep
     - Report type = entertainment
     - Event types are outlined [here](https://www.bfs.ucsb.edu/travel_entertainment/entertainment-reimbursement) by UCSB’s BFS. 
     - When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.
-    - FAU = the project code. Note: you may have to enter the project code between stars (e.g. *EMS05Z*) for it to populate the search field.
+    - FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.
     - Cost type = ENT
     - Sub account for entertainment = 3
 3. Once the “metadata” for the report is created, you will be directed to a screen that allows you to add expenses. For each expense entry, fill out the relevant information and upload your receipt(s). Most of our entertainment reimbursements will fall under the “Business Meeting Exp. - Food, Rental, Supplies” expense type. 
@@ -235,7 +235,7 @@ Travel reimbursements are handled through [Concur](http://www.concursolutions.co
 2. Fill out the fields listed on the report (e.g. trip name, date, business purpose, etc.). 
     - Report type = Travel foreign, Travel in state, or Travel out of state
     - When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.
-    - FAU = the project code. Note: you may have to enter the project code between stars (e.g. *EMS05Z*) for it to populate the search field. 
+    - FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field. 
     - Cost type = TRV
     - Sub accounts: domestic travel = 5, foreign travel = 7
     - If you are claiming per diem for international travel, click “yes, I want to claim Travel Allowance” at the bottom of the page. Further details on claiming per diem are listed below.

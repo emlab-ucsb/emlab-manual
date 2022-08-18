@@ -54,6 +54,7 @@ One of emLab’s main goals is to build a vibrant intellectual community of peop
 - The University provides these resources ([TAP](https://www.tps.ucsb.edu/commuter-options)) for commuting to and from campus.
 
 *Fully remote team members*
+
 - emLab team members will be based at the UCSB campus unless you have a previously agreed-upon arrangement with your supervisor. Exceptions to this may be granted on an as-needed basis for projects requiring remote work.
 
 *COVID protocols for working from the office*
