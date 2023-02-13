@@ -15,8 +15,7 @@ One of emLab’s main goals is to build a vibrant intellectual community of peop
 **Overview of the hybrid model**
 
 - emLab will return to in-person work starting the week of September 12.
-- All Santa Barbara-based team members will be expected to work from campus Tuesday - Thursday and have the option to work remotely Monday and Friday.
-  - If the University *requires or strongly recommends* that masks be worn in indoor spaces, the in-person days will be Tuesday and Wednesday with the additional option to work remotely on Thursday.
+- All Santa Barbara-based team members will be expected to work from campus Tuesday - Wednesday and have the option to work remotely Monday, Thursday, and Friday.
   - Take advantage of in person/on campus days for things like: internal team meetings, structured and unstructured time with your project teams, brainstorming sessions, walking and running meetings, collaborative writing, working sessions, troubleshooting with colleagues, white board sessions, etc.
   - Take advantage of remote days for things like: focused work, ‘deep’ work, coding, focused writing, 1:1 meetings that don’t fit in other days, etc
 - All Santa Barbara-based team members will have [assigned office space](https://docs.google.com/document/d/1_VZPN_Ecz0ylSm6DJhV-pNkTGzA-G3FKOh-bqx2lm-8/edit) on the UCSB campus.
