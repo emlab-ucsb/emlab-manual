@@ -91,10 +91,10 @@ As we transition back to the office, emLab will be testing out approaches to hyb
 
 The maximum rates allowed per person (including tax and tip) for entertainment are:
 
-- Breakfast: $27
-- Lunch: $45
-- Dinner: $81
-- Light Refreshment: $19 
+- Breakfast: $31
+- Lunch: $54
+- Dinner: $94
+- Light Refreshment: $22 
 
 ### Catering options
 
@@ -119,7 +119,7 @@ View a list of approved caterers here: [](https://www.ehs.ucsb.edu/caterers) (So
 
 If you are using a caterer other than Campus Catering, you may have to fill out a [Catering Permit](https://www.ehs.ucsb.edu/files/docs/rm/UCSBCateringPermit.pdf). You DO NOT need a permit for the following:
 
-- Food being delivered to campus is less than $150 
+- Food being delivered to campus is less than $300 
 - Pizza delivery
 - If you are picking up food from a grocery store or restaurant
 
