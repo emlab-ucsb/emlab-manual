@@ -114,6 +114,7 @@ emLab hosts a variety of events to foster a deep sense of community across roles
 We know things can come up that sometimes make it impossible to join everything, but we want to clarify that we do expect everyone to do their best to participate in team events, particularly the Tuesday Team Time meetings. Beyond that, if you find yourself with a lot on your plate, please use your discretion to decide when your participation will yield high returns, and do not feel obligated to participate in events that you don’t think will be a valuable use of your time. Each of us has unique interests, areas of expertise, and professional goals, and we trust that those will inform the decisions you make for yourself!
 
 Events organizers include:
+
 *emLab operations team*
 
 - Executive Director - Michaela Clemence
@@ -130,12 +131,13 @@ Events organizers include:
 Here’s an overview of emLab events and the objectives of each, items with a * are highly encouraged:
 
 **Meetings**
+
 Meetings that facilitate the day-to-day workings on emLab. These serve as information conduits from leadership to staff as well as staff-to-staff support and collaboration. These are organized by the emLab operations team.
 
 - *Tuesday Team Time (TTT) 
   - Who: emLab staff and postdocs
   - Cadence: weekly on Tuesdays
-  - Structure: Learn about current work at emLab, celebrate successes, share team-wide announcements. 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the     first Monday of the month), or mingling
+  - Structure: Learn about current work at emLab, celebrate successes, share team-wide announcements. 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the     first Monday of the month), or mingling.
   - Detailed guidelines live [here](https://docs.google.com/document/d/1pDRWrrJXeecyF2jE2nIaWqX83x0VmDwVSrdqAbHKFrg/edit) and the schedule lives [here](https://docs.google.com/spreadsheets/d/18CCbR-YhboPHV_b-f5AHf0NQFxyQJ1R9fMWugcuXXtU/edit#gid=0)
   - POC: Events Manager
 - Project Management Meetings
@@ -150,6 +152,7 @@ Meetings that facilitate the day-to-day workings on emLab. These serve as inform
   - POC: Partnerships & Grants Manager
 
 **Community events**
+
 Events geared towards community building and dissemination of information. 
 
 - *Team lunches
@@ -174,6 +177,7 @@ Events geared towards community building and dissemination of information.
   - POC: Executive Director/Program Manager
   
 **Academic events**
+
 Events geared towards advancing current research, fostering collaboration, and networking to build stronger academics. These are organized by the Rotating Faculty Representatives and Events Manager. 
 
 - Research roundtable
