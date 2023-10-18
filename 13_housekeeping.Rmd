@@ -46,7 +46,7 @@ We can self-book the following rooms:
 
 Comprehensive details about amenities and seating are available on the [Bren website](https://bren.ucsb.edu/rooms).
 
-Contact scheduling@bren.ucsb.edu if you would like to reserve the Dean’s Conference Room (BH 2436), Bren 1414 (large lecture hall), or Bren 1424 (larger seminar room/classroom).
+Submit a [Bren Hall Room Request Form](https://bren.formstack.com/forms/bren_room_request) if you would like to reserve the Dean’s Conference Room (BH 2436), Bren 1414 (large lecture hall), or Bren 1424 (larger seminar room/classroom).
 
 Instructions for how to self-book rooms:
 
@@ -55,7 +55,7 @@ Instructions for how to self-book rooms:
 3. Select the date you want to meet (up to 14 days in advance).
 4. Based upon which rooms are available, select the room and time you want by clicking in the corresponding area of the chart.
 5. A box will open for you to enter the meeting details.
-6. Type a title for your meeting (be sure to include your last name).
+6. Type a title for your meeting. Please include your last name, affiliation, and title of the event (e.g. Clemence, emLab, Lab Group Meeting).
 7. Select the end time (two hours maximum).
 8. If you choose to invite guests, select them by typing their names or email addresses in the “Invite Guests” field.
 9. Click “Book Now”.
