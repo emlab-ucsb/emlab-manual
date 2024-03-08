@@ -145,7 +145,7 @@ Below are instructions for signing up for a GRIT account and setting up Nextclou
 
 **If you do not yet have a GRIT account**
 
-1. Fill out the GRIT compute access request form (CARF): [](https://forms.gle/kqzttgMAjzt867FZA)
+1. Fill out the GRIT compute access request form (CARF): [https://forms.gle/kqzttgMAjzt867FZA](https://forms.gle/kqzttgMAjzt867FZA)
     - Under “Faculty” put: Christopher Costello
     - Under “Research Group Name” put: emLab
     - Under “GRIT Server or Service that the person will need access to?” put: **emLab group membership (for accessing emLab data storage space and emLab computational servers, including quebracho and sequoia) and Nextcloud group membership.**
@@ -153,15 +153,15 @@ Below are instructions for signing up for a GRIT account and setting up Nextclou
 
 2. You should receive an email from GRIT saying that your account has been created. Follow any additional instructions provided by GRIT.
 
-3. Create your GRIT access credentials at the following link: [](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
+3. Create your GRIT access credentials at the following link: [https://dc1.grit.ucsb.edu/](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
 
 **If you already have a GRIT account but are not connected to the emLab group**
 
 1. Send a help ticket email to GRIT (help@grit.ucsb.edu). Say that you are part of the emLab research group, which has Christopher Costello as the faculty PI. Ask them to please connect the email to the emLab group membership (for accessing emLab data storage space and emLab computational servers, including quebracho and sequoia) and Nextcloud group membership. Follow any additional instructions provided by GRIT.
 
-2. Create your GRIT access credentials at the following link: [](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
+2. Create your GRIT access credentials at the following link: [https://dc1.grit.ucsb.edu/](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
 
-**If you ever need to reset your password,** you can use the following link: [](https://selfservice.grit.ucsb.edu/).
+**If you ever need to reset your password,** you can use the following link: [https://selfservice.grit.ucsb.edu/](https://selfservice.grit.ucsb.edu/).
 
 ### Setting up Nextcloud on your local machine
 
@@ -204,7 +204,7 @@ There are generally three approaches for syncing and streaming files to your loc
     - Synced directories will be available offline without internet access.
 - Cons
     - Synced directories will take up space on your local machine. Since many of our directories are quite large, you will need to ensure you have sufficient hard drive space to sync the directories you want.
-    - You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: [](https://nextcloud.grit.ucsb.edu/index.php/apps/files)
+    - You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: [https://nextcloud.grit.ucsb.edu/index.php/apps/files](https://nextcloud.grit.ucsb.edu/index.php/apps/files)
     - Whenever you join projects or leave projects, you will need to manually selectively sync directories onto your local machine as needed. So this will require some level of continual effort to ensure the right directories and files are synced.
 
 **Option 3: “Stream” the entire emLab directory using virtual files, while also syncing a subset of the most relevant directories to be available locally.** We imagine that for most people, this will combine the most important pros and avoid the most painful cons from the above two approaches. Additionally, since many researchers will be performing computation on one of the emLab servers, it may be less necessary to sync data files onto your local machine.
