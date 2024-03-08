@@ -438,7 +438,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <div id="configuring-how-the-nextcloud-desktop-app-will-sync-or-stream-files-to-your-local-machine" class="section level4">
 <h4><span class="header-section-number">8.6.2.2</span> Configuring how the Nextcloud desktop app will sync or stream files to your local machine</h4>
 <p>There are generally three approaches for syncing and streaming files to your local machine using the Nextcloud desktop app. We will provide instructions for each of these 3 approaches so that individuals can choose what works best for them. Generally though, we recommend option #3.</p>
-<p><em>Option 1:</em> “Stream” the entire emLab directory using virtual files.</p>
+<p><strong>Option 1: “Stream” the entire emLab directory using virtual files.</strong></p>
 <ul>
 <li>Pros
 <ul>
@@ -450,7 +450,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <li>Virtual files have a .nextcloud extension, since they are just a pointer file. This means for instance that they cannot be directly read into R. To open a virtual file on your local machine, you need to first double-click on it (or right-click on it and say “Make always available locally”). Once you’ve done this, the virtual file is now available on your local machine, but it also now takes up hard drive space.</li>
 </ul></li>
 </ul>
-<p><strong>Option 2:</strong> Selectively “sync” only a subset of directories. Using this approach, each individual manually selects which directories they want to sync to their local machine. For example, you may choose to only sync the project directories you are actively working with. The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire emLab directory on your local machine.</p>
+<p><strong>Option 2: Selectively “sync” only a subset of directories.</strong> Using this approach, each individual manually selects which directories they want to sync to their local machine. For example, you may choose to only sync the project directories you are actively working with. The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire emLab directory on your local machine.</p>
 <ul>
 <li>Pros
 <ul>
@@ -466,16 +466,18 @@ The emLab Shared Drive is organized into three main folders:</p>
 <li>Whenever you join projects or leave projects, you will need to manually selectively sync directories onto your local machine as needed. So this will require some level of continual effort to ensure the right directories and files are synced.</li>
 </ul></li>
 </ul>
-<p><strong>Option 3:</strong> “Stream” the entire emLab directory using virtual files, while also syncing a subset of the most relevant directories to be available locally. We imagine that for most people, this will combine the most important pros and avoid the most painful cons from the above two approaches. Additionally, since many researchers will be performing computation on one of the emLab servers, it may be less necessary to sync data files onto your local machine.</p>
+<p><strong>Option 3: “Stream” the entire emLab directory using virtual files, while also syncing a subset of the most relevant directories to be available locally.</strong> We imagine that for most people, this will combine the most important pros and avoid the most painful cons from the above two approaches. Additionally, since many researchers will be performing computation on one of the emLab servers, it may be less necessary to sync data files onto your local machine.</p>
 <div id="file-option-1-streaming-entire-emlab-directory-using-virtual-files" class="section level5">
 <h5><span class="header-section-number">8.6.2.2.1</span> File option 1: Streaming entire emLab directory using virtual files</h5>
 <p><strong>Step 1:</strong> After logging in, you will be brought back to the Nextcloud app. Click “Skip folders configuration”. We will set up the necessary connections in a minute. This is important! The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire directory on your local machine.</p>
 <p><img src="images/nextcloud3.png" /></p>
-<p>**Step 2:* Before continuing, you now need to to set up virtual file support for your local machine, follow these instructions, which vary by system.</p>
-<p>Mac: navigate to the folder <strong>~/Library/Preferences/Nextcloud</strong>. You can do this through the Finder, but a faster way to do this is as follows:
-- Copy and paste this directory path.
-- Open the Spotlight Search, either by pressing command-space or by clicking on the magnifying glass in the upper right-hand corner of your screen.
-- Paste the directory path into the box, then double-click “Nextcloud” to navigate to the directory.</p>
+<p><strong>Step 2:</strong> Before continuing, you now need to to set up virtual file support for your local machine, follow these instructions, which vary by system.</p>
+<p>Mac: navigate to the folder <strong>~/Library/Preferences/Nextcloud</strong>. You can do this through the Finder, but a faster way to do this is as follows:</p>
+<ul>
+<li>Copy and paste this directory path.</li>
+<li>Open the Spotlight Search, either by pressing command-space or by clicking on the magnifying glass in the upper right-hand corner of your screen.</li>
+<li>Paste the directory path into the box, then double-click “Nextcloud” to navigate to the directory.</li>
+</ul>
 <p><img src="images/nextcloud4.png" /></p>
 <ul>
 <li>Right-click on the file nextcloud.cfg, click “Open with”, then click “TextEdit”. This will now open the configuration file which you will need to edit.</li>
@@ -488,11 +490,13 @@ The emLab Shared Drive is organized into three main folders:</p>
 <ul>
 <li>Finally, save the document (File -&gt; Save), and quit (TextEdit -&gt; Quit TextEdit).</li>
 </ul>
-<p>Linux
-- Navigate to the directory <strong>~home/your_username/.config/Nextcloud</strong> (where your your_username is your individual personal user name)
-- Open the file <strong>nextcloud.cfg</strong> with a text editor
-- Add the following line under the [General] header: <strong>showExperimentalOptions=true</strong>
-- Save the file and quit your text editor</p>
+<p>Linux</p>
+<ul>
+<li>Navigate to the directory <strong>~home/your_username/.config/Nextcloud</strong> (where your your_username is your individual personal user name)</li>
+<li>Open the file <strong>nextcloud.cfg</strong> with a text editor</li>
+<li>Add the following line under the [General] header: <strong>showExperimentalOptions=true</strong></li>
+<li>Save the file and quit your text editor</li>
+</ul>
 <p><strong>Step 3:</strong> Go back to the Nextcloud app. Click on your name in the app in the upper-right-hand (upper-left for Linux) corner of your desktop, click on your name, and then click Settings.</p>
 <p><strong>Step 4:</strong> Click “Add folder sync connection”
 <img src="images/nextcloud7.png" /></p>
@@ -509,7 +513,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <h5><span class="header-section-number">8.6.2.2.2</span> File option 2: Syncing a subset of directories</h5>
 <p><strong>Step 1:</strong> After logging in, you will be brought back to the Nextcloud app. Click “Choose what to sync”. This will bring you to a screen that contains all emLab directories. You may now select the subset of directories you wish to sync. Click “Add Sync Connection” after you have selected the appropriate directories.</p>
 <p><img src="images/nextcloud12.png" /></p>
-<p><strong>Step2:</strong> After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.</p>
+<p><strong>Step 2:</strong> After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.</p>
 <p><img src="images/nextcloud13.png" /></p>
 </div>
 <div id="file-option-3-streaming-entire-emlab-directory-using-virtual-files-and-syncing-a-subset-of-directories" class="section level5">
