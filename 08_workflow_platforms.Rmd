@@ -191,7 +191,7 @@ There are generally three approaches for syncing and streaming files to your loc
 - Pros
     - Virtual files operate similarly to “streaming” using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.
     - You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.
-    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! )
+    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! ) More instructions are provided in Step 9 below.
 
     
 - Cons
@@ -279,7 +279,7 @@ Linux
 
 - If at any point in the future you wish to see these directories again on your local machine, you can simply remove the ignore pattern from this list.
 
-**Important Note!** We are currently in an active data migration process moving from Google Shared Drive to GRIT. We are "staging" files in a directory called `emLab/staging`. We *highly* recommend that you add `emLab/staging` and `emLab/staging*` to your ignored file lists. This will ensure that this staging directory cannot be seen or modified on your local machine. Once the migration process is complete, we will be moving all directories into their appropriate locations under the main `emLab` directory and will delete the staging directory.
+**Important Note!** We are currently in an active data migration process moving from Google Shared Drive to GRIT. We are "staging" files in a directory called `emLab/staging`. We *highly* recommend that you add `emLab/staging` and `emLab/staging/*` to your ignored file lists. This will ensure that this staging directory cannot be seen or modified on your local machine. Once the migration process is complete, we will be moving all directories into their appropriate locations under the main `emLab` directory and will delete the staging directory.
 
 ##### File option 2: Syncing a subset of directories
 
