@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>emLab Manual</title>
+  <title>Parent resources</title>
   <meta name="description" content="Everything you need to know about emLab." />
-  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="emLab Manual" />
+  <meta property="og:title" content="Parent resources" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://github.com/emlab-ucsb/emlab-manual" />
   
   <meta property="og:description" content="Everything you need to know about emLab." />
   <meta name="github-repo" content="emlab-ucsb/emlab-manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="emLab Manual" />
+  <meta name="twitter:title" content="Parent resources" />
   
   <meta name="twitter:description" content="Everything you need to know about emLab." />
   
@@ -24,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-03-08" />
+<meta name="date" content="2024-03-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,14 +31,16 @@
   
   
 
-<link rel="next" href="mission-and-research-identity.html">
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="next" href="mission-and-research-identity.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
 
 
 
@@ -47,28 +48,34 @@
 
 
 
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -77,15 +84,15 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -98,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -111,6 +118,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -130,20 +138,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
 <li class="chapter" data-level="2" data-path="mission-and-research-identity.html"><a href="mission-and-research-identity.html"><i class="fa fa-check"></i><b>2</b> Mission and research identity</a></li>
-<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a><ul>
+<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-values"><i class="fa fa-check"></i><b>3.1</b> emLab values</a></li>
 <li class="chapter" data-level="3.2" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-culture"><i class="fa fa-check"></i><b>3.2</b> emLab culture</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>4</b> Code of conduct</a></li>
-<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a><ul>
+<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="expectations.html"><a href="expectations.html#work-environment"><i class="fa fa-check"></i><b>5.1</b> Work environment</a></li>
 <li class="chapter" data-level="5.2" data-path="expectations.html"><a href="expectations.html#time-management"><i class="fa fa-check"></i><b>5.2</b> Time management</a></li>
 <li class="chapter" data-level="5.3" data-path="expectations.html"><a href="expectations.html#project-roles"><i class="fa fa-check"></i><b>5.3</b> Project roles</a></li>
 <li class="chapter" data-level="5.4" data-path="expectations.html"><a href="expectations.html#meetings-and-events"><i class="fa fa-check"></i><b>5.4</b> Meetings and events</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a><ul>
+<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#overview-of-our-feedback-mentality"><i class="fa fa-check"></i><b>6.1</b> Overview of our feedback mentality</a></li>
-<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a><ul>
+<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a>
+<ul>
 <li class="chapter" data-level="6.2.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#recruiting-top-talent"><i class="fa fa-check"></i><b>6.2.1</b> Recruiting top talent</a></li>
 <li class="chapter" data-level="6.2.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#supervisor-check-ins"><i class="fa fa-check"></i><b>6.2.2</b> Supervisor check-ins</a></li>
 <li class="chapter" data-level="6.2.3" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#annual-review-process"><i class="fa fa-check"></i><b>6.2.3</b> Annual review process</a></li>
@@ -152,39 +164,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.2.6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#university-and-community-resources"><i class="fa fa-check"></i><b>6.2.6</b> University and community resources</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a><ul>
+<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#project-selection-criteria"><i class="fa fa-check"></i><b>7.1</b> Project selection criteria</a></li>
 <li class="chapter" data-level="7.2" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#setting-projects-up-for-success-in-project-scoping"><i class="fa fa-check"></i><b>7.2</b> Setting projects up for success in project scoping</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a><ul>
+<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#email"><i class="fa fa-check"></i><b>8.1</b> Email</a></li>
 <li class="chapter" data-level="8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#calendar"><i class="fa fa-check"></i><b>8.2</b> Calendar</a></li>
-<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a><ul>
+<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a>
+<ul>
 <li class="chapter" data-level="8.3.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-scheduling-easier"><i class="fa fa-check"></i><b>8.3.1</b> Making scheduling easier</a></li>
 <li class="chapter" data-level="8.3.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#being-an-effective-communicator-on-zoom"><i class="fa fa-check"></i><b>8.3.2</b> Being an effective communicator on Zoom</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a><ul>
+<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a>
+<ul>
 <li class="chapter" data-level="8.4.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack-basics"><i class="fa fa-check"></i><b>8.4.1</b> Slack basics</a></li>
 <li class="chapter" data-level="8.4.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#creating-a-channel"><i class="fa fa-check"></i><b>8.4.2</b> Creating a channel</a></li>
 </ul></li>
-<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a><ul>
+<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a>
+<ul>
 <li class="chapter" data-level="8.5.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-structure"><i class="fa fa-check"></i><b>8.5.1</b> Shared Drive structure</a></li>
 <li class="chapter" data-level="8.5.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#sharing-files"><i class="fa fa-check"></i><b>8.5.2</b> Sharing files</a></li>
 <li class="chapter" data-level="8.5.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-permissions"><i class="fa fa-check"></i><b>8.5.3</b> Shared Drive permissions</a></li>
 <li class="chapter" data-level="8.5.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#linking-the-shared-drive-and-your-computer"><i class="fa fa-check"></i><b>8.5.4</b> Linking the Shared Drive and your Computer</a></li>
 <li class="chapter" data-level="8.5.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#other-considerations"><i class="fa fa-check"></i><b>8.5.5</b> Other considerations</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a><ul>
+<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a>
+<ul>
 <li class="chapter" data-level="8.6.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#signing-up-for-an-account-with-grit"><i class="fa fa-check"></i><b>8.6.1</b> Signing up for an account with GRIT</a></li>
 <li class="chapter" data-level="8.6.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#setting-up-nextcloud-on-your-local-machine"><i class="fa fa-check"></i><b>8.6.2</b> Setting up Nextcloud on your local machine</a></li>
 </ul></li>
-<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a><ul>
+<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a>
+<ul>
 <li class="chapter" data-level="8.7.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#what-are-git-and-github"><i class="fa fa-check"></i><b>8.7.1</b> What are Git and GitHub?</a></li>
 <li class="chapter" data-level="8.7.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#helpful-terminology"><i class="fa fa-check"></i><b>8.7.2</b> Helpful terminology</a></li>
 <li class="chapter" data-level="8.7.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#how-to-install-git-and-github"><i class="fa fa-check"></i><b>8.7.3</b> How to install Git and GitHub</a></li>
 <li class="chapter" data-level="8.7.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#general-guidelines-for-using-github-at-emlab"><i class="fa fa-check"></i><b>8.7.4</b> General guidelines for using GitHub at emLab</a></li>
 </ul></li>
-<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a><ul>
+<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a>
+<ul>
 <li class="chapter" data-level="8.8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-emlab-the-owner-of-a-library"><i class="fa fa-check"></i><b>8.8.1</b> Making emLab the owner of a library</a></li>
 <li class="chapter" data-level="8.8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#saving-publications-to-a-library"><i class="fa fa-check"></i><b>8.8.2</b> Saving publications to a library</a></li>
 <li class="chapter" data-level="8.8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero-integration-with-googledocs-and-word"><i class="fa fa-check"></i><b>8.8.3</b> Zotero integration with GoogleDocs and Word</a></li>
@@ -192,12 +212,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.9" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#project-management-platforms"><i class="fa fa-check"></i><b>8.9</b> Project management platforms</a></li>
 <li class="chapter" data-level="8.10" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#data-and-code-standard-operating-procedure"><i class="fa fa-check"></i><b>8.10</b> Data and code standard operating procedure</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a><ul>
-<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a><ul>
+<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="project-management.html"><a href="project-management.html#kickoff-meetings"><i class="fa fa-check"></i><b>9.1.1</b> Kickoff meetings</a></li>
 <li class="chapter" data-level="9.1.2" data-path="project-management.html"><a href="project-management.html#setting-up-your-project-on-the-emlab-platforms"><i class="fa fa-check"></i><b>9.1.2</b> Setting up your project on the emLab platforms</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a><ul>
+<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="project-management.html"><a href="project-management.html#moving-from-sow-to-a-work-plan"><i class="fa fa-check"></i><b>9.2.1</b> Moving from SOW to a work plan</a></li>
 <li class="chapter" data-level="9.2.2" data-path="project-management.html"><a href="project-management.html#adaptive-management"><i class="fa fa-check"></i><b>9.2.2</b> Adaptive management</a></li>
 <li class="chapter" data-level="9.2.3" data-path="project-management.html"><a href="project-management.html#running-efficient-meetings"><i class="fa fa-check"></i><b>9.2.3</b> Running efficient meetings</a></li>
@@ -208,7 +231,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.4" data-path="project-management.html"><a href="project-management.html#wrapping-up-a-project"><i class="fa fa-check"></i><b>9.4</b> Wrapping up a project</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="communications-and-outreach.html"><a href="communications-and-outreach.html"><i class="fa fa-check"></i><b>10</b> Communications and outreach</a></li>
-<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a><ul>
+<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="onboarding.html"><a href="onboarding.html#relocating-to-santa-barbara"><i class="fa fa-check"></i><b>11.1</b> Relocating to Santa Barbara</a></li>
 <li class="chapter" data-level="11.2" data-path="onboarding.html"><a href="onboarding.html#employment-paperwork"><i class="fa fa-check"></i><b>11.2</b> Employment paperwork</a></li>
 <li class="chapter" data-level="11.3" data-path="onboarding.html"><a href="onboarding.html#employee-accounts"><i class="fa fa-check"></i><b>11.3</b> Employee accounts</a></li>
@@ -217,36 +241,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="11.6" data-path="onboarding.html"><a href="onboarding.html#your-first-week-at-emlab"><i class="fa fa-check"></i><b>11.6</b> Your first week at emLab</a></li>
 <li class="chapter" data-level="11.7" data-path="onboarding.html"><a href="onboarding.html#santa-barbara-recommendations"><i class="fa fa-check"></i><b>11.7</b> Santa Barbara recommendations</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a><ul>
+<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a>
+<ul>
 <li class="chapter" data-level="12.1" data-path="offboarding.html"><a href="offboarding.html#cleaning-your-computer"><i class="fa fa-check"></i><b>12.1</b> Cleaning your computer</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a><ul>
+<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a>
+<ul>
 <li class="chapter" data-level="13.1" data-path="housekeeping.html"><a href="housekeeping.html#timekeeping"><i class="fa fa-check"></i><b>13.1</b> Timekeeping</a></li>
 <li class="chapter" data-level="13.2" data-path="housekeeping.html"><a href="housekeeping.html#vacation"><i class="fa fa-check"></i><b>13.2</b> Vacation</a></li>
-<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a><ul>
+<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a>
+<ul>
 <li class="chapter" data-level="13.3.1" data-path="housekeeping.html"><a href="housekeeping.html#conference-rooms"><i class="fa fa-check"></i><b>13.3.1</b> Conference rooms</a></li>
 <li class="chapter" data-level="13.3.2" data-path="housekeeping.html"><a href="housekeeping.html#hybrid-meeting-guidance"><i class="fa fa-check"></i><b>13.3.2</b> Hybrid meeting guidance</a></li>
 </ul></li>
-<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a><ul>
+<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a>
+<ul>
 <li class="chapter" data-level="13.4.1" data-path="housekeeping.html"><a href="housekeeping.html#spending-limits"><i class="fa fa-check"></i><b>13.4.1</b> Spending limits</a></li>
 <li class="chapter" data-level="13.4.2" data-path="housekeeping.html"><a href="housekeeping.html#catering-options"><i class="fa fa-check"></i><b>13.4.2</b> Catering options</a></li>
 <li class="chapter" data-level="13.4.3" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements"><i class="fa fa-check"></i><b>13.4.3</b> Entertainment reimbursements</a></li>
 </ul></li>
-<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a><ul>
+<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a>
+<ul>
 <li class="chapter" data-level="13.5.1" data-path="housekeeping.html"><a href="housekeeping.html#general-travel-guidelines"><i class="fa fa-check"></i><b>13.5.1</b> General travel guidelines</a></li>
 <li class="chapter" data-level="13.5.2" data-path="housekeeping.html"><a href="housekeeping.html#paying-for-travel-before-you-leave"><i class="fa fa-check"></i><b>13.5.2</b> Paying for travel before you leave</a></li>
 <li class="chapter" data-level="13.5.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-insurance"><i class="fa fa-check"></i><b>13.5.3</b> Travel insurance</a></li>
 <li class="chapter" data-level="13.5.4" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements"><i class="fa fa-check"></i><b>13.5.4</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.5.5" data-path="housekeeping.html"><a href="housekeeping.html#visitor-travel"><i class="fa fa-check"></i><b>13.5.5</b> Visitor travel</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a><ul>
+<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a>
+<ul>
 <li class="chapter" data-level="13.6.1" data-path="housekeeping.html"><a href="housekeeping.html#assigning-delegates"><i class="fa fa-check"></i><b>13.6.1</b> Assigning delegates</a></li>
 <li class="chapter" data-level="13.6.2" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements-1"><i class="fa fa-check"></i><b>13.6.2</b> Entertainment reimbursements</a></li>
 <li class="chapter" data-level="13.6.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements-1"><i class="fa fa-check"></i><b>13.6.3</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.6.4" data-path="housekeeping.html"><a href="housekeeping.html#concurreimbursement-quirks"><i class="fa fa-check"></i><b>13.6.4</b> Concur/reimbursement quirks</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a><ul>
+<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a>
+<ul>
 <li class="chapter" data-level="14.1" data-path="parental-resources.html"><a href="parental-resources.html#parental-leave"><i class="fa fa-check"></i><b>14.1</b> Parental leave</a></li>
 <li class="chapter" data-level="14.2" data-path="parental-resources.html"><a href="parental-resources.html#childcare"><i class="fa fa-check"></i><b>14.2</b> Childcare</a></li>
 </ul></li>
@@ -262,7 +293,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">emLab Manual</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Parent resources</a>
           </h1>
         </div>
 
@@ -271,11 +302,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">emLab Manual</h1>
-<p class="date"><em>2024-03-08</em></p>
+<h1 class="title">Parent resources</h1>
+<p class="author"><em></em></p>
+<p class="date"><em>2024-03-15</em></p>
 </div>
-<div id="welcome" class="section level1">
-<h1><span class="header-section-number">Section 1</span> Welcome</h1>
+<div id="welcome" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Section 1</span> Welcome<a href="index.html#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Hello and welcome to our team manual!</p>
 <p>This is the lab manual for the Environmental Markets Lab (emLab) at the University of California Santa Barbara.</p>
 <p>We are a tightly knit team of faculty, researchers, project managers, post-docs, and students dedicated to informing market-based approaches for environmental and social good. emLab fosters a collaborative work environment to unite interdisciplinary expertise with the collective goal of solving critical environmental problems. We are a team of intellectual go-getters: eager to tackle new challenges and think outside the box to support a healthy environment that can sustain generations to come. You can read more about our research and projects on our <a href="https://emlab.ucsb.edu/">website</a>.</p>
@@ -294,12 +326,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -307,12 +340,12 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -327,7 +360,15 @@ gitbook.start({
 "link": null,
 "text": null
 },
+"view": {
+"link": null,
+"text": null
+},
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 9 Project management | emLab Manual</title>
+  <title>Section 9 Project management | Parent resources</title>
   <meta name="description" content="Everything you need to know about emLab." />
-  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 9 Project management | emLab Manual" />
+  <meta property="og:title" content="Section 9 Project management | Parent resources" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://github.com/emlab-ucsb/emlab-manual" />
   
   <meta property="og:description" content="Everything you need to know about emLab." />
   <meta name="github-repo" content="emlab-ucsb/emlab-manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 9 Project management | emLab Manual" />
+  <meta name="twitter:title" content="Section 9 Project management | Parent resources" />
   
   <meta name="twitter:description" content="Everything you need to know about emLab." />
   
@@ -24,22 +23,24 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-03-08" />
+<meta name="date" content="2024-03-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="emlab-workflow-and-platforms.html">
-<link rel="next" href="communications-and-outreach.html">
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="prev" href="emlab-workflow-and-platforms.html"/>
+<link rel="next" href="communications-and-outreach.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
 
 
 
@@ -47,28 +48,34 @@
 
 
 
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -77,15 +84,15 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -98,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -111,6 +118,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -130,20 +138,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
 <li class="chapter" data-level="2" data-path="mission-and-research-identity.html"><a href="mission-and-research-identity.html"><i class="fa fa-check"></i><b>2</b> Mission and research identity</a></li>
-<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a><ul>
+<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-values"><i class="fa fa-check"></i><b>3.1</b> emLab values</a></li>
 <li class="chapter" data-level="3.2" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-culture"><i class="fa fa-check"></i><b>3.2</b> emLab culture</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>4</b> Code of conduct</a></li>
-<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a><ul>
+<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="expectations.html"><a href="expectations.html#work-environment"><i class="fa fa-check"></i><b>5.1</b> Work environment</a></li>
 <li class="chapter" data-level="5.2" data-path="expectations.html"><a href="expectations.html#time-management"><i class="fa fa-check"></i><b>5.2</b> Time management</a></li>
 <li class="chapter" data-level="5.3" data-path="expectations.html"><a href="expectations.html#project-roles"><i class="fa fa-check"></i><b>5.3</b> Project roles</a></li>
 <li class="chapter" data-level="5.4" data-path="expectations.html"><a href="expectations.html#meetings-and-events"><i class="fa fa-check"></i><b>5.4</b> Meetings and events</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a><ul>
+<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#overview-of-our-feedback-mentality"><i class="fa fa-check"></i><b>6.1</b> Overview of our feedback mentality</a></li>
-<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a><ul>
+<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a>
+<ul>
 <li class="chapter" data-level="6.2.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#recruiting-top-talent"><i class="fa fa-check"></i><b>6.2.1</b> Recruiting top talent</a></li>
 <li class="chapter" data-level="6.2.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#supervisor-check-ins"><i class="fa fa-check"></i><b>6.2.2</b> Supervisor check-ins</a></li>
 <li class="chapter" data-level="6.2.3" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#annual-review-process"><i class="fa fa-check"></i><b>6.2.3</b> Annual review process</a></li>
@@ -152,39 +164,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.2.6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#university-and-community-resources"><i class="fa fa-check"></i><b>6.2.6</b> University and community resources</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a><ul>
+<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#project-selection-criteria"><i class="fa fa-check"></i><b>7.1</b> Project selection criteria</a></li>
 <li class="chapter" data-level="7.2" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#setting-projects-up-for-success-in-project-scoping"><i class="fa fa-check"></i><b>7.2</b> Setting projects up for success in project scoping</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a><ul>
+<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#email"><i class="fa fa-check"></i><b>8.1</b> Email</a></li>
 <li class="chapter" data-level="8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#calendar"><i class="fa fa-check"></i><b>8.2</b> Calendar</a></li>
-<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a><ul>
+<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a>
+<ul>
 <li class="chapter" data-level="8.3.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-scheduling-easier"><i class="fa fa-check"></i><b>8.3.1</b> Making scheduling easier</a></li>
 <li class="chapter" data-level="8.3.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#being-an-effective-communicator-on-zoom"><i class="fa fa-check"></i><b>8.3.2</b> Being an effective communicator on Zoom</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a><ul>
+<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a>
+<ul>
 <li class="chapter" data-level="8.4.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack-basics"><i class="fa fa-check"></i><b>8.4.1</b> Slack basics</a></li>
 <li class="chapter" data-level="8.4.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#creating-a-channel"><i class="fa fa-check"></i><b>8.4.2</b> Creating a channel</a></li>
 </ul></li>
-<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a><ul>
+<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a>
+<ul>
 <li class="chapter" data-level="8.5.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-structure"><i class="fa fa-check"></i><b>8.5.1</b> Shared Drive structure</a></li>
 <li class="chapter" data-level="8.5.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#sharing-files"><i class="fa fa-check"></i><b>8.5.2</b> Sharing files</a></li>
 <li class="chapter" data-level="8.5.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-permissions"><i class="fa fa-check"></i><b>8.5.3</b> Shared Drive permissions</a></li>
 <li class="chapter" data-level="8.5.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#linking-the-shared-drive-and-your-computer"><i class="fa fa-check"></i><b>8.5.4</b> Linking the Shared Drive and your Computer</a></li>
 <li class="chapter" data-level="8.5.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#other-considerations"><i class="fa fa-check"></i><b>8.5.5</b> Other considerations</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a><ul>
+<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a>
+<ul>
 <li class="chapter" data-level="8.6.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#signing-up-for-an-account-with-grit"><i class="fa fa-check"></i><b>8.6.1</b> Signing up for an account with GRIT</a></li>
 <li class="chapter" data-level="8.6.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#setting-up-nextcloud-on-your-local-machine"><i class="fa fa-check"></i><b>8.6.2</b> Setting up Nextcloud on your local machine</a></li>
 </ul></li>
-<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a><ul>
+<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a>
+<ul>
 <li class="chapter" data-level="8.7.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#what-are-git-and-github"><i class="fa fa-check"></i><b>8.7.1</b> What are Git and GitHub?</a></li>
 <li class="chapter" data-level="8.7.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#helpful-terminology"><i class="fa fa-check"></i><b>8.7.2</b> Helpful terminology</a></li>
 <li class="chapter" data-level="8.7.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#how-to-install-git-and-github"><i class="fa fa-check"></i><b>8.7.3</b> How to install Git and GitHub</a></li>
 <li class="chapter" data-level="8.7.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#general-guidelines-for-using-github-at-emlab"><i class="fa fa-check"></i><b>8.7.4</b> General guidelines for using GitHub at emLab</a></li>
 </ul></li>
-<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a><ul>
+<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a>
+<ul>
 <li class="chapter" data-level="8.8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-emlab-the-owner-of-a-library"><i class="fa fa-check"></i><b>8.8.1</b> Making emLab the owner of a library</a></li>
 <li class="chapter" data-level="8.8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#saving-publications-to-a-library"><i class="fa fa-check"></i><b>8.8.2</b> Saving publications to a library</a></li>
 <li class="chapter" data-level="8.8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero-integration-with-googledocs-and-word"><i class="fa fa-check"></i><b>8.8.3</b> Zotero integration with GoogleDocs and Word</a></li>
@@ -192,12 +212,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.9" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#project-management-platforms"><i class="fa fa-check"></i><b>8.9</b> Project management platforms</a></li>
 <li class="chapter" data-level="8.10" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#data-and-code-standard-operating-procedure"><i class="fa fa-check"></i><b>8.10</b> Data and code standard operating procedure</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a><ul>
-<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a><ul>
+<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="project-management.html"><a href="project-management.html#kickoff-meetings"><i class="fa fa-check"></i><b>9.1.1</b> Kickoff meetings</a></li>
 <li class="chapter" data-level="9.1.2" data-path="project-management.html"><a href="project-management.html#setting-up-your-project-on-the-emlab-platforms"><i class="fa fa-check"></i><b>9.1.2</b> Setting up your project on the emLab platforms</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a><ul>
+<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="project-management.html"><a href="project-management.html#moving-from-sow-to-a-work-plan"><i class="fa fa-check"></i><b>9.2.1</b> Moving from SOW to a work plan</a></li>
 <li class="chapter" data-level="9.2.2" data-path="project-management.html"><a href="project-management.html#adaptive-management"><i class="fa fa-check"></i><b>9.2.2</b> Adaptive management</a></li>
 <li class="chapter" data-level="9.2.3" data-path="project-management.html"><a href="project-management.html#running-efficient-meetings"><i class="fa fa-check"></i><b>9.2.3</b> Running efficient meetings</a></li>
@@ -208,7 +231,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.4" data-path="project-management.html"><a href="project-management.html#wrapping-up-a-project"><i class="fa fa-check"></i><b>9.4</b> Wrapping up a project</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="communications-and-outreach.html"><a href="communications-and-outreach.html"><i class="fa fa-check"></i><b>10</b> Communications and outreach</a></li>
-<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a><ul>
+<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="onboarding.html"><a href="onboarding.html#relocating-to-santa-barbara"><i class="fa fa-check"></i><b>11.1</b> Relocating to Santa Barbara</a></li>
 <li class="chapter" data-level="11.2" data-path="onboarding.html"><a href="onboarding.html#employment-paperwork"><i class="fa fa-check"></i><b>11.2</b> Employment paperwork</a></li>
 <li class="chapter" data-level="11.3" data-path="onboarding.html"><a href="onboarding.html#employee-accounts"><i class="fa fa-check"></i><b>11.3</b> Employee accounts</a></li>
@@ -217,36 +241,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="11.6" data-path="onboarding.html"><a href="onboarding.html#your-first-week-at-emlab"><i class="fa fa-check"></i><b>11.6</b> Your first week at emLab</a></li>
 <li class="chapter" data-level="11.7" data-path="onboarding.html"><a href="onboarding.html#santa-barbara-recommendations"><i class="fa fa-check"></i><b>11.7</b> Santa Barbara recommendations</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a><ul>
+<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a>
+<ul>
 <li class="chapter" data-level="12.1" data-path="offboarding.html"><a href="offboarding.html#cleaning-your-computer"><i class="fa fa-check"></i><b>12.1</b> Cleaning your computer</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a><ul>
+<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a>
+<ul>
 <li class="chapter" data-level="13.1" data-path="housekeeping.html"><a href="housekeeping.html#timekeeping"><i class="fa fa-check"></i><b>13.1</b> Timekeeping</a></li>
 <li class="chapter" data-level="13.2" data-path="housekeeping.html"><a href="housekeeping.html#vacation"><i class="fa fa-check"></i><b>13.2</b> Vacation</a></li>
-<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a><ul>
+<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a>
+<ul>
 <li class="chapter" data-level="13.3.1" data-path="housekeeping.html"><a href="housekeeping.html#conference-rooms"><i class="fa fa-check"></i><b>13.3.1</b> Conference rooms</a></li>
 <li class="chapter" data-level="13.3.2" data-path="housekeeping.html"><a href="housekeeping.html#hybrid-meeting-guidance"><i class="fa fa-check"></i><b>13.3.2</b> Hybrid meeting guidance</a></li>
 </ul></li>
-<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a><ul>
+<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a>
+<ul>
 <li class="chapter" data-level="13.4.1" data-path="housekeeping.html"><a href="housekeeping.html#spending-limits"><i class="fa fa-check"></i><b>13.4.1</b> Spending limits</a></li>
 <li class="chapter" data-level="13.4.2" data-path="housekeeping.html"><a href="housekeeping.html#catering-options"><i class="fa fa-check"></i><b>13.4.2</b> Catering options</a></li>
 <li class="chapter" data-level="13.4.3" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements"><i class="fa fa-check"></i><b>13.4.3</b> Entertainment reimbursements</a></li>
 </ul></li>
-<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a><ul>
+<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a>
+<ul>
 <li class="chapter" data-level="13.5.1" data-path="housekeeping.html"><a href="housekeeping.html#general-travel-guidelines"><i class="fa fa-check"></i><b>13.5.1</b> General travel guidelines</a></li>
 <li class="chapter" data-level="13.5.2" data-path="housekeeping.html"><a href="housekeeping.html#paying-for-travel-before-you-leave"><i class="fa fa-check"></i><b>13.5.2</b> Paying for travel before you leave</a></li>
 <li class="chapter" data-level="13.5.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-insurance"><i class="fa fa-check"></i><b>13.5.3</b> Travel insurance</a></li>
 <li class="chapter" data-level="13.5.4" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements"><i class="fa fa-check"></i><b>13.5.4</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.5.5" data-path="housekeeping.html"><a href="housekeeping.html#visitor-travel"><i class="fa fa-check"></i><b>13.5.5</b> Visitor travel</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a><ul>
+<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a>
+<ul>
 <li class="chapter" data-level="13.6.1" data-path="housekeeping.html"><a href="housekeeping.html#assigning-delegates"><i class="fa fa-check"></i><b>13.6.1</b> Assigning delegates</a></li>
 <li class="chapter" data-level="13.6.2" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements-1"><i class="fa fa-check"></i><b>13.6.2</b> Entertainment reimbursements</a></li>
 <li class="chapter" data-level="13.6.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements-1"><i class="fa fa-check"></i><b>13.6.3</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.6.4" data-path="housekeeping.html"><a href="housekeeping.html#concurreimbursement-quirks"><i class="fa fa-check"></i><b>13.6.4</b> Concur/reimbursement quirks</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a><ul>
+<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a>
+<ul>
 <li class="chapter" data-level="14.1" data-path="parental-resources.html"><a href="parental-resources.html#parental-leave"><i class="fa fa-check"></i><b>14.1</b> Parental leave</a></li>
 <li class="chapter" data-level="14.2" data-path="parental-resources.html"><a href="parental-resources.html#childcare"><i class="fa fa-check"></i><b>14.2</b> Childcare</a></li>
 </ul></li>
@@ -262,7 +293,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">emLab Manual</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Parent resources</a>
           </h1>
         </div>
 
@@ -270,13 +301,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="project-management" class="section level1">
-<h1><span class="header-section-number">Section 9</span> Project management</h1>
-<div id="setting-a-project-up-for-success" class="section level2">
-<h2><span class="header-section-number">9.1</span> Setting a project up for success</h2>
+<div id="project-management" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">Section 9</span> Project management<a href="project-management.html#project-management" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="setting-a-project-up-for-success" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Setting a project up for success<a href="project-management.html#setting-a-project-up-for-success" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Yay we have a new emLab project! But now what? To set a solid foundation for a project, the following meetings and activities are required.</p>
-<div id="kickoff-meetings" class="section level3">
-<h3><span class="header-section-number">9.1.1</span> Kickoff meetings</h3>
+<div id="kickoff-meetings" class="section level3 hasAnchor" number="9.1.1">
+<h3><span class="header-section-number">9.1.1</span> Kickoff meetings<a href="project-management.html#kickoff-meetings" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Operations team handoff meeting</strong></p>
 <p>Before a project kicks off, Michaela and/or Amanda will meet with the project manager to give them an overview of how this project was conceptualized, what deliverables are included in the scope of work, how flexible or rigid the timeline and deliverables are, the envisioned project team composition or plans for recruiting and hiring, and any other relevant details about the funder, project team, partner, or body of work. This will help ensure a smooth handoff between project scoping and project execution.</p>
 <p><strong>Planning and strategy meeting between the project manager and project PI(s)</strong></p>
@@ -330,8 +361,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Pivot points: reiterate that in any research project things can change. Discuss approach for making joint decisions about taking different approaches, modifying project scope, and communicating/documenting changes as the project evolves.</li>
 </ul>
 </div>
-<div id="setting-up-your-project-on-the-emlab-platforms" class="section level3">
-<h3><span class="header-section-number">9.1.2</span> Setting up your project on the emLab platforms</h3>
+<div id="setting-up-your-project-on-the-emlab-platforms" class="section level3 hasAnchor" number="9.1.2">
+<h3><span class="header-section-number">9.1.2</span> Setting up your project on the emLab platforms<a href="project-management.html#setting-up-your-project-on-the-emlab-platforms" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>See Chapter 8 for a more detailed explanation of emLab’s platforms. Once your team has decided on a project name (note: must be all lowercase with dashes to separate words), set up project specific folders/channels on the following platforms:</p>
 <p><img src="images/platforms_overview.png" /></p>
 <p><strong>For Google Calendar:</strong> remind everyone to keep their calendar up to date for scheduling purposes. Request access to detailed PI calendars if needed.</p>
@@ -370,21 +401,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>This will clone the paper1 repo, but not without first telling the blue-future repo about it (just so that you don’t end up tracking things twice). You can repeat the operation for <code>paper2</code> and <code>shiny-app</code>. That’s it!</p>
 </div>
 </div>
-<div id="project-execution" class="section level2">
-<h2><span class="header-section-number">9.2</span> Project execution</h2>
-<div id="moving-from-sow-to-a-work-plan" class="section level3">
-<h3><span class="header-section-number">9.2.1</span> Moving from SOW to a work plan</h3>
+<div id="project-execution" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> Project execution<a href="project-management.html#project-execution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="moving-from-sow-to-a-work-plan" class="section level3 hasAnchor" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> Moving from SOW to a work plan<a href="project-management.html#moving-from-sow-to-a-work-plan" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The overall goal of a work plan is to define and track the activities needed to achieve project deliverables. They are a way to map out deadlines, who is responsible for completing a task, and how certain outputs may be leveraged for a publication. The scope of work serves as the basis for developing a work plan but note that the level of detail included in a scope of work varies from project to project. Sometimes work plans write themselves and other times the project phases and activities are less clear</p>
 <p>The project manager and PI planning meeting should provide initial thoughts and clarifications on the scope of work, and afterwards the project manager should be able to build out a skeleton work plan for the project. Every step of the project does not need to be planned immediately, but a general sense of the project phases is useful. Oftentimes projects undergo an exploratory phase that is composed of brainstorming meetings, literature reviews, research question refining, and initial method testing until a final approach is determined and the work plan will continue to evolve through these meetings.</p>
 <p>We recognize that each team member has a different method for keeping track of tasks. It is up to the project manager to figure out what system and level of detail works best for them and their team. We have put together a work plan template <a href="https://docs.google.com/spreadsheets/d/1vPHxIuRf_nmDtbVcKEp5R7vEwWD3FRw-4NufnFzgcMc/edit#gid=0">here</a> that can be copied and adapted to your project’s needs.</p>
 <p>A special note on projects that contain both academic publications and ‘applied’ research products as deliverables (or if the team is interested in writing a publication outside of the responsibilities for the project). When developing the work plan, try to map out the common activities and interim outputs that can inform both applied products and academic publications to help increase efficiencies and ensure that the paper deliverable doesn’t feel tacked on at the end. As you progress through a project, capture methods, results, figures, and discussion topics throughout to aid your future selves in writing a paper. An example of this can be seen in the <a href="https://docs.google.com/spreadsheets/d/1vPHxIuRf_nmDtbVcKEp5R7vEwWD3FRw-4NufnFzgcMc/edit#gid=0">“example” tab of the work plan template</a>.</p>
 </div>
-<div id="adaptive-management" class="section level3">
-<h3><span class="header-section-number">9.2.2</span> Adaptive management</h3>
+<div id="adaptive-management" class="section level3 hasAnchor" number="9.2.2">
+<h3><span class="header-section-number">9.2.2</span> Adaptive management<a href="project-management.html#adaptive-management" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Research is not a linear process. There are often many avenues we explore before deciding how to best move a project forward. So just a reminder to be kind to ourselves if we are struggling to figure out how to move forward or feel like we are spinning our wheels.</p>
-<div class="figure">
+<div class="float">
 <img src="images/horst_science_process.png" alt="Credit: Allison Horst" />
-<p class="caption">Credit: Allison Horst</p>
+<div class="figcaption">Credit: Allison Horst</div>
 </div>
 <p>To support this type of work, we often employ adaptive management strategies. Core to these strategies are:</p>
 <ul>
@@ -394,8 +425,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>Sometimes partner priorities change, data is not available, or another challenge or opportunity arises that require you to pivot the project in a new direction. Pivot points are a signal that something in the project has changed, they are not a sign of failure. When a pivot point occurs in a project, first have a frank conversation with the project team (i.e. why is a certain approach not working? What topical avenues are we interested in exploring? How can we better service our partners?). Then communicate with the project partner about the evolution of the project and why something may not be working, potential new directions, and any adjustments to project timelines and deliverables. <strong>Be sure to document any significant pivot points in writing.</strong></p>
 </div>
-<div id="running-efficient-meetings" class="section level3">
-<h3><span class="header-section-number">9.2.3</span> Running efficient meetings</h3>
+<div id="running-efficient-meetings" class="section level3 hasAnchor" number="9.2.3">
+<h3><span class="header-section-number">9.2.3</span> Running efficient meetings<a href="project-management.html#running-efficient-meetings" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Since everyone’s time is valuable, we want to try to avoid the stigma that meetings are time sucks by running efficient meetings. These articles – <a href="https://slack.com/blog/productivity/run-effective-meetings">How to run effective meetings</a> and <a href="https://www.nceas.ucsb.edu/news/mantra-facilitating-team-science-virtually-get-job-done">A Mantra for Facilitating Team Science Virtually to Get the Job Done</a> – provide a good overview of tactics for facilitating efficient meetings.</p>
 <p>Before scheduling a meeting, run through these questions to determine <a href="https://hbr.org/2015/03/do-you-really-need-to-hold-that-meeting">if a meeting is necessary</a>:</p>
 <p><img src="images/meetings.png" /></p>
@@ -443,17 +474,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>After the meeting</strong>
 Once the meeting is over, circulate the meeting notes document with attendees within 24 hours if possible. Highlight and bold next steps and action items at the top of the document. Sometimes a quick summary of key decisions and next steps in Slack is also helpful.</p>
 </div>
-<div id="partner-engagement" class="section level3">
-<h3><span class="header-section-number">9.2.4</span> Partner engagement</h3>
+<div id="partner-engagement" class="section level3 hasAnchor" number="9.2.4">
+<h3><span class="header-section-number">9.2.4</span> Partner engagement<a href="project-management.html#partner-engagement" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>A key tenant of emLab projects is working with partners to solve real world problems. It is the responsibility of the project manager, in coordination with the project team and PIs, to make sure that the project outputs, outcomes, and deliverables meet the expectations of our partners. Clear and open communication on project status, challenges, and milestones are important to managing expectations. If any critical aspects of the project have changed or need to change, first discuss with the PI(s), then align on a strategy for communicating this with the partner.</p>
 </div>
-<div id="author-contributions" class="section level3">
-<h3><span class="header-section-number">9.2.5</span> Author contributions</h3>
+<div id="author-contributions" class="section level3 hasAnchor" number="9.2.5">
+<h3><span class="header-section-number">9.2.5</span> Author contributions<a href="project-management.html#author-contributions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Since most of our projects include a publication aspect, it is best to communicate about author expectations and contributions as early as possible. Determining authorship is ultimately the responsibility of the project leads (i.e. principal investigator and/or first author), but because author contribution is not always straightforward, we follow <a href="https://www.pnas.org/content/115/11/2557">McNutt et al. 2018</a> and others in recommending the <a href="https://www.cell.com/pb/assets/raw/shared/guidelines/CRediT-taxonomy.pdf">Contributor Roles Taxonomy (CRediT)</a> system. For a simplified version of this most relevant to our project infrastructure, feel free to use and modify our <a href="https://docs.google.com/spreadsheets/d/1qWJea1Bo8lpbYqEJjojZ_WpSS500uaYjCJzyiy3s3bc/edit#gid=0">Author Contribution Template</a>, which allows individuals to identify their contributions or to opt-out of participation in a paper. We recommend discussing authorship expectations early in a project to avoid future complications.</p>
 </div>
 </div>
-<div id="project-communications" class="section level2">
-<h2><span class="header-section-number">9.3</span> Project communications</h2>
+<div id="project-communications" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> Project communications<a href="project-management.html#project-communications" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>It is the responsibility of the project manager to work with the project team (and partners, if applicable) to determine the project’s external communication and outreach needs. In general, we want to highlight project successes, key results, how our results were used, and project outputs (publication/report, tool, media coverage, talks, etc.).</p>
 <p>To support these project highlights, the project manager should work with the communications team on the following:</p>
 <ul>
@@ -468,8 +499,8 @@ Once the meeting is over, circulate the meeting notes document with attendees wi
 <li>When a project ends, sending the communications team a summary of key findings and outcomes to add to the project page</li>
 </ul>
 </div>
-<div id="wrapping-up-a-project" class="section level2">
-<h2><span class="header-section-number">9.4</span> Wrapping up a project</h2>
+<div id="wrapping-up-a-project" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">9.4</span> Wrapping up a project<a href="project-management.html#wrapping-up-a-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>When a project is completed, make sure that all project files are in Shared Drive, add data to the <code>data-directory</code> as appropriate, and move the project folder to <code>emlab/projects/archived-projects</code>.</p>
 <p>Finally, schedule a project exit interview with the full project team and emLab’s Executive Director. The purpose of this meeting is to capture lessons learned, evaluate success, and identify potential next steps. The ED will run this meeting so all project team members can fully participate. Below is a draft agenda for the exit interview:</p>
 <ul>
@@ -498,12 +529,13 @@ Once the meeting is over, circulate the meeting notes document with attendees wi
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -511,12 +543,12 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -531,7 +563,15 @@ gitbook.start({
 "link": null,
 "text": null
 },
+"view": {
+"link": null,
+"text": null
+},
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 13 Housekeeping | emLab Manual</title>
+  <title>Section 13 Housekeeping | Parent resources</title>
   <meta name="description" content="Everything you need to know about emLab." />
-  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 13 Housekeeping | emLab Manual" />
+  <meta property="og:title" content="Section 13 Housekeeping | Parent resources" />
   <meta property="og:type" content="book" />
-  <meta property="og:url" content="https://github.com/emlab-ucsb/emlab-manual" />
   
   <meta property="og:description" content="Everything you need to know about emLab." />
   <meta name="github-repo" content="emlab-ucsb/emlab-manual" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 13 Housekeeping | emLab Manual" />
+  <meta name="twitter:title" content="Section 13 Housekeeping | Parent resources" />
   
   <meta name="twitter:description" content="Everything you need to know about emLab." />
   
@@ -24,22 +23,24 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-03-08" />
+<meta name="date" content="2024-03-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="offboarding.html">
-<link rel="next" href="parental-resources.html">
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="prev" href="offboarding.html"/>
+<link rel="next" href="parental-resources.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
 
 
 
@@ -47,28 +48,34 @@
 
 
 
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -77,15 +84,15 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -98,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -111,6 +118,7 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -130,20 +138,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
 <li class="chapter" data-level="2" data-path="mission-and-research-identity.html"><a href="mission-and-research-identity.html"><i class="fa fa-check"></i><b>2</b> Mission and research identity</a></li>
-<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a><ul>
+<li class="chapter" data-level="3" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html"><i class="fa fa-check"></i><b>3</b> emLab values and culture</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-values"><i class="fa fa-check"></i><b>3.1</b> emLab values</a></li>
 <li class="chapter" data-level="3.2" data-path="emlab-values-and-culture.html"><a href="emlab-values-and-culture.html#emlab-culture"><i class="fa fa-check"></i><b>3.2</b> emLab culture</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="code-of-conduct.html"><a href="code-of-conduct.html"><i class="fa fa-check"></i><b>4</b> Code of conduct</a></li>
-<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a><ul>
+<li class="chapter" data-level="5" data-path="expectations.html"><a href="expectations.html"><i class="fa fa-check"></i><b>5</b> Expectations</a>
+<ul>
 <li class="chapter" data-level="5.1" data-path="expectations.html"><a href="expectations.html#work-environment"><i class="fa fa-check"></i><b>5.1</b> Work environment</a></li>
 <li class="chapter" data-level="5.2" data-path="expectations.html"><a href="expectations.html#time-management"><i class="fa fa-check"></i><b>5.2</b> Time management</a></li>
 <li class="chapter" data-level="5.3" data-path="expectations.html"><a href="expectations.html#project-roles"><i class="fa fa-check"></i><b>5.3</b> Project roles</a></li>
 <li class="chapter" data-level="5.4" data-path="expectations.html"><a href="expectations.html#meetings-and-events"><i class="fa fa-check"></i><b>5.4</b> Meetings and events</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a><ul>
+<li class="chapter" data-level="6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html"><i class="fa fa-check"></i><b>6</b> Feedback and learning</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#overview-of-our-feedback-mentality"><i class="fa fa-check"></i><b>6.1</b> Overview of our feedback mentality</a></li>
-<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a><ul>
+<li class="chapter" data-level="6.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#career-growth-and-professional-development"><i class="fa fa-check"></i><b>6.2</b> Career growth and professional development</a>
+<ul>
 <li class="chapter" data-level="6.2.1" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#recruiting-top-talent"><i class="fa fa-check"></i><b>6.2.1</b> Recruiting top talent</a></li>
 <li class="chapter" data-level="6.2.2" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#supervisor-check-ins"><i class="fa fa-check"></i><b>6.2.2</b> Supervisor check-ins</a></li>
 <li class="chapter" data-level="6.2.3" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#annual-review-process"><i class="fa fa-check"></i><b>6.2.3</b> Annual review process</a></li>
@@ -152,39 +164,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.2.6" data-path="feedback-and-learning.html"><a href="feedback-and-learning.html#university-and-community-resources"><i class="fa fa-check"></i><b>6.2.6</b> University and community resources</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a><ul>
+<li class="chapter" data-level="7" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html"><i class="fa fa-check"></i><b>7</b> Project selection and scoping</a>
+<ul>
 <li class="chapter" data-level="7.1" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#project-selection-criteria"><i class="fa fa-check"></i><b>7.1</b> Project selection criteria</a></li>
 <li class="chapter" data-level="7.2" data-path="project-selection-and-scoping.html"><a href="project-selection-and-scoping.html#setting-projects-up-for-success-in-project-scoping"><i class="fa fa-check"></i><b>7.2</b> Setting projects up for success in project scoping</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a><ul>
+<li class="chapter" data-level="8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html"><i class="fa fa-check"></i><b>8</b> emLab workflow and platforms</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#email"><i class="fa fa-check"></i><b>8.1</b> Email</a></li>
 <li class="chapter" data-level="8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#calendar"><i class="fa fa-check"></i><b>8.2</b> Calendar</a></li>
-<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a><ul>
+<li class="chapter" data-level="8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zoom"><i class="fa fa-check"></i><b>8.3</b> Zoom</a>
+<ul>
 <li class="chapter" data-level="8.3.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-scheduling-easier"><i class="fa fa-check"></i><b>8.3.1</b> Making scheduling easier</a></li>
 <li class="chapter" data-level="8.3.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#being-an-effective-communicator-on-zoom"><i class="fa fa-check"></i><b>8.3.2</b> Being an effective communicator on Zoom</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a><ul>
+<li class="chapter" data-level="8.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack"><i class="fa fa-check"></i><b>8.4</b> Slack</a>
+<ul>
 <li class="chapter" data-level="8.4.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#slack-basics"><i class="fa fa-check"></i><b>8.4.1</b> Slack basics</a></li>
 <li class="chapter" data-level="8.4.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#creating-a-channel"><i class="fa fa-check"></i><b>8.4.2</b> Creating a channel</a></li>
 </ul></li>
-<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a><ul>
+<li class="chapter" data-level="8.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#google-shared-drive"><i class="fa fa-check"></i><b>8.5</b> Google Shared Drive</a>
+<ul>
 <li class="chapter" data-level="8.5.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-structure"><i class="fa fa-check"></i><b>8.5.1</b> Shared Drive structure</a></li>
 <li class="chapter" data-level="8.5.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#sharing-files"><i class="fa fa-check"></i><b>8.5.2</b> Sharing files</a></li>
 <li class="chapter" data-level="8.5.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#shared-drive-permissions"><i class="fa fa-check"></i><b>8.5.3</b> Shared Drive permissions</a></li>
 <li class="chapter" data-level="8.5.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#linking-the-shared-drive-and-your-computer"><i class="fa fa-check"></i><b>8.5.4</b> Linking the Shared Drive and your Computer</a></li>
 <li class="chapter" data-level="8.5.5" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#other-considerations"><i class="fa fa-check"></i><b>8.5.5</b> Other considerations</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a><ul>
+<li class="chapter" data-level="8.6" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#nextcloud-and-the-emlab-server"><i class="fa fa-check"></i><b>8.6</b> Nextcloud and the emLab server</a>
+<ul>
 <li class="chapter" data-level="8.6.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#signing-up-for-an-account-with-grit"><i class="fa fa-check"></i><b>8.6.1</b> Signing up for an account with GRIT</a></li>
 <li class="chapter" data-level="8.6.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#setting-up-nextcloud-on-your-local-machine"><i class="fa fa-check"></i><b>8.6.2</b> Setting up Nextcloud on your local machine</a></li>
 </ul></li>
-<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a><ul>
+<li class="chapter" data-level="8.7" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#git-and-github"><i class="fa fa-check"></i><b>8.7</b> Git and GitHub</a>
+<ul>
 <li class="chapter" data-level="8.7.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#what-are-git-and-github"><i class="fa fa-check"></i><b>8.7.1</b> What are Git and GitHub?</a></li>
 <li class="chapter" data-level="8.7.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#helpful-terminology"><i class="fa fa-check"></i><b>8.7.2</b> Helpful terminology</a></li>
 <li class="chapter" data-level="8.7.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#how-to-install-git-and-github"><i class="fa fa-check"></i><b>8.7.3</b> How to install Git and GitHub</a></li>
 <li class="chapter" data-level="8.7.4" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#general-guidelines-for-using-github-at-emlab"><i class="fa fa-check"></i><b>8.7.4</b> General guidelines for using GitHub at emLab</a></li>
 </ul></li>
-<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a><ul>
+<li class="chapter" data-level="8.8" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero"><i class="fa fa-check"></i><b>8.8</b> Zotero</a>
+<ul>
 <li class="chapter" data-level="8.8.1" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#making-emlab-the-owner-of-a-library"><i class="fa fa-check"></i><b>8.8.1</b> Making emLab the owner of a library</a></li>
 <li class="chapter" data-level="8.8.2" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#saving-publications-to-a-library"><i class="fa fa-check"></i><b>8.8.2</b> Saving publications to a library</a></li>
 <li class="chapter" data-level="8.8.3" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#zotero-integration-with-googledocs-and-word"><i class="fa fa-check"></i><b>8.8.3</b> Zotero integration with GoogleDocs and Word</a></li>
@@ -192,12 +212,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.9" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#project-management-platforms"><i class="fa fa-check"></i><b>8.9</b> Project management platforms</a></li>
 <li class="chapter" data-level="8.10" data-path="emlab-workflow-and-platforms.html"><a href="emlab-workflow-and-platforms.html#data-and-code-standard-operating-procedure"><i class="fa fa-check"></i><b>8.10</b> Data and code standard operating procedure</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a><ul>
-<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a><ul>
+<li class="chapter" data-level="9" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>9</b> Project management</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="project-management.html"><a href="project-management.html#setting-a-project-up-for-success"><i class="fa fa-check"></i><b>9.1</b> Setting a project up for success</a>
+<ul>
 <li class="chapter" data-level="9.1.1" data-path="project-management.html"><a href="project-management.html#kickoff-meetings"><i class="fa fa-check"></i><b>9.1.1</b> Kickoff meetings</a></li>
 <li class="chapter" data-level="9.1.2" data-path="project-management.html"><a href="project-management.html#setting-up-your-project-on-the-emlab-platforms"><i class="fa fa-check"></i><b>9.1.2</b> Setting up your project on the emLab platforms</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a><ul>
+<li class="chapter" data-level="9.2" data-path="project-management.html"><a href="project-management.html#project-execution"><i class="fa fa-check"></i><b>9.2</b> Project execution</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="project-management.html"><a href="project-management.html#moving-from-sow-to-a-work-plan"><i class="fa fa-check"></i><b>9.2.1</b> Moving from SOW to a work plan</a></li>
 <li class="chapter" data-level="9.2.2" data-path="project-management.html"><a href="project-management.html#adaptive-management"><i class="fa fa-check"></i><b>9.2.2</b> Adaptive management</a></li>
 <li class="chapter" data-level="9.2.3" data-path="project-management.html"><a href="project-management.html#running-efficient-meetings"><i class="fa fa-check"></i><b>9.2.3</b> Running efficient meetings</a></li>
@@ -208,7 +231,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9.4" data-path="project-management.html"><a href="project-management.html#wrapping-up-a-project"><i class="fa fa-check"></i><b>9.4</b> Wrapping up a project</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="communications-and-outreach.html"><a href="communications-and-outreach.html"><i class="fa fa-check"></i><b>10</b> Communications and outreach</a></li>
-<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a><ul>
+<li class="chapter" data-level="11" data-path="onboarding.html"><a href="onboarding.html"><i class="fa fa-check"></i><b>11</b> Onboarding</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="onboarding.html"><a href="onboarding.html#relocating-to-santa-barbara"><i class="fa fa-check"></i><b>11.1</b> Relocating to Santa Barbara</a></li>
 <li class="chapter" data-level="11.2" data-path="onboarding.html"><a href="onboarding.html#employment-paperwork"><i class="fa fa-check"></i><b>11.2</b> Employment paperwork</a></li>
 <li class="chapter" data-level="11.3" data-path="onboarding.html"><a href="onboarding.html#employee-accounts"><i class="fa fa-check"></i><b>11.3</b> Employee accounts</a></li>
@@ -217,36 +241,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="11.6" data-path="onboarding.html"><a href="onboarding.html#your-first-week-at-emlab"><i class="fa fa-check"></i><b>11.6</b> Your first week at emLab</a></li>
 <li class="chapter" data-level="11.7" data-path="onboarding.html"><a href="onboarding.html#santa-barbara-recommendations"><i class="fa fa-check"></i><b>11.7</b> Santa Barbara recommendations</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a><ul>
+<li class="chapter" data-level="12" data-path="offboarding.html"><a href="offboarding.html"><i class="fa fa-check"></i><b>12</b> Offboarding</a>
+<ul>
 <li class="chapter" data-level="12.1" data-path="offboarding.html"><a href="offboarding.html#cleaning-your-computer"><i class="fa fa-check"></i><b>12.1</b> Cleaning your computer</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a><ul>
+<li class="chapter" data-level="13" data-path="housekeeping.html"><a href="housekeeping.html"><i class="fa fa-check"></i><b>13</b> Housekeeping</a>
+<ul>
 <li class="chapter" data-level="13.1" data-path="housekeeping.html"><a href="housekeeping.html#timekeeping"><i class="fa fa-check"></i><b>13.1</b> Timekeeping</a></li>
 <li class="chapter" data-level="13.2" data-path="housekeeping.html"><a href="housekeeping.html#vacation"><i class="fa fa-check"></i><b>13.2</b> Vacation</a></li>
-<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a><ul>
+<li class="chapter" data-level="13.3" data-path="housekeeping.html"><a href="housekeeping.html#meeting-scheduling-and-logistics"><i class="fa fa-check"></i><b>13.3</b> Meeting scheduling and logistics</a>
+<ul>
 <li class="chapter" data-level="13.3.1" data-path="housekeeping.html"><a href="housekeeping.html#conference-rooms"><i class="fa fa-check"></i><b>13.3.1</b> Conference rooms</a></li>
 <li class="chapter" data-level="13.3.2" data-path="housekeeping.html"><a href="housekeeping.html#hybrid-meeting-guidance"><i class="fa fa-check"></i><b>13.3.2</b> Hybrid meeting guidance</a></li>
 </ul></li>
-<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a><ul>
+<li class="chapter" data-level="13.4" data-path="housekeeping.html"><a href="housekeeping.html#catering"><i class="fa fa-check"></i><b>13.4</b> Catering</a>
+<ul>
 <li class="chapter" data-level="13.4.1" data-path="housekeeping.html"><a href="housekeeping.html#spending-limits"><i class="fa fa-check"></i><b>13.4.1</b> Spending limits</a></li>
 <li class="chapter" data-level="13.4.2" data-path="housekeeping.html"><a href="housekeeping.html#catering-options"><i class="fa fa-check"></i><b>13.4.2</b> Catering options</a></li>
 <li class="chapter" data-level="13.4.3" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements"><i class="fa fa-check"></i><b>13.4.3</b> Entertainment reimbursements</a></li>
 </ul></li>
-<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a><ul>
+<li class="chapter" data-level="13.5" data-path="housekeeping.html"><a href="housekeeping.html#travel"><i class="fa fa-check"></i><b>13.5</b> Travel</a>
+<ul>
 <li class="chapter" data-level="13.5.1" data-path="housekeeping.html"><a href="housekeeping.html#general-travel-guidelines"><i class="fa fa-check"></i><b>13.5.1</b> General travel guidelines</a></li>
 <li class="chapter" data-level="13.5.2" data-path="housekeeping.html"><a href="housekeeping.html#paying-for-travel-before-you-leave"><i class="fa fa-check"></i><b>13.5.2</b> Paying for travel before you leave</a></li>
 <li class="chapter" data-level="13.5.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-insurance"><i class="fa fa-check"></i><b>13.5.3</b> Travel insurance</a></li>
 <li class="chapter" data-level="13.5.4" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements"><i class="fa fa-check"></i><b>13.5.4</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.5.5" data-path="housekeeping.html"><a href="housekeeping.html#visitor-travel"><i class="fa fa-check"></i><b>13.5.5</b> Visitor travel</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a><ul>
+<li class="chapter" data-level="13.6" data-path="housekeeping.html"><a href="housekeeping.html#concur"><i class="fa fa-check"></i><b>13.6</b> Concur</a>
+<ul>
 <li class="chapter" data-level="13.6.1" data-path="housekeeping.html"><a href="housekeeping.html#assigning-delegates"><i class="fa fa-check"></i><b>13.6.1</b> Assigning delegates</a></li>
 <li class="chapter" data-level="13.6.2" data-path="housekeeping.html"><a href="housekeeping.html#entertainment-reimbursements-1"><i class="fa fa-check"></i><b>13.6.2</b> Entertainment reimbursements</a></li>
 <li class="chapter" data-level="13.6.3" data-path="housekeeping.html"><a href="housekeeping.html#travel-reimbursements-1"><i class="fa fa-check"></i><b>13.6.3</b> Travel reimbursements</a></li>
 <li class="chapter" data-level="13.6.4" data-path="housekeeping.html"><a href="housekeeping.html#concurreimbursement-quirks"><i class="fa fa-check"></i><b>13.6.4</b> Concur/reimbursement quirks</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a><ul>
+<li class="chapter" data-level="14" data-path="parental-resources.html"><a href="parental-resources.html"><i class="fa fa-check"></i><b>14</b> Parental resources</a>
+<ul>
 <li class="chapter" data-level="14.1" data-path="parental-resources.html"><a href="parental-resources.html#parental-leave"><i class="fa fa-check"></i><b>14.1</b> Parental leave</a></li>
 <li class="chapter" data-level="14.2" data-path="parental-resources.html"><a href="parental-resources.html#childcare"><i class="fa fa-check"></i><b>14.2</b> Childcare</a></li>
 </ul></li>
@@ -262,7 +293,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">emLab Manual</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Parent resources</a>
           </h1>
         </div>
 
@@ -270,23 +301,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="housekeeping" class="section level1">
-<h1><span class="header-section-number">Section 13</span> Housekeeping</h1>
-<div id="timekeeping" class="section level2">
-<h2><span class="header-section-number">13.1</span> Timekeeping</h2>
+<div id="housekeeping" class="section level1 hasAnchor" number="13">
+<h1><span class="header-section-number">Section 13</span> Housekeeping<a href="housekeeping.html#housekeeping" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="timekeeping" class="section level2 hasAnchor" number="13.1">
+<h2><span class="header-section-number">13.1</span> Timekeeping<a href="housekeeping.html#timekeeping" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Every month, full-time Academic employees (Specialists, Academic Coordinators, Postdocs) accrue <strong>8 hours of sick time and 16 hours of vacation.</strong> You are responsible for making informed decisions about how to use your accruals (which you can find online at UCPath), but please notify your supervisor whenever you are out sick via slack or email, and let them and your teams know of any vacation time you plan to take well in advance so your projects and teams will run smoothly in your absence. More about requesting vacation in the next section</p>
 <p>At the end of every month, you will need to fill out your timecard on <a href="https://timekeeping.ucsb.edu/">Kronos timekeeping system</a>. You only need to record any sick or vacation days you took (in increments of 8 hours), you do not need to record hours worked. This means that if you took no vacation or sick time in that month, you approve a blank timecard.</p>
 <p>Once you log in, make sure you are recording your hours in the “Previous Pay Period” (you can adjust this using the drop down menu at the top right-hand corner). On the days when you need to log hours, select “Vacation” or “Sick” under “Pay Code,” and enter “8” under “Amount.” We are not able to log anything less than one full day on this system (i.e., no half sick or vacation days).</p>
 </div>
-<div id="vacation" class="section level2">
-<h2><span class="header-section-number">13.2</span> Vacation</h2>
+<div id="vacation" class="section level2 hasAnchor" number="13.2">
+<h2><span class="header-section-number">13.2</span> Vacation<a href="housekeeping.html#vacation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>For vacations longer than five days, email your supervisor at least three weeks in advance of your planned time off outlining your dates and coordinate with your project teams to ensure that you will not be missing any critical deadlines or discuss how they can be covered by other project members. For shorter periods of time off (e.g., 1-2 days), aim to give your supervisor and project teams at least a few days notice.</p>
 <p>Please communicate with your team/s and use your calendar to note when you will be out of town, out of the office, or working remotely (and ensure your calendar is up to date).</p>
 </div>
-<div id="meeting-scheduling-and-logistics" class="section level2">
-<h2><span class="header-section-number">13.3</span> Meeting scheduling and logistics</h2>
-<div id="conference-rooms" class="section level3">
-<h3><span class="header-section-number">13.3.1</span> Conference rooms</h3>
+<div id="meeting-scheduling-and-logistics" class="section level2 hasAnchor" number="13.3">
+<h2><span class="header-section-number">13.3</span> Meeting scheduling and logistics<a href="housekeeping.html#meeting-scheduling-and-logistics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="conference-rooms" class="section level3 hasAnchor" number="13.3.1">
+<h3><span class="header-section-number">13.3.1</span> Conference rooms<a href="housekeeping.html#conference-rooms" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Booking at MSI</strong></p>
 <p>emLab MSI Suite (1304): add <a href="mailto:bren-sfg@ucsb.edu" class="email">bren-sfg@ucsb.edu</a> to any calendar invite to reserve the room. Add this same email address to your calendar to view availability.</p>
 <p>MSI conference rooms: bookings are centralized through the <a href="https://docs.google.com/forms/d/e/1FAIpQLScCIMnaKQUXyw6_y7pfpDcPo8-ewYZKouNfgzWw27oCP3G8cQ/viewform">MSI Room Request Form</a>. There are conference rooms available on the 2nd, 3rd, and 4th floors. Information about room capacity and technological capabilities are outlined <a href="https://msi.ucsb.edu/index.php/administration/conference-room-information">here</a>. This webpage also allows you to view room availability. If you have any questions, contact <a href="mailto:reservations@msi.ucsb.edu" class="email">reservations@msi.ucsb.edu</a>.</p>
@@ -319,8 +350,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>If you want to see all the rooms you have reserved, click on “Upcoming”. You can edit and cancel reservations from here.</li>
 </ol>
 </div>
-<div id="hybrid-meeting-guidance" class="section level3">
-<h3><span class="header-section-number">13.3.2</span> Hybrid meeting guidance</h3>
+<div id="hybrid-meeting-guidance" class="section level3 hasAnchor" number="13.3.2">
+<h3><span class="header-section-number">13.3.2</span> Hybrid meeting guidance<a href="housekeeping.html#hybrid-meeting-guidance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><em>Last updated July 2021</em></p>
 <p>As we transition back to the office, emLab will be testing out approaches to hybrid meetings to maintain inclusivity and maximize productivity as we will have folks who are both on and off campus. We hope to learn during this period when these meetings work well, when they don’t, and what could be improved to facilitate hybrid meetings. The following guidance should be considered for meetings during this transition period:</p>
 <ul>
@@ -353,10 +384,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 </div>
 </div>
-<div id="catering" class="section level2">
-<h2><span class="header-section-number">13.4</span> Catering</h2>
-<div id="spending-limits" class="section level3">
-<h3><span class="header-section-number">13.4.1</span> Spending limits</h3>
+<div id="catering" class="section level2 hasAnchor" number="13.4">
+<h2><span class="header-section-number">13.4</span> Catering<a href="housekeeping.html#catering" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="spending-limits" class="section level3 hasAnchor" number="13.4.1">
+<h3><span class="header-section-number">13.4.1</span> Spending limits<a href="housekeeping.html#spending-limits" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The maximum rates allowed per person (including tax and tip) for entertainment are:</p>
 <ul>
 <li>Breakfast: $31</li>
@@ -365,8 +396,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Light Refreshment: $22</li>
 </ul>
 </div>
-<div id="catering-options" class="section level3">
-<h3><span class="header-section-number">13.4.2</span> Catering options</h3>
+<div id="catering-options" class="section level3 hasAnchor" number="13.4.2">
+<h3><span class="header-section-number">13.4.2</span> Catering options<a href="housekeeping.html#catering-options" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are two options for catering meals (aka getting them delivered) on campus:</p>
 <ol style="list-style-type: decimal">
 <li>Campus catering</li>
@@ -387,16 +418,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>If you are requesting a permit, MSI Purchasing can help fill out the permit and distribute it to the necessary parties (Campus Catering, etc.) for approval. Ideally, this should be done a few days in advance of the event but they can expedite the process if under a time crunch.</p>
 </div>
-<div id="entertainment-reimbursements" class="section level3">
-<h3><span class="header-section-number">13.4.3</span> Entertainment reimbursements</h3>
+<div id="entertainment-reimbursements" class="section level3 hasAnchor" number="13.4.3">
+<h3><span class="header-section-number">13.4.3</span> Entertainment reimbursements<a href="housekeeping.html#entertainment-reimbursements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Entertainment reimbursements are centralized through <a href="http://www.concursolutions.com/">Concur</a>, where they are referred to as expense reports. See the Concur section below for more information.</p>
 </div>
 </div>
-<div id="travel" class="section level2">
-<h2><span class="header-section-number">13.5</span> Travel</h2>
+<div id="travel" class="section level2 hasAnchor" number="13.5">
+<h2><span class="header-section-number">13.5</span> Travel<a href="housekeeping.html#travel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Many of our projects require us to travel domestically and internationally. The University has various rules and procedures that are designed to (hopefully) make it as easy as possible for you to plan your trips, avoid covering expenses with your own money ahead of time, and easily get reimbursed for expenses you do incur while traveling. The <a href="https://msi.ucsb.edu/administration/travel">MSI travel page</a> details information, rules, and restrictions for work-related travel.</p>
-<div id="general-travel-guidelines" class="section level3">
-<h3><span class="header-section-number">13.5.1</span> General travel guidelines</h3>
+<div id="general-travel-guidelines" class="section level3 hasAnchor" number="13.5.1">
+<h3><span class="header-section-number">13.5.1</span> General travel guidelines<a href="housekeeping.html#general-travel-guidelines" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p><strong>Domestic travel</strong></p>
 <p>Per UC policy, when traveling in the U.S. you can only be reimbursed up to $275/ night for lodging, and up to $62/day for meals and incidentals. If you exceed either maximum, know that you must cover the rest with your own funds. If you can’t find a hotel below $275/night, you will need to provide evidence of this (i.e. you must show proof of rates from other hotels in the nearby area that are higher than yours) to corroborate your claim that you got the cheapest available rate. Only then can you be reimbursed the full amount. There are no exceptions for exceeding the daily maximum for food.</p>
 <p>You cannot be reimbursed for alcohol, so if you need to be reimbursed for a meal where alcohol was purchased, subtract the cost of the alcohol from the total you list on your reimbursement form.</p>
@@ -405,8 +436,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>When you return from traveling outside of the country, you will need to fill out an expense report in <a href="http://www.concursolutions.com/">Concur</a> to be reimbursed for any expenses you incurred while traveling.</p>
 <p>The most straightforward mechanism we recommend for reimbursing international travel is the State Department’s per diem rates, which are location-specific. On the <a href="https://aoprals.state.gov/web920/per_diem.asp">State Department’s website</a>, you can look up the country and city where you traveled to find the maximum daily lodging and food (M &amp; IE) rates. The combined total of those two rates is the maximum allowable amount, per day of your trip, that you can be reimbursed. With per diem, you don’t have to submit receipts for lodging and food. For all other receipts (e.g. transportation) there is a built in currency conversion tool in Concur.</p>
 </div>
-<div id="paying-for-travel-before-you-leave" class="section level3">
-<h3><span class="header-section-number">13.5.2</span> Paying for travel before you leave</h3>
+<div id="paying-for-travel-before-you-leave" class="section level3 hasAnchor" number="13.5.2">
+<h3><span class="header-section-number">13.5.2</span> Paying for travel before you leave<a href="housekeeping.html#paying-for-travel-before-you-leave" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are two ways the University can pay for your travel expenses prior to your trip:</p>
 <ul>
 <li><strong>Travel Advances:</strong> if you prefer to make your own reservations, might have to cancel/change your tickets, or plan to stay in non-traditional accommodations (e.g., AirBnb) you may have to pay for some of your travel expenses out of pocket before you go. Though you can’t submit a complete travel reimbursement form until after you return from your trip, you can get a partial reimbursement for expenses you cover prior to traveling by applying for a travel advance.
@@ -423,8 +454,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul>
 </div>
-<div id="travel-insurance" class="section level3">
-<h3><span class="header-section-number">13.5.3</span> Travel insurance</h3>
+<div id="travel-insurance" class="section level3 hasAnchor" number="13.5.3">
+<h3><span class="header-section-number">13.5.3</span> Travel insurance<a href="housekeeping.html#travel-insurance" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>All employees and affiliates of the University are eligible for comprehensive trip insurance at no cost. This policy offers much more than just lost luggage replacement.</p>
 <p>For example:</p>
 <ul>
@@ -434,12 +465,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p>If you book your travel through UC Travel/Connexxus, you are automatically enrolled in this coverage. Even if you paid for your travel yourself and submit a reimbursement after the fact, you can still get insurance coverage. You can register your trip <a href="https://www.ucop.edu/risk-services-travel/registering.html">here</a>.</p>
 </div>
-<div id="travel-reimbursements" class="section level3">
-<h3><span class="header-section-number">13.5.4</span> Travel reimbursements</h3>
+<div id="travel-reimbursements" class="section level3 hasAnchor" number="13.5.4">
+<h3><span class="header-section-number">13.5.4</span> Travel reimbursements<a href="housekeeping.html#travel-reimbursements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Travel reimbursements are handled through <a href="http://www.concursolutions.com/">Concur</a> and are filled out once you return from your trip. See the Concur section for further information.</p>
 </div>
-<div id="visitor-travel" class="section level3">
-<h3><span class="header-section-number">13.5.5</span> Visitor travel</h3>
+<div id="visitor-travel" class="section level3 hasAnchor" number="13.5.5">
+<h3><span class="header-section-number">13.5.5</span> Visitor travel<a href="housekeeping.html#visitor-travel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are some instances where we pay for visitor travel (e.g. emLab seminar speakers). Since they are not UCSB employees and thus do not have access to Concur, there are additional steps for the process. Instructions are outlined on the Concur Knowledge Base <a href="https://ucsb.service-now.com/kb?sys_kb_id=6e60590b1b8a49908364a643b24bcb1c&amp;id=kb_article_view&amp;sysparm_rank=1&amp;sysparm_tsqueryId=86a7d7451b22015078889683b24bcb8a">here</a> and copied below.</p>
 <ol style="list-style-type: decimal">
 <li>Fill out <a href="https://ucsb.service-now.com/payment?id=paym_sc_cat_item&amp;sys_id=842c406c47e9c9102e6808f2846d439a&amp;sysparm_category=510d6ca7471909102e6808f2846d43e1">this Request a New Guest Traveler form</a> on the guests behalf.</li>
@@ -450,16 +481,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 </div>
 </div>
-<div id="concur" class="section level2">
-<h2><span class="header-section-number">13.6</span> Concur</h2>
+<div id="concur" class="section level2 hasAnchor" number="13.6">
+<h2><span class="header-section-number">13.6</span> Concur<a href="housekeeping.html#concur" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><a href="https://www.concursolutions.com/">Concur</a> is the University’s centralized platform for entertainment, travel, and miscellaneous reimbursements. This eliminates the previous need to fill out a paper reimbursement form. Erin can help answer Concur questions in addition to the following MSI and Bren staff:</p>
 <ul>
 <li>Kim Taylor (MSI; travel reimbursements) – <a href="mailto:kim.taylor@ucsb.edu" class="email">kim.taylor@ucsb.edu</a></li>
 <li>Andrea Palmerin Del Toro and Trevor Bellefeuille (MSI; entertainment and business reimbursements) – <a href="mailto:purchasing@msi.ucsb.edu" class="email">purchasing@msi.ucsb.edu</a></li>
 <li>Phil Watt (Bren; travel, entertainment, and business reimbursements) – <a href="mailto:travel@bren.ucsb.edu" class="email">travel@bren.ucsb.edu</a> or <a href="mailto:purchasing@bren.ucsb.edu" class="email">purchasing@bren.ucsb.edu</a></li>
 </ul>
-<div id="assigning-delegates" class="section level3">
-<h3><span class="header-section-number">13.6.1</span> Assigning delegates</h3>
+<div id="assigning-delegates" class="section level3 hasAnchor" number="13.6.1">
+<h3><span class="header-section-number">13.6.1</span> Assigning delegates<a href="housekeeping.html#assigning-delegates" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>One important step is setting up delegates in Concur. These are people who can draft expense reports on your behalf and/or review them for accuracy. Depending on the department you are charging, select delegates from the names listed above and anyone on the emLab team helping prepare your report. <a href="https://ucsb.service-now.com/kb?id=kb_article_view&amp;sys_kb_id=a8df60ba1b348554e9250f22604bcba3">This video</a> provides an overview of how to add delegates and the steps are listed below:</p>
 <ol style="list-style-type: decimal">
 <li>Once you are logged on to Concur, click on Profile in the upper right corner, and then Profile Settings.</li>
@@ -470,8 +501,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>After delegates have been established, click the Save to update the settings.</li>
 </ol>
 </div>
-<div id="entertainment-reimbursements-1" class="section level3">
-<h3><span class="header-section-number">13.6.2</span> Entertainment reimbursements</h3>
+<div id="entertainment-reimbursements-1" class="section level3 hasAnchor" number="13.6.2">
+<h3><span class="header-section-number">13.6.2</span> Entertainment reimbursements<a href="housekeeping.html#entertainment-reimbursements-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Once you have logged into Concur, follow these steps to prepare your expense report:</p>
 <ol style="list-style-type: decimal">
 <li>Click the Expense option from the top of the screen and then the “Create New Report” tile.</li>
@@ -480,7 +511,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Report type = entertainment</li>
 <li>Event types are outlined <a href="https://www.bfs.ucsb.edu/travel_entertainment/entertainment-reimbursement">here</a> by UCSB’s BFS.</li>
 <li>When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.</li>
-<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
+<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
 <li>Cost type = ENT</li>
 <li>Sub account for entertainment = 3</li>
 </ul></li>
@@ -494,8 +525,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Submit a report ONLY after the Bren or MSI purchasing team notifies you to do so.</li>
 </ol>
 </div>
-<div id="travel-reimbursements-1" class="section level3">
-<h3><span class="header-section-number">13.6.3</span> Travel reimbursements</h3>
+<div id="travel-reimbursements-1" class="section level3 hasAnchor" number="13.6.3">
+<h3><span class="header-section-number">13.6.3</span> Travel reimbursements<a href="housekeeping.html#travel-reimbursements-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Travel reimbursements are handled through <a href="http://www.concursolutions.com/">Concur</a>. Once you have logged into Concur, follow these steps to prepare your expense report:</p>
 <ol style="list-style-type: decimal">
 <li>Click the Expense option from the top of the screen and then the “Create New Report” tile.</li>
@@ -503,7 +534,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>Report type = Travel foreign, Travel in state, or Travel out of state</li>
 <li>When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.</li>
-<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
+<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
 <li>Cost type = TRV</li>
 <li>Sub accounts: domestic travel = 5, foreign travel = 7</li>
 <li>If you are claiming per diem for international travel, click “yes, I want to claim Travel Allowance” at the bottom of the page. Further details on claiming per diem are listed below.</li>
@@ -517,8 +548,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Once all the dates are in place, you will be taken to a screen that allows you to note which days/meals you would like to claim per diem for. With this method, you will not have to add individual receipts to your expense report. Note that you cannot claim foreign per diem for meals while you are still in America. You will have to keep those receipts and log them independently OR “trick” the system by selecting a higher per diem on a day when you were out of the country. For example, if per diem for food is $134, and you spent $20 at the airport but didn’t pay for breakfast during your international trip, you can just choose a breakfast per diem while you were overseas instead of logging the airport receipt.</p>
 <p>When selecting per diem meals: you will be able to select breakfast, lunch, and dinner per diem (checking a box will mean that you are not claiming that meal/day). Try to find the per diem value that most accurately reflects how much money you spent on meals during the trip (+ anything else you spent and couldn’t get receipts for - like taxis).</p>
 </div>
-<div id="concurreimbursement-quirks" class="section level3">
-<h3><span class="header-section-number">13.6.4</span> Concur/reimbursement quirks</h3>
+<div id="concurreimbursement-quirks" class="section level3 hasAnchor" number="13.6.4">
+<h3><span class="header-section-number">13.6.4</span> Concur/reimbursement quirks<a href="housekeeping.html#concurreimbursement-quirks" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Since this is a new platform (as of February 2022), we are continually updating our instructions. Some things we have learned:</p>
 <ul>
 <li>If your hotel/lodging was covered by a separate entity, the University still wants proof that you were there. Fill out an expense line item for $0 that includes lodging confirmation as the receipt.</li>
@@ -543,12 +574,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -556,12 +588,12 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -576,7 +608,15 @@ gitbook.start({
 "link": null,
 "text": null
 },
+"view": {
+"link": null,
+"text": null
+},
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

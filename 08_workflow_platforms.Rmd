@@ -191,9 +191,13 @@ There are generally three approaches for syncing and streaming files to your loc
 - Pros
     - Virtual files operate similarly to “streaming” using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.
     - You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.
+    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! )
+
     
 - Cons
     - Virtual files have a .nextcloud extension, since they are just a pointer file. This means for instance that they cannot be directly read into R. To open a virtual file on your local machine, you need to first double-click on it (or right-click on it and say “Make always available locally”). Once you’ve done this, the virtual file is now available on your local machine, but it also now takes up hard drive space.
+    - Since the entire emLab directory has hundreds of thousands of files across hundreds of directories, it will take some time for the Nextcloud desktop app to sync all of these virtual files. This process will take a long time when you first connect to the emLab directory (up to several days). However, once the initial sync of virtual files is complete, this should not need to occur again, and only new/modified virtual files will need to be synced.
+    - Virtual files are not available offline without internet access.
     
 **Option 2: Selectively “sync” only a subset of directories.** Using this approach, each individual manually selects which directories they want to sync to their local machine. For example, you may choose to only sync the project directories you are actively working with. The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire emLab directory on your local machine. 
 
@@ -262,6 +266,20 @@ Linux
 **Step 8:** Everything should now be set up correctly! When you navigate to settings now, you should see something like this. Note that it says “Virtual file support is enabled”.
 
 ![](images/nextcloud11.png)
+
+**Step 9:** If you are using virtual files and streaming the entire emLab directory, you may wish to ignore particular directories. To do so:
+
+- Open up the Nextcloud desktop app settings, click the 3 dots, and click "Edit Ignored Files"
+
+![](images/nextcloud_ignore_1.png)
+
+- Click "Add" and then enter the new ignore pattern. For example, enter the pattern `projects/archived-projects/*` to ignore all files in the `projects/archived-projects` directory. If you also wish to hide the directory name itself, add a second pattern that is simply `projects/archived-projects`. This directory will no longer appear on your local machine.
+
+![](images/nextcloud_ignore_2.png)
+
+- If at any point in the future you wish to see these directories again on your local machine, you can simply remove the ignore pattern from this list.
+
+**Important Note!** We are currently in an active data migration process moving from Google Shared Drive to GRIT. We are "staging" files in a directory called `emLab/staging`. We *highly* recommend that you add `emLab/staging` and `emLab/staging*` to your ignored file lists. This will ensure that this staging directory cannot be seen or modified on your local machine. Once the migration process is complete, we will be moving all directories into their appropriate locations under the main `emLab` directory and will delete the staging directory.
 
 ##### File option 2: Syncing a subset of directories
 
