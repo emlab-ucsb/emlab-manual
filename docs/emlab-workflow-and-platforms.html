@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-03-15" />
+<meta name="date" content="2024-03-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -531,7 +531,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <li>Add the following line under the [General] header: <strong>showExperimentalOptions=true</strong></li>
 <li>Save the file and quit your text editor</li>
 </ul>
-<p><strong>Step 3:</strong> Go back to the Nextcloud app. Click on your name in the app in the upper-right-hand (upper-left for Linux) corner of your desktop, click on your name, and then click Settings.</p>
+<p><strong>Step 3:</strong> Go back to the Nextcloud app by clicking on the Nextcloud icon in the upper bar of your screen. Click on your name in the app in the upper-right-hand (upper-left for Linux) corner of your desktop, click on your name, and then click Settings.</p>
 <p><strong>Step 4:</strong> Click “Add folder sync connection”
 <img src="images/nextcloud7.png" /></p>
 <p><strong>Step 5:</strong> If you use a Mac, enter <strong>/Users/Shared/nextcloud</strong> as the folder. This will ensure that the path is the same across most users, and thus all code should work across emLab users. Linux users do not have access to a <strong>Shared</strong> directory, so will need to use a different path such as <strong>/home/your_username/Nextcloud</strong>, where <strong>your_username</strong> is your Linux system user name. Click continue.</p>
@@ -539,9 +539,11 @@ The emLab Shared Drive is organized into three main folders:</p>
 <p><strong>Step 6:</strong> When prompted to select the remote destination folder, select the highest level directory called <strong>Nextcloud</strong>. The path name should simply show a forward slash, /. Click continue.</p>
 <p><img src="images/nextcloud9.png" /></p>
 <p><strong>Step 7</strong>: Enable the checkbox option “Use virtual files instead of downloading content immediately (experimental)”. This is important! The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire directory on your local machine. Virtual files are Nextcloud’s equivalent to the Google Drive concept of streaming. You will be able to see files and directory structures on your local machine, but the files will not take up space on your local machine. Click “Add Sync Connection”, and click that you acknowledge this feature is experimental.</p>
-<p><img src="images/nextcloud10.png" /></p>
-<p><strong>Step 8:</strong> Everything should now be set up correctly! When you navigate to settings now, you should see something like this. Note that it says “Virtual file support is enabled”.</p>
+<p><img src="images/nextcloud10.png" />
+You may also see a warning message that you are about to enable virtual files. This is currently an experimental feature in Nextcloud, but we have been told by GRIT that it is safe to use. Click “enable experimental placeholder mode” to enable virtual files.</p>
 <p><img src="images/nextcloud11.png" /></p>
+<p><strong>Step 8:</strong> Everything should now be set up correctly! When you navigate to settings now, you should see something like this. Note that it says “Virtual file support is enabled”.</p>
+<p><img src="images/nextcloud12.png" /></p>
 <p><strong>Step 9:</strong> If you are using virtual files and streaming the entire emLab directory, you may wish to ignore particular directories. To do so:</p>
 <ul>
 <li>Open up the Nextcloud desktop app settings, click the 3 dots, and click “Edit Ignored Files”</li>
@@ -559,25 +561,25 @@ The emLab Shared Drive is organized into three main folders:</p>
 <div id="file-option-2-syncing-a-subset-of-directories" class="section level5 hasAnchor" number="8.6.2.2.2">
 <h5><span class="header-section-number">8.6.2.2.2</span> File option 2: Syncing a subset of directories<a href="emlab-workflow-and-platforms.html#file-option-2-syncing-a-subset-of-directories" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><strong>Step 1:</strong> After logging in, you will be brought back to the Nextcloud app. Click “Choose what to sync”. This will bring you to a screen that contains all emLab directories. You may now select the subset of directories you wish to sync. Click “Add Sync Connection” after you have selected the appropriate directories.</p>
-<p><img src="images/nextcloud12.png" /></p>
-<p><strong>Step 2:</strong> After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.</p>
 <p><img src="images/nextcloud13.png" /></p>
+<p><strong>Step 2:</strong> After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.</p>
+<p><img src="images/nextcloud14.png" /></p>
 </div>
 <div id="file-option-3-streaming-entire-emlab-directory-using-virtual-files-and-syncing-a-subset-of-directories" class="section level5 hasAnchor" number="8.6.2.2.3">
 <h5><span class="header-section-number">8.6.2.2.3</span> File option 3: Streaming entire emLab directory using virtual files, and syncing a subset of directories<a href="emlab-workflow-and-platforms.html#file-option-3-streaming-entire-emlab-directory-using-virtual-files-and-syncing-a-subset-of-directories" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><strong>Step 1:</strong> First, follow the instructions above for streaming the entire emLab directory using virtual files (option 1).</p>
 <p><strong>Step 2:</strong> Next, sync the directories you want to be made available locally. By default, all directories and files will be virtual. However, you may wish to have some directories stored locally on your computer, for example to ensure that you can access them when you are offline. You can enable this on a case-by-case basis for specific directories. Just note that some directories are very large, and by doing this, the files in that directory will take up space on your local computer. As an example, here’s how to do this for the <strong>test-project-nextcloud</strong> directory. In the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”:</p>
-<p><img src="images/nextcloud13.png" /></p>
-<p>Alternatively, you can also do this on a Mac in your finder. Navigate to the directory you want to sync, right click on it, click “Nextcloud” and then click “Make always available locally”.</p>
 <p><img src="images/nextcloud14.png" /></p>
-<p>If you just want to sync a single file, you can also download virtual files, which have <strong>.nextcloud</strong> on the end of the filename, from your normal file finder by double clicking on them. They should then automatically download and open in the default app for that file type. Note that when you do this, the <strong>.nextcloud</strong> extension will disappear, and only the regular file extension will remain. This will also make these files available offline.</p>
+<p>Alternatively, you can also do this on a Mac in your finder. Navigate to the directory you want to sync, right click on it, click “Nextcloud” and then click “Make always available locally”.</p>
 <p><img src="images/nextcloud15.png" /></p>
+<p>If you just want to sync a single file, you can also download virtual files, which have <strong>.nextcloud</strong> on the end of the filename, from your normal file finder by double clicking on them. They should then automatically download and open in the default app for that file type. Note that when you do this, the <strong>.nextcloud</strong> extension will disappear, and only the regular file extension will remain. This will also make these files available offline.</p>
+<p><img src="images/nextcloud16.png" /></p>
 </div>
 </div>
 <div id="making-sure-everything-worked" class="section level4 hasAnchor" number="8.6.2.3">
 <h4><span class="header-section-number">8.6.2.3</span> Making sure everything worked<a href="emlab-workflow-and-platforms.html#making-sure-everything-worked" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>You should also now be able to see the Nextcloud directory in your finder. Note that this will take some time to populate as the virtual files are set up. On a Mac, you should be able to navigate to Nextcloud on your finder directly. You can always simply navigate to the directory as well, <strong>/Users/Shared/nextcloud</strong>.</p>
-<p><img src="images/nextcloud16.png" /></p>
+<p><img src="images/nextcloud17.png" /></p>
 </div>
 </div>
 </div>

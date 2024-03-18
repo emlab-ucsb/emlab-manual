@@ -246,7 +246,7 @@ Linux
 - Add the following line under the [General] header: **showExperimentalOptions=true**
 - Save the file and quit your text editor
 
-**Step 3:** Go back to the Nextcloud app. Click on your name in the app in the upper-right-hand (upper-left for Linux) corner of your desktop, click on your name, and then click Settings.
+**Step 3:** Go back to the Nextcloud app by clicking on the Nextcloud icon in the upper bar of your screen. Click on your name in the app in the upper-right-hand (upper-left for Linux) corner of your desktop, click on your name, and then click Settings.
 
 **Step 4:** Click “Add folder sync connection”
 ![](images/nextcloud7.png)
@@ -262,10 +262,13 @@ Linux
 **Step 7**: Enable the checkbox option “Use virtual files instead of downloading content immediately (experimental)”. This is important! The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire directory on your local machine. Virtual files are Nextcloud’s equivalent to the Google Drive concept of streaming. You will be able to see files and directory structures on your local machine, but the files will not take up space on your local machine. Click “Add Sync Connection”, and click that you acknowledge this feature is experimental.
 
 ![](images/nextcloud10.png)
+You may also see a warning message that you are about to enable virtual files. This is currently an experimental feature in Nextcloud, but we have been told by GRIT that it is safe to use. Click "enable experimental placeholder mode" to enable virtual files.
+
+![](images/nextcloud11.png)
 
 **Step 8:** Everything should now be set up correctly! When you navigate to settings now, you should see something like this. Note that it says “Virtual file support is enabled”.
 
-![](images/nextcloud11.png)
+![](images/nextcloud12.png)
 
 **Step 9:** If you are using virtual files and streaming the entire emLab directory, you may wish to ignore particular directories. To do so:
 
@@ -285,11 +288,11 @@ Linux
 
 **Step 1:** After logging in, you will be brought back to the Nextcloud app. Click “Choose what to sync”. This will bring you to a screen that contains all emLab directories. You may now select the subset of directories you wish to sync. Click “Add Sync Connection” after you have selected the appropriate directories.
 
-![](images/nextcloud12.png)
+![](images/nextcloud13.png)
 
 **Step 2:** After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.
 
-![](images/nextcloud13.png)
+![](images/nextcloud14.png)
 
 ##### File option 3: Streaming entire emLab directory using virtual files, and syncing a subset of directories
 
@@ -297,21 +300,21 @@ Linux
 
 **Step 2:** Next, sync the directories you want to be made available locally. By default, all directories and files will be virtual. However, you may wish to have some directories stored locally on your computer, for example to ensure that you can access them when you are offline. You can enable this on a case-by-case basis for specific directories. Just note that some directories are very large, and by doing this, the files in that directory will take up space on your local computer. As an example, here’s how to do this for the **test-project-nextcloud** directory. In the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”:
 
-![](images/nextcloud13.png)
+![](images/nextcloud14.png)
 
 Alternatively, you can also do this on a Mac in your finder. Navigate to the directory you want to sync, right click on it, click “Nextcloud” and then click “Make always available locally”.
 
-![](images/nextcloud14.png)
+![](images/nextcloud15.png)
 
 If you just want to sync a single file, you can also download virtual files, which have **.nextcloud** on the end of the filename, from your normal file finder by double clicking on them. They should then automatically download and open in the default app for that file type. Note that when you do this, the **.nextcloud** extension will disappear, and only the regular file extension will remain. This will also make these files available offline.
 
-![](images/nextcloud15.png)
+![](images/nextcloud16.png)
 
 #### Making sure everything worked
 
 You should also now be able to see the Nextcloud directory in your finder. Note that this will take some time to populate as the virtual files are set up. On a Mac, you should be able to navigate to Nextcloud on your finder directly. You can always simply navigate to the directory as well, **/Users/Shared/nextcloud**.
 
-![](images/nextcloud16.png)
+![](images/nextcloud17.png)
 
 
 ## Git and GitHub
