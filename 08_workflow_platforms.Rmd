@@ -151,15 +151,13 @@ Below are instructions for signing up for a GRIT account and setting up Nextclou
     - Under “GRIT Server or Service that the person will need access to?” put: **emLab group membership (for accessing emLab data storage space and emLab computational servers, including quebracho and sequoia) and Nextcloud group membership.**
     - Note: If you are a member of the Waitt team in addition to the above add: emLab Waitt group membership
 
-2. You should receive an email from GRIT saying that your account has been created. Follow any additional instructions provided by GRIT.
-
-3. Create your GRIT access credentials at the following link: [https://dc1.grit.ucsb.edu/](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
+3. GRIT should send you a confirmation email that your account has been created and that you have been added to our user group. Follow any additional instructions provided by GRIT to finish getting your account set up.
 
 **If you already have a GRIT account but are not connected to the emLab group**
 
-1. Send a help ticket email to GRIT (help@grit.ucsb.edu). Say that you are part of the emLab research group, which has Christopher Costello as the faculty PI. Ask them to please connect the email to the emLab group membership (for accessing emLab data storage space and emLab computational servers, including quebracho and sequoia) and Nextcloud group membership. Follow any additional instructions provided by GRIT.
+1. Send a help ticket email to GRIT (help@grit.ucsb.edu). Say that you are part of the emLab research group, which has Christopher Costello as the faculty PI. Ask them to please connect the email to the emLab group membership (for accessing emLab data storage space and emLab computational servers, including quebracho and sequoia) and Nextcloud group membership. 
 
-2. Create your GRIT access credentials at the following link: [https://dc1.grit.ucsb.edu/](https://dc1.grit.ucsb.edu/). The username and password you use here will be the same username and password for accessing the Nextcloud data directories and emLab servers.
+2. GRIT should send you a confirmation email that you have been added to our user group. Follow any additional instructions provided by GRIT to finish getting your account set up.
 
 **If you ever need to reset your password,** you can use the following link: [https://selfservice.grit.ucsb.edu/](https://selfservice.grit.ucsb.edu/).
 
