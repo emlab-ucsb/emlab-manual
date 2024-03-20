@@ -180,6 +180,8 @@ Installation steps for Mac and Linux (note that after Step 2, we only provide sc
 
 **Step 4**: Sign in with your GRIT credentials (created in the section above). It will have you sign in through your browser to grant the Nextcloud desktop app the necessary permissions. Follow the prompts in your browser.
 
+![](images/nextcloud_browser_login.png)
+
 #### Configuring how the Nextcloud desktop app will sync or stream files to your local machine
 
 There are generally three approaches for syncing and streaming files to your local machine using the Nextcloud desktop app. We will provide instructions for each of these 3 approaches so that individuals can choose what works best for them. Generally though, we recommend option #3.
@@ -218,6 +220,10 @@ There are generally three approaches for syncing and streaming files to your loc
 ![](images/nextcloud3.png)
 
 **Step 2:** Before continuing, you now need to to set up virtual file support for your local machine, follow these instructions, which vary by system.
+
+Windows: The Windows version of the Nextcloud desktop app is the easiest to configure for virtual files, since virtual files are enabled by default. Simply ensure that the virtual file option is selection ("Use virtual files instead of downloading content immediately"), and then click "Connect."
+
+![](images/nextcloud_windows_virtual_files.png)
 
 Mac: navigate to the folder **~/Library/Preferences/Nextcloud**. You can do this through the Finder, but a faster way to do this is as follows:
 
