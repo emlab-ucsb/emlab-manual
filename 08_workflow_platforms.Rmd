@@ -182,26 +182,11 @@ Installation steps for Mac and Linux (note that after Step 2, we only provide sc
 
 ![](images/nextcloud_browser_login.png)
 
-#### Configuring how the Nextcloud desktop app will sync or stream files to your local machine
+#### Configuring how the Nextcloud desktop app will sync files to your local machine
 
-There are generally three approaches for syncing and streaming files to your local machine using the Nextcloud desktop app. We will provide instructions for each of these 3 approaches so that individuals can choose what works best for them. Generally though, we recommend option #3.
+There are generally three approaches for syncing files to your local machine using the Nextcloud desktop app. We will provide instructions for each of these 3 approaches so that individuals can choose what works best for them. Generally though, we recommend option #1.
 
-**Option 1: “Stream” the entire emLab directory using virtual files.**
-
-- Pros
-    - Virtual files operate similarly to “streaming” using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.
-    - You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.
-    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! ) More instructions are provided in Step 9 below.
-
-    
-- Cons
-    - Virtual files have a .nextcloud extension, since they are just a pointer file. This means for instance that they cannot be directly read into R. To open a virtual file on your local machine, you need to first double-click on it (or right-click on it and say “Make always available locally”). Once you’ve done this, the virtual file is now available on your local machine, but it also now takes up hard drive space.
-    - Since the entire emLab directory has hundreds of thousands of files across hundreds of directories, it will take some time for the Nextcloud desktop app to sync all of these virtual files. This process will take a long time when you first connect to the emLab directory (up to several days). However, once the initial sync of virtual files is complete, this should not need to occur again, and only new/modified virtual files will need to be synced.
-    - Virtual files are not available offline without internet access.
-    
-- Recommended for: Project Managers  
-
-**Option 2: Selectively “sync” only a subset of directories.** Using this approach, each individual manually selects which directories they want to sync to their local machine. For example, you may choose to only sync the project directories you are actively working with. The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire emLab directory on your local machine. 
+**Option 1: Sync only a subset of directories for local download.** Using this approach, each individual manually selects which directories they want to sync to their local machine. These directories will be locally downloaded, and will thus take up hard drive space. For example, you may choose to only sync the project data directories you are actively working with. The entire emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire emLab directory on your local machine. 
 
 - Pros
     - You will only see the most relevant directories on your local machine.
@@ -213,13 +198,40 @@ There are generally three approaches for syncing and streaming files to your loc
     - You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: [https://nextcloud.grit.ucsb.edu/index.php/apps/files](https://nextcloud.grit.ucsb.edu/index.php/apps/files)
     - Whenever you join projects or leave projects, you will need to manually selectively sync directories onto your local machine as needed. So this will require some level of continual effort to ensure the right directories and files are synced.
 
-- Recommended for: Researchers    
-
-**Option 3: “Stream” the entire emLab directory using virtual files, while also syncing a subset of the most relevant directories to be available locally.** We imagine that for most people, this will combine the most important pros and avoid the most painful cons from the above two approaches. Additionally, since many researchers will be performing computation on one of the emLab servers, it may be less necessary to sync data files onto your local machine.
-
 - Recommended for: Project Managers and Researchers    
 
-##### File option 1: Streaming entire emLab directory using virtual files
+**Option 2: Sync the entire emLab directory using virtual files.** For most users, we do not recommend this approach since it has some important cons. However, we still wanted to provide it as an option in case it is still of interest to you.
+
+- Pros
+    - Virtual files operate similarly to "streaming" using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.
+    - You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.
+    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! ) More instructions are provided in Step 9 below.
+
+    
+- Cons
+    - Virtual files have a .nextcloud extension, since they are just a pointer file. This means for instance that they cannot be directly read into R. To open a virtual file on your local machine, you need to first double-click on it (or right-click on it and say “Make always available locally”). Once you’ve done this, the virtual file is now available on your local machine, but it also now takes up hard drive space.
+    - Since the entire emLab directory has hundreds of thousands of files across hundreds of directories, it will take some time for the Nextcloud desktop app to sync all of these virtual files. This process will take a long time when you first connect to the emLab directory (up to several days). Even after you have completed the initial sync, the Nextcloud app will continuously need to be syncing virtual files as other emLab team members make changes to files across the entire emLab directory. This can slow down the syncing process, and may interfere with your ability to sync specific files when you really need to.
+    - Virtual files are not available offline without internet access.
+    
+- Recommended for: Project Managers  
+
+**Option 3: Sync the entire emLab directory using virtual files, while also syncing a subset of the most relevant directories for local download.** This approach combines the pros and cons of Options 1 and 2.
+
+- Recommended for: Project Managers 
+
+##### File option 1: Selectively syncing a subset of directories for local download
+
+**Step 1:** After logging in, you will be brought back to the Nextcloud app. Click "Choose what to sync". This will bring you to a screen that contains all emLab directories. You may now select the subset of directories you wish to sync. Click "Add Sync Connection" after you have selected the appropriate directories. Be careful to sync only what you need! Many emLab directories are very large, and syncing them for local download could take up a significant portion of your hard drive space.
+
+On a windows machine it will look like this:
+
+![](images/nextcloud13.png)
+
+**Step 2:** After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click "Availability", and click "Make always available locally". To remove synced directories, you can instead click "Free up local space".
+
+![](images/nextcloud14.png)
+
+##### File option 2: Syncing the entire emLab directory using virtual files
 
 The instructions for setting up this option up will vary depending on your operating system. First we will go over the Windows setup, and then Mac and Linux.
 
@@ -279,7 +291,7 @@ Navigate to the folder **~/Library/Preferences/Nextcloud**. You can do this thro
 
 ![](images/nextcloud9.png)
 
-**Step 7**: Enable the checkbox option “Use virtual files instead of downloading content immediately (experimental)”. This is important! The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire directory on your local machine. Virtual files are Nextcloud’s equivalent to the Google Drive concept of streaming. You will be able to see files and directory structures on your local machine, but the files will not take up space on your local machine. Click “Add Sync Connection”, and click that you acknowledge this feature is experimental.
+**Step 7**: Enable the checkbox option “Use virtual files instead of downloading content immediately (experimental)”. This is important! The emLab Nextcloud directory is very large (multiple TB), so you do not want to do a full sync of the entire directory on your local machine. Virtual files are Nextcloud’s equivalent to the Google Drive concept of "streaming". You will be able to see files and directory structures on your local machine, but the files will not take up space on your local machine. Click “Add Sync Connection”, and click that you acknowledge this feature is experimental.
 
 ![](images/nextcloud10.png)
 You may also see a warning message that you are about to enable virtual files. This is currently an experimental feature in Nextcloud, but we have been told by GRIT that it is safe to use. Click "enable experimental placeholder mode" to enable virtual files.
@@ -290,7 +302,7 @@ You may also see a warning message that you are about to enable virtual files. T
 
 ![](images/nextcloud12.png)
 
-**A note on ignoring directories when using virtual files** If you are using virtual files and streaming the entire emLab directory, you may wish to ignore particular directories. To do so:
+**A note on ignoring directories when using virtual files** If you are using virtual files to sync the entire emLab directory, you may wish to ignore particular directories. To do so:
 
 - Open up the Nextcloud desktop app settings, click the 3 dots, and click "Edit Ignored Files"
 
@@ -304,19 +316,9 @@ You may also see a warning message that you are about to enable virtual files. T
 
 **Important Note!** We are currently in an active data migration process moving from Google Shared Drive to GRIT. We are "staging" files in a directory called `emLab/staging`. We *highly* recommend that you add `emLab/staging` and `emLab/staging/*` to your ignored file lists. This will ensure that this staging directory cannot be seen or modified on your local machine. Once the migration process is complete, we will be moving all directories into their appropriate locations under the main `emLab` directory and will delete the staging directory.
 
-##### File option 2: Syncing a subset of directories
+##### File option 3: Syncing entire emLab directory using virtual files, and additionally syncing a subset of directories for local download  
 
-**Step 1:** After logging in, you will be brought back to the Nextcloud app. Click “Choose what to sync”. This will bring you to a screen that contains all emLab directories. You may now select the subset of directories you wish to sync. Click “Add Sync Connection” after you have selected the appropriate directories.
-
-![](images/nextcloud13.png)
-
-**Step 2:** After completing the setup process, you can always add more directories to sync later on, or can always remove synced directories. To add new directories you want to sync: in the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”. To remove synced directories, you can instead click “Free up local space”.
-
-![](images/nextcloud14.png)
-
-##### File option 3: Streaming entire emLab directory using virtual files, and syncing a subset of directories
-
-**Step 1:** First, follow the instructions above for streaming the entire emLab directory using virtual files (option 1).
+**Step 1:** First, follow the instructions above for syncing the entire emLab directory using virtual files (Option 2).
 
 **Step 2:** Next, sync the directories you want to be made available locally. By default, all directories and files will be virtual. However, you may wish to have some directories stored locally on your computer, for example to ensure that you can access them when you are offline. You can enable this on a case-by-case basis for specific directories. Just note that some directories are very large, and by doing this, the files in that directory will take up space on your local computer. As an example, here’s how to do this for the **test-project-nextcloud** directory. In the Nextcloud app, simply right-click on the directory you want to sync locally, click “Availability”, and click “Make always available locally”:
 

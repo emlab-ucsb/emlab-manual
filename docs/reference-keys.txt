@@ -44,10 +44,10 @@ nextcloud-and-the-emlab-server
 signing-up-for-an-account-with-grit
 setting-up-nextcloud-on-your-local-machine
 downloading-the-nextcloud-desktop-app-and-connecting-it-to-grit
-configuring-how-the-nextcloud-desktop-app-will-sync-or-stream-files-to-your-local-machine
-file-option-1-streaming-entire-emlab-directory-using-virtual-files
-file-option-2-syncing-a-subset-of-directories
-file-option-3-streaming-entire-emlab-directory-using-virtual-files-and-syncing-a-subset-of-directories
+configuring-how-the-nextcloud-desktop-app-will-sync-files-to-your-local-machine
+file-option-1-selectively-syncing-a-subset-of-directories-for-local-download
+file-option-2-syncing-the-entire-emlab-directory-using-virtual-files
+file-option-3-syncing-entire-emlab-directory-using-virtual-files-and-additionally-syncing-a-subset-of-directories-for-local-download
 making-sure-everything-worked
 git-and-github
 what-are-git-and-github
