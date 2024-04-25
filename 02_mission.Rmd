@@ -1,8 +1,3 @@
----
-title: "Mission and research identity"
-output: html_document
----
-
 # Mission and research identity
 
 emLab is an interdisciplinary team of scientists based at UC Santa Barbara organized around a shared mission of conducting innovative, solutions-oriented research examining the power, limitations, and design of market-based approaches to drive environmental and social good.

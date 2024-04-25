@@ -1,8 +1,3 @@
----
-title: "Code of conduct"
-output: html_document
----
-
 # Code of conduct
 
 We are committed to creating an inclusive environment for everyone, regardless of race, ethnicity, religion, color, national origin, age, disability (physical or mental), sexual orientation, gender identity, parental status, marital status, and political affiliation as well as gender expression, mental illness, socioeconomic status or background, neuro(a)typicality, or physical appearance. Our community is built upon a set of values that includes trust, empathy, and mutual respect, and we celebrate our unique differences.

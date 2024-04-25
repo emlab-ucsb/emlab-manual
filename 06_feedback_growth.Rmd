@@ -1,8 +1,3 @@
----
-title: "Feedback and learning"
-output: html_document
----
-
 # Feedback and learning
 
 ## Overview of our feedback mentality

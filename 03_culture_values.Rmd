@@ -1,8 +1,3 @@
----
-title: "emLab culture and values"
-output: html_document
----
-
 # emLab values and culture
 
 ## emLab values

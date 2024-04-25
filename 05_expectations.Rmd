@@ -1,7 +1,3 @@
----
-title: "Expectations"
-output: html_document
----
 # Expectations
 
 ## Work environment

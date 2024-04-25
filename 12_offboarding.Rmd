@@ -1,10 +1,4 @@
----
-title: "Offboarding"
-output: html_document
----
-
 # Offboarding
-
 
 In your last week, please be sure to return your computing equipment, keys, etc. to Erin and clean your desk. To ensure transparency and reproducibility, please make sure all project files and data have been uploaded to the emLab Shared Drive and all repos have been transferred to the emLab GitHub organization. See more below on wiping your computer once these steps have been completed.
 

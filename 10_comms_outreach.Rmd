@@ -1,8 +1,3 @@
----
-title: "Communications and outreach"
-output: html_document
----
-
 # Communications and outreach
 
 As a team committed to conducting research for real-world impact, science communication plays a large role in the dissemination of our work. To showcase emLab’s impact, we employ a variety of platforms and tactics. 

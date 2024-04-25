@@ -1,8 +1,3 @@
----
-title: "Parent resources"
-output: html_document
----
-
 # Parental resources
 
 ## Parental leave

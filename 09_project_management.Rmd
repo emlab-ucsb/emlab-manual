@@ -1,8 +1,3 @@
----
-title: "Project management"
-output: html_document
----
-
 # Project management 
 
 ## Setting a project up for success

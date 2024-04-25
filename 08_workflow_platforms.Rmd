@@ -1,8 +1,3 @@
----
-title: "emLab workflow and platforms"
-output: html_document
----
-
 # emLab workflow and platforms
 
 To support both organization and collaboration, a standardized, transparent, and version controlled workflow is central to our team. We rely on the Google Suite (e.g., Gmail, Google Drive, Google Calendar), Slack, and Zoom to centralize and facilitate internal and external communication, and GitHub, Zotero, Shared Drive, and Nextcloud/the emLab server to support our data science and other project-related work. The sections below detail how we use each of these platforms and how to set them up. We have separate documentation for our [data and code standard operating procedures](https://emlab-ucsb.github.io/SOP/index.html). 
