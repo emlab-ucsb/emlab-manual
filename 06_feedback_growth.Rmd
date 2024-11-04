@@ -65,6 +65,54 @@ UCSB policies and procedures for all academic titles (e.g., faculty, Specialists
 
 Please see this [presentation](https://docs.google.com/presentation/d/1ICXIWE3d4BB2Uh_alx1GjqsTD3DFSskoa6U9IamSMOY/edit?usp=sharing) for a distilled overview of UCSB’s merit review process for Specialist and Academic Coordinator series titles. Reach out to your supervisor in advance to discuss if you will be pursuing a merit increase and for resources as you draft your materials.
 
+**UCSB Bio-Bib instructions**
+
+The University has transitioned to an online platform for the Bio-Bib. Here's a link to the platform: [https://ap.ucsb.edu/~biobib/index.cfm](https://ap.ucsb.edu/~biobib/index.cfm). And here's a [presentation on the new online Bio-Bib process](https://ap.ucsb.edu/training.and.workshops/staff.training.materials/Introduction.to.the.New.Online.Bio-Bib-Academic.Researchers.pdf). 
+
+*Note:* The online Bio-Bib is currently only required for Researchers and Specialists, not the Academic Coordinator series.
+ 
+*Research and creative activities*
+
+- Input publications in the month and year they are accepted or published within the period of performance
+  - If a publication is by quarter, use the first month in that quarter (e.g., use January for winter quarter)
+- In history, you can add details on that it was previously listed as accepted in a previous review period
+- New entries give you a unique identifier for each publication - refer to unique identifier in your merit letter and materials
+- Use the Other Scholarly Activities subsection to include other materials (datasets, Shiny Apps, blogs, etc) rather than in the above sections using “other” - use that sparingly
+- Non-peer reviewed technical reports should go in other scholarly activities
+
+*Prior activities*
+
+- For prior activities: You can include previous publications, or you can provide a PDF list of published items
+
+*Professional activities*
+
+- Presentations
+  - Only include presentations that you have made yourself
+- Research-related grants and contracts
+  - Continuing or new grants are included in total overall funding, does not include completed grant
+  - If completed during the review cycle, does not account for that. If your grant started and ended within the period of performance, categorize it as “new” or if it was continuing during the PoP, click “continuing”
+- Sections are included in this section for advising undergraduate students, involvement in graduate student committees, or supervising postdocs
+- Mentoring of UCSB students that furthers diversity and equal opportunity should not go into this section, it should go into University and Public Service
+
+*University and public service*
+
+- New section on service-related grants and contracts - to include funding that is less related to research and more related to service
+
+*Updating and submitting your Bio-Bib*
+
+- You can input information/update at any time 
+  - You may need to whitelist ap.ucsb.edu if you use an ad-blocker
+- Once you update your Bio-Bib, you enter your period of performance and then it will generate PDF to include in your personnel case
+
+*Questions and suggestions*
+
+For technical questions or reporting bugs: help@aait.ucsb.edu
+For general issues/suggestions: joanna.kettmann@ucsb.edu 
+
+AP Weekly office hours
+Mondays from 1-2 pm
+Zoom meeting ID: 822 3843 4575
+
 ### Speakers, classes, workshops, and mentorship opportunities
 
 There are lots of opportunities at Bren, MSI, and UCSB for continued growth and learning from visiting speakers to auditing courses to advising students and group projects. We are very supportive of these types of activities for personal and professional growth as long as you’re getting your work done. 
