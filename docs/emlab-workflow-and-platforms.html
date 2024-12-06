@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 8 emLab workflow and platforms | emLab Manual</title>
   <meta name="description" content="Everything you need to know about emLab." />
-  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 8 emLab workflow and platforms | emLab Manual" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2024-04-25" />
+<meta name="date" content="2024-12-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -56,7 +56,7 @@
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -66,7 +66,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -119,6 +119,10 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -461,7 +465,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <img src="images/nextcloud1.png" alt="mac screenshot" />
 <div class="figcaption">mac screenshot</div>
 </div>
-<p><strong>Step 3:</strong> When prompted, enter <a href="https://nextcloud.grit.ucsb.edu" class="uri">https://nextcloud.grit.ucsb.edu</a> as the server address.</p>
+<p><strong>Step 3:</strong> When prompted, enter <a href="https://emlab-nextcloud.grit.ucsb.edu" class="uri">https://emlab-nextcloud.grit.ucsb.edu</a> as the server address.</p>
 <p><img src="images/nextcloud2.png" /></p>
 <p><strong>Step 4</strong>: Sign in with your GRIT credentials (created in the section above). It will have you sign in through your browser to grant the Nextcloud desktop app the necessary permissions. Follow the prompts in your browser.</p>
 <p><img src="images/nextcloud_browser_login.png" /></p>
@@ -481,7 +485,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <li>Cons
 <ul>
 <li>Synced directories will take up space on your local machine. Since many of our directories are quite large, you will need to ensure you have sufficient hard drive space to sync the directories you want.</li>
-<li>You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: <a href="https://nextcloud.grit.ucsb.edu/index.php/apps/files">https://nextcloud.grit.ucsb.edu/index.php/apps/files</a></li>
+<li>You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: <a href="https://emlab-nextcloud.grit.ucsb.edu">https://emlab-nextcloud.grit.ucsb.edu</a></li>
 <li>Whenever you join projects or leave projects, you will need to manually selectively sync directories onto your local machine as needed. So this will require some level of continual effort to ensure the right directories and files are synced.</li>
 </ul></li>
 <li>Recommended for: Project Managers and Researchers</li>
@@ -492,7 +496,7 @@ The emLab Shared Drive is organized into three main folders:</p>
 <ul>
 <li>Virtual files operate similarly to “streaming” using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.</li>
 <li>You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.</li>
-<li>If you do not wish to see the <em>entire</em> emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see <code>projects/archived-projects</code> on your local machine (besides, you can always see it on the <a href="https://nextcloud.grit.ucsb.edu/index.php/apps/files">Nextcloud browser interface</a>! ) More instructions are provided in Step 9 below.</li>
+<li>If you do not wish to see the <em>entire</em> emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see <code>projects/archived-projects</code> on your local machine (besides, you can always see it on the <a href="https://emlab-nextcloud.grit.ucsb.edu">Nextcloud browser interface</a>! ) More instructions are provided in Step 9 below.</li>
 </ul></li>
 <li>Cons
 <ul>

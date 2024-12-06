@@ -169,7 +169,7 @@ Installation steps for Mac and Linux (note that after Step 2, we only provide sc
 
 ![mac screenshot](images/nextcloud1.png)
 
-**Step 3:** When prompted, enter https://nextcloud.grit.ucsb.edu as the server address.
+**Step 3:** When prompted, enter https://emlab-nextcloud.grit.ucsb.edu as the server address.
 
 ![](images/nextcloud2.png)
 
@@ -190,7 +190,7 @@ There are generally three approaches for syncing files to your local machine usi
     - Synced directories will be available offline without internet access.
 - Cons
     - Synced directories will take up space on your local machine. Since many of our directories are quite large, you will need to ensure you have sufficient hard drive space to sync the directories you want.
-    - You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: [https://nextcloud.grit.ucsb.edu/index.php/apps/files](https://nextcloud.grit.ucsb.edu/index.php/apps/files)
+    - You will not be able to view the full emLab directory structure on your local machine. However, you can always view the entire directory structure using the Nextcloud browser interface: [https://emlab-nextcloud.grit.ucsb.edu](https://emlab-nextcloud.grit.ucsb.edu)
     - Whenever you join projects or leave projects, you will need to manually selectively sync directories onto your local machine as needed. So this will require some level of continual effort to ensure the right directories and files are synced.
 
 - Recommended for: Project Managers and Researchers    
@@ -200,7 +200,7 @@ There are generally three approaches for syncing files to your local machine usi
 - Pros
     - Virtual files operate similarly to "streaming" using the Google Drive app. Virtual files take up very little hard drive space on your local machine, and are rather just a pointer to the actual file, which is stored on GRIT.
     - You will be able to view the full emLab directory structure on your local machine. The entire contents of the emLab directory will always be available and up-to-date.
-    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://nextcloud.grit.ucsb.edu/index.php/apps/files)! ) More instructions are provided in Step 9 below.
+    - If you do not wish to see the *entire* emLab directory on your local machine, you have the option selectively choose to ignore particular directories. For example, you may not need to see `projects/archived-projects` on your local machine (besides, you can always see it on the [Nextcloud browser interface](https://emlab-nextcloud.grit.ucsb.edu)! ) More instructions are provided in Step 9 below.
 
     
 - Cons
