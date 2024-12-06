@@ -10,7 +10,6 @@ One of emLab’s main goals is to build a vibrant intellectual community of peop
 
 **Overview of the hybrid model**
 
-- emLab will return to in-person work starting the week of September 12.
 - All Santa Barbara-based team members will be expected to work from campus Tuesday - Wednesday and have the option to work remotely Monday, Thursday, and Friday.
   - Take advantage of in person/on campus days for things like: internal team meetings, structured and unstructured time with your project teams, brainstorming sessions, walking and running meetings, collaborative writing, working sessions, troubleshooting with colleagues, white board sessions, etc.
   - Take advantage of remote days for things like: focused work, ‘deep’ work, coding, focused writing, 1:1 meetings that don’t fit in other days, etc
@@ -20,11 +19,6 @@ One of emLab’s main goals is to build a vibrant intellectual community of peop
 
 *Meetings*
 
-- All-team meetings and events will take place on in-person team days
-  - emLab’s “MMM” will move to Tuesdays from 9:30 -10 am - now called emLab Tuesday Team Time (TTT)
-  - emLab watercoolers will be held on Wednesdays or Thursdays
-  - emLab/Environmental Resource Economics (ERE) seminars will be held on Thursdays
-  - emLab lunches are returning in a new form - this will be a casual, informal time to have lunch and catch up with colleagues on Decker’s Deck. *Note: emLab lunches will be Wednesdays from 12-1 pm. emLab will provide lunch for everyone for the first month we are in-person and after that, it will transition to a brown bag lunch.*
 - Zoom/remote meetings on in-person days
   - We work with lots of collaborators and partners around the world, so it is likely you may also have zoom calls on in-person days. Here are some options and suggestions for hybrid/zoom meetings:
     - MSI 1304 is available to reserve for zoom meetings - add bren-sfg@ucsb.edu to any calendar invite to reserve the room
@@ -104,7 +98,7 @@ Coming soon
 
 
 ## Meetings and events
-emLab hosts a variety of events to foster a deep sense of community across roles and programs, and provide opportunities for our team to be as collaborative, functional, and fully integrated as possible. Each meeting or event aims to support the emLab mission of developing innovative insights and performing collaborative research, and supports one of the following objectives: facilitating research, building community, and informing & updating. 
+emLab hosts a variety of events to foster a deep sense of community across roles and programs, and provide opportunities for our team to be as collaborative, functional, and fully integrated as possible. Each meeting or event aims to support the emLab mission of developing *innovative insights* and performing *collaborative research*, and supports one of the following objectives: facilitating research, building community, and informing and updating. 
 
 
 We know things can come up that sometimes make it impossible to join everything, but we want to clarify that we do expect everyone to do their best to participate in team events, particularly the Tuesday Team Time meetings. Beyond that, if you find yourself with a lot on your plate, please use your discretion to decide when your participation will yield high returns, and do not feel obligated to participate in events that you don’t think will be a valuable use of your time. Each of us has unique interests, areas of expertise, and professional goals, and we trust that those will inform the decisions you make for yourself!
@@ -117,12 +111,11 @@ Events organizers include:
 - Program Manager - Erin O’Reilly
 - Projects & Student Engagement Manager - Jennifer Bone
 - Events & Project Manager - Heather Lahr
-- Partnerships & Grants Manager - Annie Lovell
+- Grants and Operations Coordinator - Sarah Erickson
 
-*Rotating faculty representatives (2023):*
+*Rotating faculty representatives (2024):*
 
-- Andrew Plantinga
-- Antony Millner
+- Olivier Deschenes
 
 Here’s an overview of emLab events and the objectives of each, items with a * are highly encouraged:
 
@@ -133,7 +126,7 @@ Meetings that facilitate the day-to-day workings on emLab. These serve as inform
 - *Tuesday Team Time (TTT) 
   - Who: emLab staff and postdocs
   - Cadence: weekly on Tuesdays
-  - Structure: Learn about current work at emLab, celebrate successes, share team-wide announcements. 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the     first Monday of the month), or mingling.
+  - Structure: Learn about current work at emLab, celebrate successes, share team-wide announcements. 15 minute presentation by an emLab team member, 5 minutes of operational updates and announcements, and 10 minutes of team shoutouts, roundtable updates (on the first Monday of the month), or mingling.
   - Detailed guidelines live [here](https://docs.google.com/document/d/1pDRWrrJXeecyF2jE2nIaWqX83x0VmDwVSrdqAbHKFrg/edit) and the schedule lives [here](https://docs.google.com/spreadsheets/d/18CCbR-YhboPHV_b-f5AHf0NQFxyQJ1R9fMWugcuXXtU/edit#gid=0)
   - POC: Events Manager
 - Project Management Meetings
@@ -145,7 +138,7 @@ Meetings that facilitate the day-to-day workings on emLab. These serve as inform
   - Who: Executive Director and project and operations staff
   - Cadence: quarterly
   - Structure: Review funding pipeline and upcoming projects. 
-  - POC: Partnerships & Grants Manager
+  - POC: Grants and Operations Coordinator
 
 **Community events**
 
@@ -153,9 +146,9 @@ Events geared towards community building and dissemination of information.
 
 - *Team lunches
   - Who: PIs, staff, postdocs, vistors
-  - Cadence: monthly on the first Tuesday of the month
+  - Cadence: monthly on the third Tuesday of the month
   - Aim: Monthly appreciation and collaboration catered lunches. This is a great time to share ideas and engage across the team.
-  - POC: Partnerships & Grants Manager
+  - POC: Events Manager
 - Happy hours
   - Who: PIs, staff, postdocs, visitors, students
   - Cadence: variable
@@ -181,12 +174,9 @@ Events geared towards advancing current research, fostering collaboration, and n
   - What: Weekly lunch meeting to present, discuss, debate, and refine ideas and research questions. Guidelines and schedule can be found [here](https://docs.google.com/document/d/1Y8ibvOyXaarqhs7Y2OKXyUQQyPYH82CIf99RYK7l6pU/edit). 
   - POC: Events Manager 
 - Environmental Resource Economics (ERE) Seminars
-  - Who: ERE Faculty, PhD students (bren, econ), postdocs, visitors
+  - Who: ERE Faculty, PhD students (Bren, Econ), postdocs, visitors
   - What: Joint seminar with the Economics department. Up to 8 invited speakers per academic year. Here is an [overview](https://docs.google.com/document/d/1UynPD0f034HedLyPx9TDBY39x4swqGV8yu_T0KtxNb4/edit) and [planning checklist](https://docs.google.com/document/d/19TPVWUq8jRTxqvetic5PquPUhnp6iCpMDrMkuudzb4I/edit).
   - POC: Events Manager 
 - Occasional Workshop
   - What: Annual 1.5 day workshop for invited ERE researchers. Requires submission of papers and selection of presenters for full presentations and egg-timer presentations. Free registration for up to 100 total participants.
   - POC: Events Manager
-- UC-EE seminars
-  - What: Irregular remote seminars for 120+ UC Environmental, Energy and Natural Resource Economics faculty, postdoctoral scholars and graduate students. Requires addition to google group. Guidelines can be found [here](https://docs.google.com/document/d/1xHyvfdJVG48L8aKUkjxmB6H6saYprreN-4mTJSvZU6I/edit).
-  - POC: Projects & Student Engagement Manager

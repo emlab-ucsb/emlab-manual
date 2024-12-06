@@ -10,6 +10,8 @@ Once you log in, make sure you are recording your hours in the “Previous Pay P
 
 ## Vacation
 
+UCSB holidays can be found on the academic calendar [here](https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/academic-calendars/academic-calendar-menu). We automatically get these days off – you do not claim vacation hours for them. 
+
 For vacations longer than five days, email your supervisor at least three weeks in advance of your planned time off outlining your dates and coordinate with your project teams to ensure that you will not be missing any critical deadlines or discuss how they can be covered by other project members. For shorter periods of time off (e.g., 1-2 days), aim to give your supervisor and project teams at least a few days notice. 
 
 Please communicate with your team/s and use your calendar to note when you will be out of town, out of the office, or working remotely (and ensure your calendar is up to date).
@@ -50,7 +52,7 @@ Instructions for how to self-book rooms:
 3. Select the date you want to meet (up to 14 days in advance).
 4. Based upon which rooms are available, select the room and time you want by clicking in the corresponding area of the chart.
 5. A box will open for you to enter the meeting details.
-6. Type a title for your meeting. Please include your last name, affiliation, and title of the event (e.g. Clemence, emLab, Lab Group Meeting).
+6. Type a title for your meeting. **Please include your last name, affiliation, and title of the event (e.g. Clemence, emLab, Lab Group Meeting).**
 7. Select the end time (two hours maximum).
 8. If you choose to invite guests, select them by typing their names or email addresses in the “Invite Guests” field.
 9. Click “Book Now”.
@@ -90,6 +92,8 @@ The maximum rates allowed per person (including tax and tip) for entertainment a
 - Lunch: $54
 - Dinner: $94
 - Light Refreshment: $22 
+
+Note: this was updated November 2024. [This website](https://bfs.ucsb.edu/travel_entertainment/entertainment-reimbursement) will have the most up-to-date information on meal rates. 
 
 ### Catering options
 
@@ -132,7 +136,7 @@ Many of our projects require us to travel domestically and internationally. The 
 
 **Domestic travel**
 
-Per UC policy, when traveling in the U.S. you can only be reimbursed up to $275/ night for lodging, and up to $62/day for meals and incidentals. If you exceed either maximum, know that you must cover the rest with your own funds. If you can’t find a hotel below $275/night, you will need to provide evidence of this (i.e. you must show proof of rates from other hotels in the nearby area that are higher than yours) to corroborate your claim that you got the cheapest available rate. Only then can you be reimbursed the full amount. There are no exceptions for exceeding the daily maximum for food.
+Per UC policy, when traveling in the U.S. you can only be reimbursed up to $333/ night for lodging, and up to $92/day for meals and incidentals. If you exceed either maximum, know that you must cover the rest with your own funds. If you can’t find a hotel below $333/night, you will need to provide evidence of this (i.e. you must show proof of rates from other hotels in the nearby area that are higher than yours) to corroborate your claim that you got the cheapest available rate. Only then can you be reimbursed the full amount. There are no exceptions for exceeding the daily maximum for food.
 
 You cannot be reimbursed for alcohol, so if you need to be reimbursed for a meal where alcohol was purchased, subtract the cost of the alcohol from the total you list on your reimbursement form. 
 
@@ -150,13 +154,13 @@ There are two ways the University can pay for your travel expenses prior to your
 
 - **Travel Advances:** if you prefer to make your own reservations, might have to cancel/change your tickets, or plan to stay in non-traditional accommodations (e.g., AirBnb) you may have to pay for some of your travel expenses out of pocket before you go. Though you can’t submit a complete travel reimbursement form until after you return from your trip, you can get a partial reimbursement for expenses you cover prior to traveling by applying for a travel advance. 
   - Travel advances are processed through [Concur](http://www.concursolutions.com/). Once logged in, click on “Requests” and then the “Create a New Request” tile.
-  - Fill out all of the information for your trip (name, dates, project code to charge, etc.). Once the general information has been submitted, you will be taken to a screen that allows you to insert line items for expenses you are requesting a travel advance for (e.g. conference registration, hotel). Once you insert the information, click on the line item(s) and then under “Request Details” click “Add Cash Advance.” View this [video](https://ucsb.service-now.com/kb?sys_kb_id=0d41a7dd1b3f745047e8ed34604bcb57&id=kb_article_view&sysparm_rank=2&sysparm_tsqueryId=5a6646a81bbdc51078889683b24bcb79) for visual instructions. 
-  - Once a full draft of your request is ready, email Kim at MSI (kim.taylor@ucsb.edu) so she can review the request for compliance and completion. You submit the request after you get an ok from her. 
+  - Fill out all of the information for your trip (name, dates, project code to charge, etc.). Once the general information has been submitted, you will be taken to a screen that allows you to insert line items for expenses you are requesting a travel advance for (e.g. conference registration, flight). Once you insert the information, click on the line item(s) and then under “Request Details” click “Add Cash Advance.” View this [video](https://ucsb.service-now.com/kb?sys_kb_id=0d41a7dd1b3f745047e8ed34604bcb57&id=kb_article_view&sysparm_rank=2&sysparm_tsqueryId=5a6646a81bbdc51078889683b24bcb79) for visual instructions. 
+  - Once a full draft of your request is ready, email MSI Travel (travel@msi.ucsb.edu) so they can review the request for compliance and completion. You submit the request after you get an ok from them. 
   - When you return, you will claim the amount you were given in your cash advance on your travel reimbursement expense form so that you don’t double count any expenditures. Watch [this video](https://ucsb.service-now.com/kb?sys_kb_id=7bc82fb41bc40150e9250f22604bcb87&id=kb_article_view&sysparm_rank=3&sysparm_tsqueryId=28d6022c1bbdc51078889683b24bcb74) for instructions on how to apply a cash advance in an expense report.
   
-- **Concur Travel**: What was previously Connexxus is now housed within Concur and can be used to book flights, rental cars, or hotels. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
-  - Submit a request in Concur for your trip that includes the flight/hotel information and the project to charge. Ping Kim Taylor that you have a request ready for review.
-  - Once Kim has approved your request, book your flight/hotel through the "Travel" tab in Concur. You charge this to the University credit card, not your own.
+- **Concur Travel**: What was previously Connexxus is now housed within Concur and can be used to book flights or rental cars. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
+  - Submit a request in Concur for your trip that includes the flight/car information and the project to charge. Ping MSI Travel that you have a request ready for review.
+  - Once MSI Travel has approved your request, book your flight/car through the "Travel" tab in Concur. You charge this to the University credit card, not your own.
 
 ### Travel insurance
 
@@ -180,16 +184,17 @@ There are some instances where we pay for visitor travel (e.g. emLab seminar spe
 1. Fill out [this Request a New Guest Traveler form](https://ucsb.service-now.com/payment?id=paym_sc_cat_item&sys_id=842c406c47e9c9102e6808f2846d439a&sysparm_category=510d6ca7471909102e6808f2846d43e1) on the guests behalf.
 2. Send the guest traveler a domestic or foreign [Guest Traveler Worksheet](https://drive.google.com/drive/folders/15DwJPiRELjSq7i16hAZDCTYF2lrp6HEQ?usp=sharing) to fill out.
 3. Once the traveler has filled out the worksheet and provided all relevant receipts to the delegate, the delegate should begin creating the expense report for the guest traveler based on the submitted and signed worksheet.
-4. Once the expense report is complete, save and close out. DO NOT submit the report yet. Notify donna.dobis@ucsb.edu or travel@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
+4. Once the expense report is complete, save and close out. DO NOT submit the report yet. Notify travel@msi.ucsb.edu or travel@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
 5. Once the expense report is submitted into the system and approved, a check is cut for the guest traveler. 
 
 ## Concur
 
 [Concur](https://www.concursolutions.com/) is the University’s centralized platform for entertainment, travel, and miscellaneous reimbursements. This eliminates the previous need to fill out a paper reimbursement form. Erin can help answer Concur questions in addition to the following MSI and Bren staff:
 
-- Kim Taylor (MSI; travel reimbursements) – kim.taylor@ucsb.edu
+- Kim Taylor (MSI; travel reimbursements) – kim.taylor@ucsb.edu or travel@msi.ucsb.edu
 - Andrea Palmerin Del Toro and Trevor Bellefeuille (MSI; entertainment and business reimbursements) – purchasing@msi.ucsb.edu
 - Phil Watt (Bren; travel, entertainment, and business reimbursements) – travel@bren.ucsb.edu or purchasing@bren.ucsb.edu
+- Charlyna DeFeyter (Bren; travel) - travel@bren.ucsb.edu
 
 ### Assigning delegates
 
@@ -218,8 +223,9 @@ Once you have logged into Concur, follow these steps to prepare your expense rep
 4. For food purchases, you will have to add the attendees for the event. 
     - For Faculty/Staff: under the Attendees tab, select Faculty/Staff from the attendee type drop-down menu. Search their name within the system.
     - For other attendee types (students and guests): there are two ways to add other attendee types. The first is to create a new attendee and enter the prompted boxes. The second is to fill out the [attendee spreadsheet](https://www.concursolutions.com/Expense/Proxy/AttendeeExcelImport.asp?act=exceltemplate) and upload it (note: this will be easier when you have to add a lot of non-staff attendees).
-5. Save and close out. DO NOT submit the report yet. Notify purchasing@msi.ucsb.edu or purchasing@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
-6. Submit a report ONLY after the Bren or MSI purchasing team notifies you to do so. 
+5. If your receipt contains both food and alcohol, upload the receipt as a single line item. Then itemize the receipt between food and alcohol totals. For alcohol, you can also change the account code if you are not yet charging the meal to a discretionary account. 
+6. Save and close out. DO NOT submit the report yet. Notify purchasing@msi.ucsb.edu or purchasing@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
+7. Submit a report ONLY after the Bren or MSI purchasing team notifies you to do so. 
 
 ### Travel reimbursements
 
@@ -234,8 +240,8 @@ Travel reimbursements are handled through [Concur](http://www.concursolutions.co
     - Sub accounts: domestic travel = 5, foreign travel = 7
     - If you are claiming per diem for international travel, click “yes, I want to claim Travel Allowance” at the bottom of the page. Further details on claiming per diem are listed below.
 3. Once the “metadata” for the report is created, you will be directed to a screen that allows you to add expenses. For each expense entry, fill out the relevant information and upload your receipt(s). 
-4. Save and close out. DO NOT submit the report yet. Notify kim.taylor@ucsb.edu or travel@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
-5. Submit a report ONLY after the Bren or MSI purchasing team notifies you to do so.
+4. Save and close out. DO NOT submit the report yet. Notify travel@msi.ucsb.edu or travel@bren.ucsb.edu that you have a draft expense report ready to review for compliance and completion. 
+5. Submit a report ONLY after the MSI or Bren purchasing team notifies you to do so.
 
 **A note on claiming per diem for international travel**
 
@@ -249,8 +255,7 @@ When selecting per diem meals: you will be able to select breakfast, lunch, and 
 
 Since this is a new platform (as of February 2022), we are continually updating our instructions. Some things we have learned:
 
-- If your hotel/lodging was covered by a separate entity, the University still wants proof that you were there. Fill out an expense line item for $0 that includes lodging confirmation as the receipt.
-- For domestic travel, you can fill out a [meal log](https://docs.google.com/document/d/1gVmnw7V4wJQ4cxs-IDWVNLFro1ZyaGndkSrEbqxFNpQ/edit?usp=sharing) instead of uploading each meal receipt separately. *Note: Bren allows this, sometimes MSI wants the receipts*. If you go the meal log route:
+- For domestic travel, you can fill out a [meal log](https://msi.ucsb.edu/sites/default/files/docs/Meal%20Log.pdf) instead of uploading each meal receipt separately, as long as the meal is under $75. If you go the meal log route:
   - Fill out the form with expenses per day.
   - Create a meals expense line in Concur and upload the meal log as your receipt.
   - Itemize the meal log across the different days. You will be prompted to do this by Concur. 

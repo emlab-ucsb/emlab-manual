@@ -8,9 +8,9 @@ This section provides onboarding information at both the University and emLab le
 
 ## Relocating to Santa Barbara
 
-Santa Barbara is a vibrant historical city, teeming with arts and cultural experiences, culinary adventures, stunning landscapes, beautiful parks, and outdoor activities. Check out this [Unofficial Guide to Housing](https://drive.google.com/file/d/1uGxRz1PCd8a2ceYFo5i74CQ1rk9faY4U/view?usp=sharing) to learn more about the neighborhoods in Santa Barbara.
+Santa Barbara is a vibrant historical city, teeming with arts and cultural experiences, culinary adventures, stunning landscapes, beautiful parks, and outdoor activities. Check out this [Unofficial Guide to Housing](https://nextcloud.grit.ucsb.edu/index.php/s/j8Ws6Q2ytd4YNHw) to learn more about the neighborhoods in Santa Barbara.
 
-As a note, Santa Barbara does have high housing costs and demand in comparison to most of the United States, and can be a challenging destination to relocate to. You may find the following resources helpful, but we also encourage you to reach out to our Operations Manager  (eoreilly@ucsb.edu) if you need additional insight on short- or long-term housing.  
+As a note, Santa Barbara does have high housing costs and demand in comparison to most of the United States, and can be a challenging destination to relocate to. You may find the following resources helpful, but we also encourage you to reach out to our Program Manager (eoreilly@ucsb.edu) if you need additional insight on short- or long-term housing.  
 
 - Sign up to receive housing alerts from the [Bren Random listserv](https://groups.google.com/a/bren.ucsb.edu/g/brenrandom)
 - [UCSB Off-Campus Housing Office](http://www.housing.ucsb.edu/cho)
@@ -66,7 +66,7 @@ You have 31 days from your start date to select your health benefits (i.e. medic
 ## Relevant listservs and resources
 
 This section outlines points of contact and resources for more general support. 
-For Bren Hall building and shower keys, and to make copies/scan/fax, contact Sara Mata (sarajoymata@ucsb.edu, 2400 Bren Hall). 
+For Bren Hall building and shower keys, and to make copies/scan/fax, contact info@bren.ucsb.edu. For MSI keys, contact msi-building@ucsb.edu. 
 
 For IT support: reach out to the IT department for the building you are housed in – Bren (compute@bren.ucsb.edu) or MSI (help@msi.ucsb.edu). 
 
@@ -84,18 +84,27 @@ For information on Bren and MSI news and events, sign up to receive updates from
 - [Bren Random](https://lists.connect.ucsb.edu/bren/info/random)
 - [MSI News](https://groups.google.com/u/2/a/msi.ucsb.edu/g/msi-news)
 
+emLab has a series of listservs for calendar invites and contacting subsets of our organization:
+- emlab-pi@googlegroups.com
+- emlab-staff@googlegroups.com
+- emlab-postdoc@googlegroups.com
+- emlab-ops@googlegroups.com
+- emlab-student@googlegroups.com
+- emlab-visitors@googlegroups.com
+- emlab-community@googlegroups.com
+
 ## Your first week at emLab
 
 Your first week at emLab will mainly focus on setting up your UCSB accounts, introducing you to emLab and how we work, and getting you settled in your new role. Starting with the basics, we will give you a tour of your office and the building it is situated in, and get you set up with an office key and wifi. Depending on availability, we will either provide a computer to you or order a new one with the necessary specs. 
 
-Key acquisition methods depend on which building your office is located in. Erin will initiate the first email with the correct contact and, for reference, Kim Taylor (kim.taylor@ucsb.edu) handles keys for MSI and Sara Mata (sarajoymata@ucsb.edu) handles keys for Bren. 
+Key acquisition methods depend on which building your office is located in. Erin will initiate the first email with the correct contact.
 
-If starting on a Monday, you will also be able to meet the team at our Monday Morning Meeting. Here’s a [list of the emLab team](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit?usp=sharing). 
+Here’s a [list of the emLab team](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit?usp=sharing). 
 
 There are four key meetings that will occur during your first week:
 
 - Meeting with Michaela, emLab’s Executive Director: an introduction to emLab and our work culture and values
-- Meeting with Erin, emLab’s Projects and Operations Manager: an overview of emLab’s platforms, resources, and workflow
+- Meeting with Erin, emLab’s Program Manager: an overview of emLab’s platforms, resources, and workflow
 - Meeting with your supervisor: a deeper dive into your job duties and the project team you will be working with. You will also review the cadence of check-in meetings.
 - And last but not least, a welcome lunch or happy hour!
 
