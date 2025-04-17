@@ -90,6 +90,7 @@ timekeeping
 vacation
 meeting-scheduling-and-logistics
 conference-rooms
+computing-set-up-for-msi-1304
 hybrid-meeting-guidance
 catering
 spending-limits
