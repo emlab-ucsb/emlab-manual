@@ -23,7 +23,7 @@ Please communicate with your team/s and use your calendar to note when you will 
 
 **Booking at MSI**
 
-emLab MSI Suite (1304): add bren-sfg@ucsb.edu to any calendar invite to reserve the room. Add this same email address to your calendar to view availability. 
+emLab MSI Suite (1304): add bren-sfg@ucsb.edu to any calendar invite to reserve the room. Add this same email address to your calendar to view availability. See the next section for information on the comouting set-up for this room.
 
 MSI conference rooms: bookings are centralized through the [MSI Room Request Form](https://docs.google.com/forms/d/e/1FAIpQLScCIMnaKQUXyw6_y7pfpDcPo8-ewYZKouNfgzWw27oCP3G8cQ/viewform). There are conference rooms available on the 2nd, 3rd, and 4th floors. Information about room capacity and technological capabilities are outlined [here](https://msi.ucsb.edu/index.php/administration/conference-room-information). This webpage also allows you to view room availability. If you have any questions, contact reservations@msi.ucsb.edu.
 
@@ -58,6 +58,40 @@ Instructions for how to self-book rooms:
 9. Click “Book Now”.
 10. Your meeting will appear on the chart. You can edit or cancel the meeting by clicking on the booking event and then clicking the three dots in the upper right corner.
 11. If you want to see all the rooms you have reserved, click on “Upcoming”. You can edit and cancel reservations from here. 
+
+### Computing set-up for MSI 1304
+
+**Set-up items**
+
+- Totoaba iMac
+- TV remote
+- Mac bluetooth keyboard
+- Mac track pad
+
+**Before the meeting**
+
+- **Make sure that bren-sfg@ucsb.edu is invited to the meeting.** This is linked to the MSI 1304 room calendar. 
+- **Attach any relevant documents to the calendar invite.** Alternatively, ensure everything is in Shared Drive. The emLab gmail has access to our Shared Drive.
+
+**Turning the screen and computer on**
+
+- Turn the iMac under the TV and TV screen on if needed - use remote or power button to turn the screen on; turn computer on using power button on apple iMac. - Log-into the iMac. The log-in is labeled on the bottom right corner of the screen with the following information:
+  - Username: sfg-totoaba
+  - Password: totoaba
+
+**Joining Zoom**
+
+- Open Google Chrome – the emLab account should be signed in. This account is linked to the MSI 1304 calendar, so when opening Google Calendar you should be able to see your meeting invite + Zoom link. The Owl is automatically set-up for any Zoom meeting originating on the iMac.
+  - If the emLab account isn’t logged in, reach out to Erin first and then if needed, log into Chrome using your credentials and join via your calendar
+
+**Presenting slides**
+
+- **If your slides are in emLab shared drive or added previously to the calendar invite:** You can navigate to them using Chrome and pull them up. 
+- **If you have a USB drive**, plug it into the back of the iMac. It should pop up for you to pull any relevant files.  
+- **If you have a laptop and are presenting on Zoom:** If you need to share a presentation and you have your laptop, follow the steps above and join the Zoom call from your laptop without connecting to audio. You will be able to share your screen for all participants to see. 
+- **If you have a laptop and no remote participants:** You can unplug the HDMI cord from the dongle connected to the iMac and plug the HDMI cord into your laptop. This will connect you to the TV. 
+  - There is a USB-C dongle if your laptop requires one for connection. 
+  - PLEASE plug the HDMI cord back into the iMac dongle once the meeting is over.
 
 ### Hybrid meeting guidance
 
@@ -153,10 +187,13 @@ The most straightforward mechanism we recommend for reimbursing international tr
 There are two ways the University can pay for your travel expenses prior to your trip:
 
 - **Travel Advances:** if you prefer to make your own reservations, might have to cancel/change your tickets, or plan to stay in non-traditional accommodations (e.g., AirBnb) you may have to pay for some of your travel expenses out of pocket before you go. Though you can’t submit a complete travel reimbursement form until after you return from your trip, you can get a partial reimbursement for expenses you cover prior to traveling by applying for a travel advance. 
+  - Travel advance requests should be submitted at least 15 business days before travel commences.
+  - You can request an advance for any anticipated trip expenses but always try to underestimate so you are sure you will spend the entire advance, otherwise you will need to write a repayment check to the UC Regents when you return. When you return you will still need to complete a final travel expense report to clear the advance and be reimbursed for any additional trip expenses incurred.
   - Travel advances are processed through [Concur](http://www.concursolutions.com/). Once logged in, click on “Requests” and then the “Create a New Request” tile.
   - Fill out all of the information for your trip (name, dates, project code to charge, etc.). Once the general information has been submitted, you will be taken to a screen that allows you to insert line items for expenses you are requesting a travel advance for (e.g. conference registration, flight). Once you insert the information, click on the line item(s) and then under “Request Details” click “Add Cash Advance.” View this [video](https://ucsb.service-now.com/kb?sys_kb_id=0d41a7dd1b3f745047e8ed34604bcb57&id=kb_article_view&sysparm_rank=2&sysparm_tsqueryId=5a6646a81bbdc51078889683b24bcb79) for visual instructions. 
   - Once a full draft of your request is ready, email MSI Travel (travel@msi.ucsb.edu) so they can review the request for compliance and completion. You submit the request after you get an ok from them. 
   - When you return, you will claim the amount you were given in your cash advance on your travel reimbursement expense form so that you don’t double count any expenditures. Watch [this video](https://ucsb.service-now.com/kb?sys_kb_id=7bc82fb41bc40150e9250f22604bcb87&id=kb_article_view&sysparm_rank=3&sysparm_tsqueryId=28d6022c1bbdc51078889683b24bcb74) for instructions on how to apply a cash advance in an expense report.
+  - Note: you can only have **one travel advance at a time**. You cannot have another travel advance until that trip concludes and is cleared in Concur.
   
 - **Concur Travel**: What was previously Connexxus is now housed within Concur and can be used to book flights or rental cars. These reservations are directly billed to a University account, so there is no out-of-pocket cost. To book through the Travel tab in Concur:
   - Submit a request in Concur for your trip that includes the flight/car information and the project to charge. Ping MSI Travel that you have a request ready for review.
