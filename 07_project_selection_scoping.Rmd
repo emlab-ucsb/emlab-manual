@@ -34,4 +34,5 @@ As a project is scoped, the PI and emLab operations team should clearly define p
 
 - Follow emLab project selection criteria to evaluate project fit (novel insights, uniquely qualified, strengthen strategic priorities) and capacity to deliver (PI enthusiasm and ownership, staff capacities and skill sets, adequately resourced), and identify potential risks
 - Clarify and align on expectations with partners/sponsor on budget, SOW, methods and approaches, data needs, timelines, their objectives and end goals for the research, and how much flexibility there is around specific deliverables outlined in the SOW.
+- Review any potential ethical or reputational concerns as outlined in section 5.3.2 of emLab’s standard operating manual.
 - Identify the capacity needs and team composition including level of project management and communications support, project scientists, postdoctoral researchers, and graduate and undergraduate student researchers.
