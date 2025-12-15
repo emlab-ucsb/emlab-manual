@@ -32,7 +32,10 @@ Practical project selection criteria ask whether emLab has the internal capaciti
 
 As a project is scoped, the PI and emLab operations team should clearly define project objectives/research questions, scope, approach, timeline and capacity needs. Key considerations in this process include:
 
-- Follow emLab project selection criteria to evaluate project fit (novel insights, uniquely qualified, strengthen strategic priorities) and capacity to deliver (PI enthusiasm and ownership, staff capacities and skill sets, adequately resourced), and identify potential risks
+- Follow emLab project selection criteria to evaluate project fit (novel insights, uniquely qualified, strengthen strategic priorities) and capacity to deliver (PI enthusiasm and ownership, staff capacities and skill sets, adequately resourced), and identify potential risks.
 - Clarify and align on expectations with partners/sponsor on budget, SOW, methods and approaches, data needs, timelines, their objectives and end goals for the research, and how much flexibility there is around specific deliverables outlined in the SOW.
+- If needed, complete initial information gathering to understand the current landscape and scientific understanding of the research topic. This may include quickly reviewing the most relevant or recent literature, engaging with emLab PIs/research staff with relevant expertise, conducting a search for related research efforts, and learning about the policy/market context of the proposed study.
 - Review any potential ethical or reputational concerns as outlined in section 5.3.2 of emLab’s standard operating manual.
 - Identify the capacity needs and team composition including level of project management and communications support, project scientists, postdoctoral researchers, and graduate and undergraduate student researchers.
+- When relevant, use exploratory framing and explicitly incorporate scoping activities in the SOW. For example, if the appropriate approach is unknown, use Phase 1 of the study to review method options.
+- Plan for flexibility and build in slack.
