@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 13 Housekeeping | emLab Manual</title>
   <meta name="description" content="Everything you need to know about emLab." />
-  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 13 Housekeeping | emLab Manual" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="" />
 
 
-<meta name="date" content="2025-11-05" />
+<meta name="date" content="2025-12-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -55,9 +55,8 @@
 
 
 <style type="text/css">
-html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -67,7 +66,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -564,10 +563,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>Report type = entertainment</li>
 <li>Event types are outlined <a href="https://www.bfs.ucsb.edu/travel_entertainment/entertainment-reimbursement">here</a> by UCSB’s BFS.</li>
-<li>When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.</li>
-<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
-<li>Cost type = ENT</li>
-<li>Sub account for entertainment = 3</li>
+<li>When filling out the account information, be sure to select “Either” for the filter option so you see the correct options.</li>
+<li>CCOA account information: you will first select the type of CCOA, which will be either GL strings (for gift accounts) or Project strings (for grants)
+<ul>
+<li>If you are entering a GL string: enter the FRU, Fund, and Purpose boxes with the relevant codes. You may also have to enter an Activity number for some accounts, like Arnhold. Here Fund is the unique identifier.</li>
+<li>If you are entering a Project string: enter the Project number in the FRU/Project box.</li>
+</ul></li>
 </ul></li>
 <li>Once the “metadata” for the report is created, you will be directed to a screen that allows you to add expenses. For each expense entry, fill out the relevant information and upload your receipt(s). Most of our entertainment reimbursements will fall under the “Business Meeting Exp. - Food, Rental, Supplies” expense type.</li>
 <li>For food purchases, you will have to add the attendees for the event.
@@ -588,10 +589,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Fill out the fields listed on the report (e.g. trip name, date, business purpose, etc.).
 <ul>
 <li>Report type = Travel foreign, Travel in state, or Travel out of state</li>
-<li>When filling out the Dept and FAU, be sure to select “Either” for the filter option so you see the correct options.</li>
-<li>FAU = the project code. Note: you may have to enter the project code between stars (e.g. * EMS05Z *) for it to populate the search field.</li>
-<li>Cost type = TRV</li>
-<li>Sub accounts: domestic travel = 5, foreign travel = 7</li>
+<li><ul>
+<li>When filling out the account information, be sure to select “Either” for the filter option so you see the correct options.</li>
+</ul></li>
+<li>CCOA account information: you will first select the type of CCOA, which will be either GL strings (for gift accounts) or Project strings (for grants)
+<ul>
+<li>If you are entering a GL string: enter the FRU, Fund, and Purpose boxes with the relevant codes. You may also have to enter an Activity number for some accounts, like Arnhold. Here Fund is the unique identifier.</li>
+<li>If you are entering a Project string: enter the Project number in the FRU/Project box.</li>
+</ul></li>
 <li>If you are claiming per diem for international travel, click “yes, I want to claim Travel Allowance” at the bottom of the page. Further details on claiming per diem are listed below.</li>
 </ul></li>
 <li>Once the “metadata” for the report is created, you will be directed to a screen that allows you to add expenses. For each expense entry, fill out the relevant information and upload your receipt(s).</li>
@@ -638,42 +643,42 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-  "sharing": {
-    "github": false,
-    "facebook": true,
-    "twitter": true,
-    "linkedin": false,
-    "weibo": false,
-    "instapaper": false,
-    "vk": false,
-    "whatsapp": false,
-    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-  },
-  "fontsettings": {
-    "theme": "white",
-    "family": "sans",
-    "size": 2
-  },
-  "edit": {
-    "link": null,
-    "text": null
-  },
-  "history": {
-    "link": null,
-    "text": null
-  },
-  "view": {
-    "link": null,
-    "text": null
-  },
-  "download": null,
-  "search": {
-    "engine": "fuse",
-    "options": null
-  },
-  "toc": {
-    "collapse": "subsection"
-  }
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
 });
 });
 </script>
