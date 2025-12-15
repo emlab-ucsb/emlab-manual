@@ -271,7 +271,7 @@ Travel reimbursements are handled through [Concur](http://www.concursolutions.co
 1. Click the Expense option from the top of the screen and then the “Create New Report” tile.
 2. Fill out the fields listed on the report (e.g. trip name, date, business purpose, etc.). 
     - Report type = Travel foreign, Travel in state, or Travel out of state
-    - - When filling out the account information, be sure to select “Either” for the filter option so you see the correct options.
+    - When filling out the account information, be sure to select “Either” for the filter option so you see the correct options.
     - CCOA account information: you will first select the type of CCOA, which will be either GL strings (for gift accounts) or Project strings (for grants)
         - If you are entering a GL string: enter the FRU, Fund, and Purpose boxes with the relevant codes. You may also have to enter an Activity number for some accounts, like Arnhold. Here Fund is the unique identifier.
         - If you are entering a Project string: enter the Project number in the FRU/Project box.
