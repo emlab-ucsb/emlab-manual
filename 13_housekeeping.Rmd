@@ -59,6 +59,14 @@ Instructions for how to self-book rooms:
 10. Your meeting will appear on the chart. You can edit or cancel the meeting by clicking on the booking event and then clicking the three dots in the upper right corner.
 11. If you want to see all the rooms you have reserved, click on “Upcoming”. You can edit and cancel reservations from here. 
 
+**Important rules when using booking.bren.ucsb.edu:**
+ 
+- All new meetings must be created in booking.bren.ucsb.edu
+- All edits/modifications must be made in booking.bren.ucsb.edu
+- Do NOT attach a Bren room/resource to an existing event created on your personal Google Calendar
+- Do NOT edit the event in your personal Google Calendar after booking.bren.ucsb.edu creates it
+- If the meeting includes a Bren room/resource, the event must be created and managed in booking.bren.ucsb.edu
+
 ### Computing set-up for MSI 1304
 
 **Set-up items**
