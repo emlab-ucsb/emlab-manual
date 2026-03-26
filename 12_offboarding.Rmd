@@ -42,7 +42,7 @@ Notes:
 **Step 8:** Erase hard drive and reinstall macOS (full instructions below): 
 - **THIS ERASES ALL FILES SO MAKE SURE YOU’VE DONE THE PREVIOUS STEPS BEFORE CONTINUING.** 
 
-- Shut down your Mac, then turn it on and immediately press and hold these two keys together until you see an Apple logo or other image: Command and R. 
+- If you have an intel operating system, shut down your Mac, then turn it on and immediately press and hold these two keys together until you see an Apple logo or other image: Command and R. If you have an apple chip, hold down the power button for about 10 seconds and then select Options and then Disk Utility.
 - If asked, select your user id, and then enter the administrator password. 
 - From the utilities window, select Disk Utility and click Continue. 
 - Select Macintosh HD in the sidebar of Disk Utility. 
