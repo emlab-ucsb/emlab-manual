@@ -228,14 +228,17 @@ The meeting agenda and subsequent notes should at minimum include the following 
 Reserve the last 5-10 minutes of the meeting to recap the meeting and review the next step tasks. 
 
 **After the meeting**
+
 Once the meeting is over, circulate the meeting notes document with attendees within 24 hours if possible. Highlight and bold next steps and action items at the top of the document. Sometimes a quick summary of key decisions and next steps in Slack is also helpful. 
 
 **Facilitation resources**
+
 The subsections above describe the nuts and bolts of setting an agenda, sticking to it, and following up on action items after the meeting. This subsection dives into different facilitation techniques to support fun and efficient meetings. Most of these pertain to facilitating brainstorming meetings, but the general concepts can be applied broadly. 
 
 The common setbacks in brainstorming are evaluation apprehension (i.e. unwilling to state some of their ideas because they are afraid of being negatively evaluated), free-riding (i.e. individuals do not feel accountable or feel their efforts are not needed by the group), and production blocking (i.e. individuals cannot express their ideas when someone else is talking, effectively limiting the number of ideas that can be produced). Evidence shows that allowing time for individual and group work is essential to generating ideas, along with allowing time for participants to reflect on the shared information.
 
 Below we provide a handful of facilitation approaches to lead successful meetings. Remember to design your session to support the purpose of the meeting and the thinking you need (e.g. do you need divergent thinking, emergent thinking, convergence?).
+
 - Brainwriting: each person writes down three ideas relating to a topic on three separate slips of paper. Then everyone passes their ideas to the right or left and their neighbor builds on those ideas, adding bullet points and considerations. The slips of paper continue to be passed around the table until they’ve made it all the way around
 - Round-robin brainstorming: everyone must contribute at least one idea before the entire group can give feedback or share a second idea.
 - Crazy eights: encouraging brainstormers to think quickly using a template that has eight boxes and only eight minutes on the clock to sketch out eight ideas. Once the timer stops, the group discusses their ideas.
@@ -251,6 +254,7 @@ Below we provide a handful of facilitation approaches to lead successful meeting
     - Epic: what success beyond your wildest imagination looks like
 
 Additional resources
+
 - [29 brainstorming techniques: effective ways to spark creativity](https://asana.com/resources/brainstorming-techniques)
 - [Brainstorm buddy](https://brainstormbuddy.web.app/): brainstorm ideas faster than ever with the help of advanced AI technology
 - [Pip Decks Workshop Tactics](https://pipdecks.com/products/workshop-tactics?pb=0&variant=39770920321113) (Erin has the physical cards)
